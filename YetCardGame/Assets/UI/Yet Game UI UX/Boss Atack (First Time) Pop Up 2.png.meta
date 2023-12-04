@@ -1,0 +1,812 @@
+fileFormatVersion: 2
+guid: 668a2f75adb6d4c75b26c6b424dba272
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9021357976796881709
+    second: Boss Atack (First Time) Pop Up 2_0
+  - first:
+      213: -2305144851100897149
+    second: Boss Atack (First Time) Pop Up 2_1
+  - first:
+      213: -1245239825662466056
+    second: Boss Atack (First Time) Pop Up 2_2
+  - first:
+      213: -2830657066425891644
+    second: Boss Atack (First Time) Pop Up 2_3
+  - first:
+      213: 7091532515677136371
+    second: Boss Atack (First Time) Pop Up 2_4
+  - first:
+      213: 1056391297703312738
+    second: Boss Atack (First Time) Pop Up 2_5
+  - first:
+      213: 6409499939012893475
+    second: Boss Atack (First Time) Pop Up 2_6
+  - first:
+      213: -7218257213027505342
+    second: Boss Atack (First Time) Pop Up 2_7
+  - first:
+      213: -3380447436980247451
+    second: Boss Atack (First Time) Pop Up 2_8
+  - first:
+      213: 731391206132689046
+    second: Boss Atack (First Time) Pop Up 2_9
+  - first:
+      213: 7128781552077796013
+    second: Boss Atack (First Time) Pop Up 2_10
+  - first:
+      213: -2860705673560824272
+    second: Boss Atack (First Time) Pop Up 2_11
+  - first:
+      213: 791474414798719019
+    second: Boss Atack (First Time) Pop Up 2_12
+  - first:
+      213: -4315322829918394023
+    second: Boss Atack (First Time) Pop Up 2_13
+  - first:
+      213: 7057096411210413691
+    second: Boss Atack (First Time) Pop Up 2_14
+  - first:
+      213: 1906301181142890689
+    second: Boss Atack (First Time) Pop Up 2_15
+  - first:
+      213: -5743391584469584831
+    second: Boss Atack (First Time) Pop Up 2_16
+  - first:
+      213: -5164515481417832064
+    second: Boss Atack (First Time) Pop Up 2_17
+  - first:
+      213: 9218345585648007543
+    second: Boss Atack (First Time) Pop Up 2_18
+  - first:
+      213: -4705220592861305598
+    second: Boss Atack (First Time) Pop Up 2_19
+  - first:
+      213: 9001728456074373274
+    second: Boss Atack (First Time) Pop Up 2_20
+  - first:
+      213: 6374252976518798304
+    second: Boss Atack (First Time) Pop Up 2_21
+  - first:
+      213: 4568468300281214972
+    second: Boss Atack (First Time) Pop Up 2_22
+  - first:
+      213: 4707607243641534030
+    second: Boss Atack (First Time) Pop Up 2_23
+  - first:
+      213: -8742464681256879134
+    second: Boss Atack (First Time) Pop Up 2_24
+  - first:
+      213: 2511377253618268655
+    second: Boss Atack (First Time) Pop Up 2_25
+  - first:
+      213: 4186631270381423500
+    second: Boss Atack (First Time) Pop Up 2_26
+  - first:
+      213: -6105467018696432445
+    second: Boss Atack (First Time) Pop Up 2_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d236d9e584d423d70800000000000000
+      internalID: 9021357976796881709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 125
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3807f4a98fa7200e0800000000000000
+      internalID: -2305144851100897149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 125
+        width: 43
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f72833e9f408bee0800000000000000
+      internalID: -1245239825662466056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 114
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c44cb2456c77b8d0800000000000000
+      internalID: -2830657066425891644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 126
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5611e104f2a6260800000000000000
+      internalID: 7091532515677136371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_5
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 175
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d7b6bc94e09ae00800000000000000
+      internalID: 1056391297703312738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_6
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 126
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b50cc4c3e13f850800000000000000
+      internalID: 6409499939012893475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_7
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 175
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b28180f4993db90800000000000000
+      internalID: -7218257213027505342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_8
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 114
+        width: 34
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564a9e867fc3611d0800000000000000
+      internalID: -3380447436980247451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 125
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69822694d6c662a00800000000000000
+      internalID: 731391206132689046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 125
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da274fc3d058ee260800000000000000
+      internalID: 7128781552077796013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 125
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0366678b85bbc48d0800000000000000
+      internalID: -2860705673560824272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 125
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2843ee69c1ebfa00800000000000000
+      internalID: 791474414798719019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 125
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959a49fefb4ec14c0800000000000000
+      internalID: -4315322829918394023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_14
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 125
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7671efbbc7dfe160800000000000000
+      internalID: 7057096411210413691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_15
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 125
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8fde003da847a10800000000000000
+      internalID: 1906301181142890689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_16
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 125
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144f8b1a8cf5b40b0800000000000000
+      internalID: -5743391584469584831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_17
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 125
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089a51d4884f358b0800000000000000
+      internalID: -5164515481417832064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_18
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 125
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779f65128742eef70800000000000000
+      internalID: 9218345585648007543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_19
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 125
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20526a4dcc2b3beb0800000000000000
+      internalID: -4705220592861305598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_20
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 125
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98a6dc66509cec70800000000000000
+      internalID: 9001728456074373274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_21
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 125
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb11e55f45e57850800000000000000
+      internalID: 6374252976518798304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_22
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 22
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7f4edd6b5766f30800000000000000
+      internalID: 4568468300281214972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_23
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 21
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e463f4b98d7c45140800000000000000
+      internalID: 4707607243641534030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebf84421b68ca680800000000000000
+      internalID: -8742464681256879134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_25
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 21
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9b9ea6e443ad220800000000000000
+      internalID: 2511377253618268655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_26
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 0
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b80ac65f6e91a30800000000000000
+      internalID: 4186631270381423500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss Atack (First Time) Pop Up 2_27
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 22
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c46cba3816054ba0800000000000000
+      internalID: -6105467018696432445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

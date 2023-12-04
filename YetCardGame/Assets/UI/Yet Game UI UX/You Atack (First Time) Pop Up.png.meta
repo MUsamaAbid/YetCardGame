@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: b1f6ee3fdccd840bcaa151205261c0e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 748469575790731284
+    second: You Atack (First Time) Pop Up_0
+  - first:
+      213: -954427482999934467
+    second: You Atack (First Time) Pop Up_1
+  - first:
+      213: -1827102322722524505
+    second: You Atack (First Time) Pop Up_2
+  - first:
+      213: -8254875869192132846
+    second: You Atack (First Time) Pop Up_3
+  - first:
+      213: 435462097447017635
+    second: You Atack (First Time) Pop Up_4
+  - first:
+      213: -294738972211962516
+    second: You Atack (First Time) Pop Up_5
+  - first:
+      213: -3106630239476365732
+    second: You Atack (First Time) Pop Up_6
+  - first:
+      213: 5900902988751371691
+    second: You Atack (First Time) Pop Up_7
+  - first:
+      213: -3288077924669392030
+    second: You Atack (First Time) Pop Up_8
+  - first:
+      213: -3079220000732684197
+    second: You Atack (First Time) Pop Up_9
+  - first:
+      213: -8831954889274307305
+    second: You Atack (First Time) Pop Up_10
+  - first:
+      213: -8726690554927279832
+    second: You Atack (First Time) Pop Up_11
+  - first:
+      213: 6446632477525573440
+    second: You Atack (First Time) Pop Up_12
+  - first:
+      213: -9202434637915665273
+    second: You Atack (First Time) Pop Up_13
+  - first:
+      213: 6754324469447120131
+    second: You Atack (First Time) Pop Up_14
+  - first:
+      213: 863553809804206834
+    second: You Atack (First Time) Pop Up_15
+  - first:
+      213: -2408164906974047305
+    second: You Atack (First Time) Pop Up_16
+  - first:
+      213: 1416516711734534796
+    second: You Atack (First Time) Pop Up_17
+  - first:
+      213: 2023771365266452768
+    second: You Atack (First Time) Pop Up_18
+  - first:
+      213: 5120272932187571330
+    second: You Atack (First Time) Pop Up_19
+  - first:
+      213: 8879622153723991618
+    second: You Atack (First Time) Pop Up_20
+  - first:
+      213: 4367189537861674131
+    second: You Atack (First Time) Pop Up_21
+  - first:
+      213: 3593647209643244290
+    second: You Atack (First Time) Pop Up_22
+  - first:
+      213: 6027726327725066178
+    second: You Atack (First Time) Pop Up_23
+  - first:
+      213: -1181193079430646824
+    second: You Atack (First Time) Pop Up_24
+  - first:
+      213: -5469538372357455140
+    second: You Atack (First Time) Pop Up_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 49
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 410a1361d19136a00800000000000000
+      internalID: 748469575790731284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 125
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df13befc24131c2f0800000000000000
+      internalID: -954427482999934467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 125
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a235dd2e14d4a6e0800000000000000
+      internalID: -1827102322722524505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 114
+        width: 35
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217ebd7122ac07d80800000000000000
+      internalID: -8254875869192132846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 126
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acd97f68721b0600800000000000000
+      internalID: 435462097447017635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_5
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 175
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d97d36770e8ebf0800000000000000
+      internalID: -294738972211962516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_6
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 126
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56468fb14803e4d0800000000000000
+      internalID: -3106630239476365732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_7
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 175
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badf092010834e150800000000000000
+      internalID: 5900902988751371691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_8
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 115
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bf64a6c866e52d0800000000000000
+      internalID: -3288077924669392030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 125
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50ec0749b96445d0800000000000000
+      internalID: -3079220000732684197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_10
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 125
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dc78862d79e6580800000000000000
+      internalID: -8831954889274307305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_11
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 125
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8219dc02d2194e680800000000000000
+      internalID: -8726690554927279832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_12
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 125
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f7864251a077950800000000000000
+      internalID: 6446632477525573440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_13
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 125
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c494214726a4080800000000000000
+      internalID: -9202434637915665273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_14
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 125
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305df1ba15e2cbd50800000000000000
+      internalID: 6754324469447120131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_15
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 125
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2a0dd5d95fbfb00800000000000000
+      internalID: 863553809804206834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_16
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 125
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3104fa6ca749ed0800000000000000
+      internalID: -2408164906974047305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_17
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 125
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82675db17a78a310800000000000000
+      internalID: 1416516711734534796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_18
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 125
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02170559551e51c10800000000000000
+      internalID: 2023771365266452768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_19
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 125
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284861c7a1dde0740800000000000000
+      internalID: 5120272932187571330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_20
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 125
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24658647d41ca3b70800000000000000
+      internalID: 8879622153723991618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_21
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 22
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3942c0f0fbf5b9c30800000000000000
+      internalID: 4367189537861674131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_22
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 21
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bfbd2e8133fd130800000000000000
+      internalID: 3593647209643244290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_23
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c78257a829c6a350800000000000000
+      internalID: 6027726327725066178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_24
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 21
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3f269072f8b9fe0800000000000000
+      internalID: -1181193079430646824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: You Atack (First Time) Pop Up_25
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 0
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2044644db4814b0800000000000000
+      internalID: -5469538372357455140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
