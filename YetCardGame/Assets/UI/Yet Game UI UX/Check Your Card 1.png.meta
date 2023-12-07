@@ -468,7 +468,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Check Your Card 1_0: 1496037272733475842
+      Check Your Card 1_1: -919404836223947957
+      Check Your Card 1_10: -7404112112908213183
+      Check Your Card 1_11: 4734227804688470334
+      Check Your Card 1_12: 7714078715154812898
+      Check Your Card 1_13: 9089342751569820719
+      Check Your Card 1_2: -4896830105038074423
+      Check Your Card 1_3: 2659522545595057929
+      Check Your Card 1_4: -8820330360874903504
+      Check Your Card 1_5: 5053898156594592364
+      Check Your Card 1_6: 3128984043217066435
+      Check Your Card 1_7: 1618712645291913529
+      Check Your Card 1_8: -4467544636076677903
+      Check Your Card 1_9: 3459459954053259895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

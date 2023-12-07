@@ -324,7 +324,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      The Wind Whisperer_0: -2458091020344097440
+      The Wind Whisperer_1: 8556901343951499884
+      The Wind Whisperer_2: 4657132501573457440
+      The Wind Whisperer_3: 1026887613678835390
+      The Wind Whisperer_4: 154955143487200150
+      The Wind Whisperer_5: 7141766734616271719
+      The Wind Whisperer_6: 5952425190216717997
+      The Wind Whisperer_7: 3540407642568888367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

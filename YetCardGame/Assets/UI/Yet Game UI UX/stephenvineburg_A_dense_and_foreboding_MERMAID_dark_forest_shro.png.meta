@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_dense_and_foreboding_MERMAID_dark_forest_shro_0: 3924426837187500465
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

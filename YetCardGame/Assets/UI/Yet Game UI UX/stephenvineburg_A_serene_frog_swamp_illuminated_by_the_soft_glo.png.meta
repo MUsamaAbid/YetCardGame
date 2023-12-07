@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_serene_frog_swamp_illuminated_by_the_soft_glo_0: -4407663860859763951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

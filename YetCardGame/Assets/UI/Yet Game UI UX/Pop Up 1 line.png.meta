@@ -396,7 +396,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pop Up 1 line_0: -5125023062373400234
+      Pop Up 1 line_1: -3759095379325230888
+      Pop Up 1 line_10: 8814821863095678719
+      Pop Up 1 line_2: 8317051470488538096
+      Pop Up 1 line_3: 3515876944431346738
+      Pop Up 1 line_4: -3027400763535083132
+      Pop Up 1 line_5: 5187594661808332402
+      Pop Up 1 line_6: 5431383514375341747
+      Pop Up 1 line_7: 6939049319087718271
+      Pop Up 1 line_8: -8872159245833228008
+      Pop Up 1 line_9: 4481872810860516838
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

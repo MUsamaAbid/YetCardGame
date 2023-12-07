@@ -228,7 +228,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      earth_0: 5757750083339748195
+      earth_1: -4578408339157089742
+      earth_2: -4189889573208735519
+      earth_3: 980659469206761698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

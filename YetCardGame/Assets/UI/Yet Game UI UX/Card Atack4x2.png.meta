@@ -420,7 +420,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Card Atack4x2_0: 8655069096175577306
+      Card Atack4x2_1: 8824251221575894229
+      Card Atack4x2_10: -7373166606321223957
+      Card Atack4x2_11: -4201320974614331631
+      Card Atack4x2_2: 5412711332939197424
+      Card Atack4x2_3: -5836998835353304461
+      Card Atack4x2_4: 8415355193945927079
+      Card Atack4x2_5: 756920512752721360
+      Card Atack4x2_6: -4109503068781339509
+      Card Atack4x2_7: 9189954351712799176
+      Card Atack4x2_8: -1642259900402781646
+      Card Atack4x2_9: -5621724355213680238
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -252,7 +252,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      boses_0: -7720166114408157834
+      boses_1: 5328445052739443609
+      boses_2: 260129888921566721
+      boses_3: -8380334740528084403
+      boses_4: -4956953585754161332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

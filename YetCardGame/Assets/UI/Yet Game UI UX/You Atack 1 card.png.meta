@@ -444,7 +444,20 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      You Atack 1 card_0: -3199451139598959767
+      You Atack 1 card_1: -1506687531010793859
+      You Atack 1 card_10: -8205351039279984304
+      You Atack 1 card_11: -1467082561609331535
+      You Atack 1 card_12: -2351993972023464479
+      You Atack 1 card_2: -654597229909260602
+      You Atack 1 card_3: -7471474089403299279
+      You Atack 1 card_4: -7637658150160518953
+      You Atack 1 card_5: -13136020248934123
+      You Atack 1 card_6: 4381082884745391778
+      You Atack 1 card_7: -1135814768380390306
+      You Atack 1 card_8: -3359136064667676239
+      You Atack 1 card_9: 3000866979920084540
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

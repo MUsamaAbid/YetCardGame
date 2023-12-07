@@ -348,7 +348,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss Atack_0: 4344181241435623344
+      Boss Atack_1: -6840302317542387586
+      Boss Atack_2: -7050963910584040454
+      Boss Atack_3: -5351424202663821164
+      Boss Atack_4: -4314004001788404967
+      Boss Atack_5: 2600441538968902283
+      Boss Atack_6: -575596459061257200
+      Boss Atack_7: 167588714390439051
+      Boss Atack_8: -6393860608519441207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

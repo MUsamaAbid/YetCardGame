@@ -420,7 +420,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Match 8x8 (max)_0: 5195130437187641195
+      Match 8x8 (max)_1: 8853766788063222152
+      Match 8x8 (max)_10: -3388747000899334504
+      Match 8x8 (max)_11: 7646893023191293301
+      Match 8x8 (max)_2: 4248053605551404320
+      Match 8x8 (max)_3: -3713941496235065760
+      Match 8x8 (max)_4: -7241733621546993060
+      Match 8x8 (max)_5: -3824673537294690858
+      Match 8x8 (max)_6: -21613712793570036
+      Match 8x8 (max)_7: 4667213566710606474
+      Match 8x8 (max)_8: 3615455935965912483
+      Match 8x8 (max)_9: -2694064195565462412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

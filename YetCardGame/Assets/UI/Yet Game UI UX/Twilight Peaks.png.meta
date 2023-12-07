@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Twilight Peaks_0: 2960675758089469900
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

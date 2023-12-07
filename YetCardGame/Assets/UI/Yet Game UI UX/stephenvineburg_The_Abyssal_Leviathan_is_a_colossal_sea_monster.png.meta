@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_The_Abyssal_Leviathan_is_a_colossal_sea_monster_0: -5981758083129812411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -300,7 +300,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Match 4x4_0: -3662496334101821719
+      Match 4x4_1: 3522259883090216968
+      Match 4x4_2: 819576019277341244
+      Match 4x4_3: -8038197114695580643
+      Match 4x4_4: -4276913596773808394
+      Match 4x4_5: -2629043455293998060
+      Match 4x4_6: -964272478128030721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

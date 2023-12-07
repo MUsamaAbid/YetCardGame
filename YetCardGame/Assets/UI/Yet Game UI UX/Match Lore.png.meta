@@ -324,7 +324,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Match Lore_0: -7252951185543532935
+      Match Lore_1: 7446525434096928722
+      Match Lore_2: -1857994228452042643
+      Match Lore_3: 2320493644363623805
+      Match Lore_4: 7029162055169443997
+      Match Lore_5: -2945003144000321676
+      Match Lore_6: 2899283707008998491
+      Match Lore_7: 1158727793307895926
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

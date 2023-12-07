@@ -372,7 +372,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Group 174_0: -7886878089729036028
+      Group 174_1: 1307861660467529715
+      Group 174_2: 4829197189367617003
+      Group 174_3: -3111294704710961665
+      Group 174_4: 8410209617040617812
+      Group 174_5: -8725117011532360428
+      Group 174_6: -589160584768126061
+      Group 174_7: 4576188382793566343
+      Group 174_8: 4868287295877549030
+      Group 174_9: 8530838317651732584
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

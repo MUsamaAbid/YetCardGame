@@ -612,7 +612,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      water(first open pop up)_0: 8879331482002274446
+      water(first open pop up)_1: 7082731467620946538
+      water(first open pop up)_10: -5878680772091863076
+      water(first open pop up)_11: -1983343872423275694
+      water(first open pop up)_12: 2207646162859744819
+      water(first open pop up)_13: 8198401128685526578
+      water(first open pop up)_14: 7952262888132498384
+      water(first open pop up)_15: -6380470272143208816
+      water(first open pop up)_16: -7115936709213277174
+      water(first open pop up)_17: -4366494185013703903
+      water(first open pop up)_18: 1045436684733461376
+      water(first open pop up)_19: -8075280850707311280
+      water(first open pop up)_2: 911546712707219964
+      water(first open pop up)_3: -4512193612531643874
+      water(first open pop up)_4: 6116194985033404342
+      water(first open pop up)_5: 1696568740648024116
+      water(first open pop up)_6: -3615922308895780280
+      water(first open pop up)_7: -4890133957436183272
+      water(first open pop up)_8: -7104003029789660787
+      water(first open pop up)_9: 1395117327920127902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

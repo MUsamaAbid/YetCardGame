@@ -348,7 +348,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Next Round_0: 5019137407768321407
+      Next Round_1: 6667658667480001455
+      Next Round_2: -673263317431490973
+      Next Round_3: -536616443815293935
+      Next Round_4: 5705473769895765250
+      Next Round_5: -6931346906493112288
+      Next Round_6: -5080934847331782100
+      Next Round_7: -9193196722790687452
+      Next Round_8: 2141329719383206600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

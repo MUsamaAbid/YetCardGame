@@ -324,7 +324,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      map closed_0: 8529128423630783045
+      map closed_1: 6493879387502975526
+      map closed_2: -422196123270837379
+      map closed_3: -4958250580396004583
+      map closed_4: 7619353152955092804
+      map closed_5: -1891968706397270194
+      map closed_6: 2708073173429367998
+      map closed_7: -7367978980491457197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

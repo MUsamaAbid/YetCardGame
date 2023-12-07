@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_towering_humanoid_figure_made_of_enchanted_st_0: -2745961206287066516
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

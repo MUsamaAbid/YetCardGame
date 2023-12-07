@@ -420,7 +420,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      loading match_0: -4212434903387968247
+      loading match_1: -6462600976622034004
+      loading match_10: -4203133591492401066
+      loading match_11: -1526217586140747739
+      loading match_2: -3733571929216302197
+      loading match_3: -9059854845514966111
+      loading match_4: 3910364947235328354
+      loading match_5: -2099879981225317848
+      loading match_6: -9169123358324624171
+      loading match_7: 3890322133927240729
+      loading match_8: 6927885455147128598
+      loading match_9: 1116592022147947683
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

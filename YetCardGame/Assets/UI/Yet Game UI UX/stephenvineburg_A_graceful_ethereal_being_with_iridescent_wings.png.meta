@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_graceful_ethereal_being_with_iridescent_wings_0: 6531087268218053201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

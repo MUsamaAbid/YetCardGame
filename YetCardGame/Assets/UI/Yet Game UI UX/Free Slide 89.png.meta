@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Free Slide 89_0: 125803088917175246
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

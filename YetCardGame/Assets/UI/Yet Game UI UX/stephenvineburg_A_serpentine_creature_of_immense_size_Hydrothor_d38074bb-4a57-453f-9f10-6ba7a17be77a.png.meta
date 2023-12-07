@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_serpentine_creature_of_immense_size_Hydrothor_d38074bb-4a57-453f-9f10-6ba7a17be77a_0: -6409474920750900879
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

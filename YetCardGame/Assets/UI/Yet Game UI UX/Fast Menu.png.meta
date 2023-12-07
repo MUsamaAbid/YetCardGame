@@ -324,7 +324,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fast Menu_0: 328504247451507971
+      Fast Menu_1: -944656683349645964
+      Fast Menu_2: -8312324684023266692
+      Fast Menu_3: 4553806772576809755
+      Fast Menu_4: -5420641447008679435
+      Fast Menu_5: -5245836207361910299
+      Fast Menu_6: 1027371212581645029
+      Fast Menu_7: 3167193134932602295
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

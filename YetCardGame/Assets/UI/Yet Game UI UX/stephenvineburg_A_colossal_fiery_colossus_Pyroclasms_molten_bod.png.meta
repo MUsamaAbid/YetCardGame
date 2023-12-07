@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_colossal_fiery_colossus_Pyroclasms_molten_bod_0: 5651439939934239598
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

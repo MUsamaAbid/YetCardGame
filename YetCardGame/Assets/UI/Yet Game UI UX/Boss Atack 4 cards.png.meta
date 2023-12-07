@@ -492,7 +492,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss Atack 4 cards_0: -3845118630085855852
+      Boss Atack 4 cards_1: 4994307229223971711
+      Boss Atack 4 cards_10: -1867515471188871748
+      Boss Atack 4 cards_11: -7851178044348500960
+      Boss Atack 4 cards_12: -635554474529731236
+      Boss Atack 4 cards_13: -5399240961028572393
+      Boss Atack 4 cards_14: -6323771552396337508
+      Boss Atack 4 cards_2: 1239306385226992627
+      Boss Atack 4 cards_3: -8264616895125019683
+      Boss Atack 4 cards_4: -6855250699585147909
+      Boss Atack 4 cards_5: 7282545784389819402
+      Boss Atack 4 cards_6: 3646422717751909478
+      Boss Atack 4 cards_7: -8288575642180631792
+      Boss Atack 4 cards_8: -4195378264828017939
+      Boss Atack 4 cards_9: 2486430920387892605
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_cosmic_arena_suspended_amidst_the_stars_plane_0: 9201716697678332859
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

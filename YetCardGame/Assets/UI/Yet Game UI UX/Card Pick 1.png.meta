@@ -372,7 +372,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Card Pick 1_0: -3987662266371392825
+      Card Pick 1_1: -2253399038326711762
+      Card Pick 1_2: 4763524759774079226
+      Card Pick 1_3: -1497657288736541950
+      Card Pick 1_4: 6900311375429585441
+      Card Pick 1_5: 2026975749143522742
+      Card Pick 1_6: 8957340645922018777
+      Card Pick 1_7: 501117701434510391
+      Card Pick 1_8: -7665835463826226061
+      Card Pick 1_9: 5307398628767804875
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

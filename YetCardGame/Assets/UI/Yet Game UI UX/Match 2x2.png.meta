@@ -324,7 +324,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Match 2x2_0: -6376879673382196037
+      Match 2x2_1: 8332056801156987040
+      Match 2x2_2: -5771613991269383323
+      Match 2x2_3: 897955636958757533
+      Match 2x2_4: 1071993327357324067
+      Match 2x2_5: 3698181143801820332
+      Match 2x2_6: 4976474066969714886
+      Match 2x2_7: -4983934625159991990
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
