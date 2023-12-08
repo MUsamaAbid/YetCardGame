@@ -30,7 +30,7 @@ public class Card : MonoBehaviour
     public void Rotate()
     {
         GetComponent<RotateObject>().Rotate(2f, ObjectType.Card);
-        GenerateBackside();
+        //GenerateBackside();
     }
 
     public void GenerateBackside()
@@ -44,6 +44,7 @@ public class Card : MonoBehaviour
     {
         if (GeneratedBacksideImage)
         {
+            Debug.Log("Generated: " + GeneratedBacksideImage.name);
             Destroy(GeneratedBacksideImage);
             Debug.Log("Backside deleted");
         }
