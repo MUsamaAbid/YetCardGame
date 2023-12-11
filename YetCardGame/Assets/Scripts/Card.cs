@@ -5,7 +5,9 @@ using UnityEngine.UI;
 
 public class Card : MonoBehaviour
 {
-    [Header("For Element card")]
+    [SerializeField] CardType cardType;
+
+    [Header("For Army card")]
     [SerializeField] CardElement cardElement;
     [SerializeField] CardName cardName;
 
@@ -73,5 +75,9 @@ public class Card : MonoBehaviour
         {
             Debug.LogError("RectTransform or parent is null!");
         }
+    }
+    public void SetTargetPosition(Vector2 Pos)
+    {
+
     }
 }
