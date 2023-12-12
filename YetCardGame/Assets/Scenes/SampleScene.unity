@@ -1756,7 +1756,6 @@ MonoBehaviour:
   - {fileID: 2132573809}
   - {fileID: 143712706}
   - {fileID: 444535271}
-  - {fileID: 1644784956}
   cardOverLapUnits: 200
   InHandDeckPlaces: []
 --- !u!1 &131109900
@@ -23988,12 +23987,10 @@ MonoBehaviour:
   playerNumber: 1
   ParentRectTransform: {fileID: 2072290061}
   InHandDeck:
-  - {fileID: 1317877994}
-  - {fileID: 167033981}
-  - {fileID: 1297306195}
-  - {fileID: 1614615361}
-  - {fileID: 778081480}
   - {fileID: 1501099711}
+  - {fileID: 778081480}
+  - {fileID: 1614615361}
+  - {fileID: 1297306195}
   cardOverLapUnits: -75
   InHandDeckPlaces: []
 --- !u!1 &1787715466
