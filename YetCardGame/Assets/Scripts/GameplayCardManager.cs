@@ -20,8 +20,7 @@ public class GameplayCardManager : MonoBehaviour
     {
         AddCardsToMainDeck();
         ShuffleCards();
-        DistributeCards(Player.Player1, 1);
-        DistributeCards(Player.Player2, 1);
+        StartCoroutine(DistributeCards(8));
     }
     void AddCardsToMainDeck()
     {
@@ -47,6 +46,26 @@ public class GameplayCardManager : MonoBehaviour
         }
 
         // Now, the 'cards' list is shuffled
+    }
+    IEnumerator DistributeCards(int cardAmount)
+    {
+        //Shuffle cards by swapping there places.
+        //Pick a random number and distribute from there
+        int r = UnityEngine.Random.Range(0, MainCardDeck.Count - cardAmount - 1);
+        for (int i = r; i < (r + (2 * cardAmount)); i++)
+        {
+            {
+                Player1.AddCardInHandDeck(MainCardDeck[i]);
+                MainCardDeck.RemoveAt(i);
+            }
+            i++;
+            {
+                Player2.AddCardInHandDeck(MainCardDeck[i]);
+                MainCardDeck.RemoveAt(i);
+            }
+            yield return new WaitForSeconds(0.5f);
+        }
+
     }
     void DistributeCards(Player player, int cardAmount)
     {
