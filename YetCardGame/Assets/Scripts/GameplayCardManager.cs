@@ -28,6 +28,7 @@ public class GameplayCardManager : MonoBehaviour
         {
             cards.gameObject.transform.parent = MainDeckParent.transform;
         }
+        //MainCardDeck.Reverse();
     }
     private void ShuffleCards()
     {
@@ -51,7 +52,7 @@ public class GameplayCardManager : MonoBehaviour
     {
         //Shuffle cards by swapping there places.
         //Pick a random number and distribute from there
-        int r = UnityEngine.Random.Range(0, MainCardDeck.Count - cardAmount - 1);
+        int r = UnityEngine.Random.Range(0, MainCardDeck.Count - (2 * cardAmount) - 1);
         for (int i = r; i < (r + (2 * cardAmount)); i++)
         {
             {
