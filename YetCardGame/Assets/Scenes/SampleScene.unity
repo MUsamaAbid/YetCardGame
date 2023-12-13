@@ -369,6 +369,7 @@ GameObject:
   - component: {fileID: 48610735}
   - component: {fileID: 48610734}
   - component: {fileID: 48610733}
+  - component: {fileID: 48610737}
   m_Layer: 5
   m_Name: Hero
   m_TagString: Untagged
@@ -414,8 +415,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &48610734
 MonoBehaviour:
@@ -499,6 +500,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48610731}
   m_CullTransparentMesh: 1
+--- !u!114 &48610737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48610731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &50143600
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,6 +607,7 @@ GameObject:
   - component: {fileID: 74793671}
   - component: {fileID: 74793670}
   - component: {fileID: 74793669}
+  - component: {fileID: 74793673}
   m_Layer: 5
   m_Name: Elephant
   m_TagString: Untagged
@@ -636,8 +653,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &74793670
 MonoBehaviour:
@@ -721,6 +738,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74793667}
   m_CullTransparentMesh: 1
+--- !u!114 &74793673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74793667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &106628118
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +766,7 @@ GameObject:
   - component: {fileID: 106628122}
   - component: {fileID: 106628121}
   - component: {fileID: 106628120}
+  - component: {fileID: 106628124}
   m_Layer: 5
   m_Name: Stone
   m_TagString: Untagged
@@ -779,8 +812,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &106628121
 MonoBehaviour:
@@ -864,6 +897,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106628118}
   m_CullTransparentMesh: 1
+--- !u!114 &106628124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106628118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &113395034
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,6 +1004,7 @@ GameObject:
   - component: {fileID: 121559434}
   - component: {fileID: 121559433}
   - component: {fileID: 121559432}
+  - component: {fileID: 121559436}
   m_Layer: 5
   m_Name: Tower
   m_TagString: Untagged
@@ -1001,8 +1050,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &121559433
 MonoBehaviour:
@@ -1086,6 +1135,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 121559430}
   m_CullTransparentMesh: 1
+--- !u!114 &121559436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121559430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &126101718
 GameObject:
   m_ObjectHideFlags: 0
@@ -1155,6 +1219,7 @@ GameObject:
   - component: {fileID: 131109904}
   - component: {fileID: 131109903}
   - component: {fileID: 131109902}
+  - component: {fileID: 131109906}
   m_Layer: 5
   m_Name: Harpy
   m_TagString: Untagged
@@ -1200,8 +1265,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &131109903
 MonoBehaviour:
@@ -1285,6 +1350,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 131109900}
   m_CullTransparentMesh: 1
+--- !u!114 &131109906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131109900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &146516837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1728,6 +1808,7 @@ GameObject:
   - component: {fileID: 233822611}
   - component: {fileID: 233822610}
   - component: {fileID: 233822609}
+  - component: {fileID: 233822613}
   m_Layer: 5
   m_Name: Lion
   m_TagString: Untagged
@@ -1773,8 +1854,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &233822610
 MonoBehaviour:
@@ -1858,6 +1939,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233822607}
   m_CullTransparentMesh: 1
+--- !u!114 &233822613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233822607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &234649783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1871,6 +1967,7 @@ GameObject:
   - component: {fileID: 234649787}
   - component: {fileID: 234649786}
   - component: {fileID: 234649785}
+  - component: {fileID: 234649789}
   m_Layer: 5
   m_Name: Lilith
   m_TagString: Untagged
@@ -1916,8 +2013,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &234649786
 MonoBehaviour:
@@ -2001,6 +2098,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234649783}
   m_CullTransparentMesh: 1
+--- !u!114 &234649789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234649783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &255050772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,6 +2600,7 @@ GameObject:
   - component: {fileID: 349083578}
   - component: {fileID: 349083577}
   - component: {fileID: 349083576}
+  - component: {fileID: 349083580}
   m_Layer: 5
   m_Name: Horse
   m_TagString: Untagged
@@ -2533,8 +2646,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &349083577
 MonoBehaviour:
@@ -2618,6 +2731,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 349083574}
   m_CullTransparentMesh: 1
+--- !u!114 &349083580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349083574}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &362736192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,6 +2759,7 @@ GameObject:
   - component: {fileID: 362736196}
   - component: {fileID: 362736195}
   - component: {fileID: 362736194}
+  - component: {fileID: 362736198}
   m_Layer: 5
   m_Name: Shields
   m_TagString: Untagged
@@ -2676,8 +2805,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &362736195
 MonoBehaviour:
@@ -2761,6 +2890,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362736192}
   m_CullTransparentMesh: 1
+--- !u!114 &362736198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362736192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &366446212
 GameObject:
   m_ObjectHideFlags: 0
@@ -2774,6 +2918,7 @@ GameObject:
   - component: {fileID: 366446216}
   - component: {fileID: 366446215}
   - component: {fileID: 366446214}
+  - component: {fileID: 366446218}
   m_Layer: 5
   m_Name: Lion
   m_TagString: Untagged
@@ -2819,8 +2964,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &366446215
 MonoBehaviour:
@@ -2904,6 +3049,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366446212}
   m_CullTransparentMesh: 1
+--- !u!114 &366446218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366446212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &370242946
 GameObject:
   m_ObjectHideFlags: 0
@@ -2973,6 +3133,7 @@ GameObject:
   - component: {fileID: 385845983}
   - component: {fileID: 385845982}
   - component: {fileID: 385845981}
+  - component: {fileID: 385845985}
   m_Layer: 5
   m_Name: Claudia
   m_TagString: Untagged
@@ -3018,8 +3179,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &385845982
 MonoBehaviour:
@@ -3103,6 +3264,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385845979}
   m_CullTransparentMesh: 1
+--- !u!114 &385845985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385845979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &397498648
 GameObject:
   m_ObjectHideFlags: 0
@@ -3161,6 +3337,7 @@ GameObject:
   - component: {fileID: 406782480}
   - component: {fileID: 406782479}
   - component: {fileID: 406782478}
+  - component: {fileID: 406782482}
   m_Layer: 5
   m_Name: Shields
   m_TagString: Untagged
@@ -3206,8 +3383,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &406782479
 MonoBehaviour:
@@ -3291,6 +3468,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 406782476}
   m_CullTransparentMesh: 1
+--- !u!114 &406782482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406782476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &406787991
 GameObject:
   m_ObjectHideFlags: 0
@@ -3620,6 +3812,7 @@ GameObject:
   - component: {fileID: 439969239}
   - component: {fileID: 439969238}
   - component: {fileID: 439969237}
+  - component: {fileID: 439969241}
   m_Layer: 5
   m_Name: Sphinx
   m_TagString: Untagged
@@ -3665,8 +3858,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &439969238
 MonoBehaviour:
@@ -3750,6 +3943,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439969235}
   m_CullTransparentMesh: 1
+--- !u!114 &439969241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439969235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &508795788
 GameObject:
   m_ObjectHideFlags: 0
@@ -3763,6 +3971,7 @@ GameObject:
   - component: {fileID: 508795792}
   - component: {fileID: 508795791}
   - component: {fileID: 508795790}
+  - component: {fileID: 508795794}
   m_Layer: 5
   m_Name: Sword
   m_TagString: Untagged
@@ -3808,8 +4017,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &508795791
 MonoBehaviour:
@@ -3893,6 +4102,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 508795788}
   m_CullTransparentMesh: 1
+--- !u!114 &508795794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508795788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &519303074
 GameObject:
   m_ObjectHideFlags: 0
@@ -3906,6 +4130,7 @@ GameObject:
   - component: {fileID: 519303078}
   - component: {fileID: 519303077}
   - component: {fileID: 519303076}
+  - component: {fileID: 519303080}
   m_Layer: 5
   m_Name: Hounds
   m_TagString: Untagged
@@ -3951,8 +4176,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &519303077
 MonoBehaviour:
@@ -4036,6 +4261,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519303074}
   m_CullTransparentMesh: 1
+--- !u!114 &519303080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519303074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4338,6 +4578,7 @@ GameObject:
   - component: {fileID: 562010570}
   - component: {fileID: 562010569}
   - component: {fileID: 562010568}
+  - component: {fileID: 562010572}
   m_Layer: 5
   m_Name: Hero
   m_TagString: Untagged
@@ -4383,8 +4624,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &562010569
 MonoBehaviour:
@@ -4468,6 +4709,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 562010566}
   m_CullTransparentMesh: 1
+--- !u!114 &562010572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562010566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &583213992
 GameObject:
   m_ObjectHideFlags: 0
@@ -4560,6 +4816,7 @@ GameObject:
   - component: {fileID: 611319046}
   - component: {fileID: 611319045}
   - component: {fileID: 611319044}
+  - component: {fileID: 611319048}
   m_Layer: 5
   m_Name: Stone
   m_TagString: Untagged
@@ -4605,8 +4862,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &611319045
 MonoBehaviour:
@@ -4690,6 +4947,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611319042}
   m_CullTransparentMesh: 1
+--- !u!114 &611319048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611319042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &631987905
 GameObject:
   m_ObjectHideFlags: 0
@@ -4703,6 +4975,7 @@ GameObject:
   - component: {fileID: 631987909}
   - component: {fileID: 631987908}
   - component: {fileID: 631987907}
+  - component: {fileID: 631987911}
   m_Layer: 5
   m_Name: Bunyip
   m_TagString: Untagged
@@ -4748,8 +5021,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &631987908
 MonoBehaviour:
@@ -4833,6 +5106,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 631987905}
   m_CullTransparentMesh: 1
+--- !u!114 &631987911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 631987905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &652728634
 GameObject:
   m_ObjectHideFlags: 0
@@ -4846,6 +5134,7 @@ GameObject:
   - component: {fileID: 652728638}
   - component: {fileID: 652728637}
   - component: {fileID: 652728636}
+  - component: {fileID: 652728640}
   m_Layer: 5
   m_Name: Sword
   m_TagString: Untagged
@@ -4891,8 +5180,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &652728637
 MonoBehaviour:
@@ -4976,6 +5265,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652728634}
   m_CullTransparentMesh: 1
+--- !u!114 &652728640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652728634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &713807231
 GameObject:
   m_ObjectHideFlags: 0
@@ -5147,6 +5451,7 @@ GameObject:
   - component: {fileID: 720266134}
   - component: {fileID: 720266133}
   - component: {fileID: 720266132}
+  - component: {fileID: 720266136}
   m_Layer: 5
   m_Name: Hounds
   m_TagString: Untagged
@@ -5192,8 +5497,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &720266133
 MonoBehaviour:
@@ -5277,6 +5582,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720266130}
   m_CullTransparentMesh: 1
+--- !u!114 &720266136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720266130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &733583910
 GameObject:
   m_ObjectHideFlags: 0
@@ -5412,7 +5732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 79.49231, y: 14.013306}
+  m_AnchoredPosition: {x: 79.49243, y: 14.013306}
   m_SizeDelta: {x: 203.5407, y: 271.9734}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &736677695
@@ -5530,6 +5850,7 @@ GameObject:
   - component: {fileID: 753461767}
   - component: {fileID: 753461766}
   - component: {fileID: 753461765}
+  - component: {fileID: 753461769}
   m_Layer: 5
   m_Name: Shields
   m_TagString: Untagged
@@ -5575,8 +5896,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &753461766
 MonoBehaviour:
@@ -5660,6 +5981,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 753461763}
   m_CullTransparentMesh: 1
+--- !u!114 &753461769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753461763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &778864311
 GameObject:
   m_ObjectHideFlags: 0
@@ -5910,6 +6246,7 @@ GameObject:
   - component: {fileID: 813188071}
   - component: {fileID: 813188070}
   - component: {fileID: 813188069}
+  - component: {fileID: 813188073}
   m_Layer: 5
   m_Name: Horse
   m_TagString: Untagged
@@ -5955,8 +6292,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &813188070
 MonoBehaviour:
@@ -6040,6 +6377,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 813188067}
   m_CullTransparentMesh: 1
+--- !u!114 &813188073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813188067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &814654966
 GameObject:
   m_ObjectHideFlags: 0
@@ -6053,6 +6405,7 @@ GameObject:
   - component: {fileID: 814654970}
   - component: {fileID: 814654969}
   - component: {fileID: 814654968}
+  - component: {fileID: 814654972}
   m_Layer: 5
   m_Name: Horse
   m_TagString: Untagged
@@ -6098,8 +6451,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &814654969
 MonoBehaviour:
@@ -6183,6 +6536,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 814654966}
   m_CullTransparentMesh: 1
+--- !u!114 &814654972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814654966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &844857158
 GameObject:
   m_ObjectHideFlags: 0
@@ -6215,7 +6583,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 65}
+  m_AnchoredPosition: {x: 0, y: -5}
   m_SizeDelta: {x: 964.4886, y: 211.5824}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &853889555
@@ -6389,6 +6757,7 @@ GameObject:
   - component: {fileID: 873420440}
   - component: {fileID: 873420439}
   - component: {fileID: 873420438}
+  - component: {fileID: 873420442}
   m_Layer: 5
   m_Name: Minos
   m_TagString: Untagged
@@ -6434,8 +6803,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &873420439
 MonoBehaviour:
@@ -6519,6 +6888,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873420436}
   m_CullTransparentMesh: 1
+--- !u!114 &873420442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 873420436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &878627771
 GameObject:
   m_ObjectHideFlags: 0
@@ -6611,6 +6995,7 @@ GameObject:
   - component: {fileID: 880168690}
   - component: {fileID: 880168689}
   - component: {fileID: 880168688}
+  - component: {fileID: 880168692}
   m_Layer: 5
   m_Name: Guard
   m_TagString: Untagged
@@ -6656,8 +7041,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &880168689
 MonoBehaviour:
@@ -6741,6 +7126,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880168686}
   m_CullTransparentMesh: 1
+--- !u!114 &880168692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 880168686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &890488297
 GameObject:
   m_ObjectHideFlags: 0
@@ -6754,6 +7154,7 @@ GameObject:
   - component: {fileID: 890488301}
   - component: {fileID: 890488300}
   - component: {fileID: 890488299}
+  - component: {fileID: 890488303}
   m_Layer: 5
   m_Name: Medusa
   m_TagString: Untagged
@@ -6799,8 +7200,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &890488300
 MonoBehaviour:
@@ -6884,6 +7285,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890488297}
   m_CullTransparentMesh: 1
+--- !u!114 &890488303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890488297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &895294327
 GameObject:
   m_ObjectHideFlags: 0
@@ -6976,6 +7392,7 @@ GameObject:
   - component: {fileID: 895658360}
   - component: {fileID: 895658359}
   - component: {fileID: 895658358}
+  - component: {fileID: 895658362}
   m_Layer: 5
   m_Name: Arrows
   m_TagString: Untagged
@@ -7021,8 +7438,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &895658359
 MonoBehaviour:
@@ -7106,6 +7523,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895658356}
   m_CullTransparentMesh: 1
+--- !u!114 &895658362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895658356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &902148370
 GameObject:
   m_ObjectHideFlags: 0
@@ -7119,6 +7551,7 @@ GameObject:
   - component: {fileID: 902148374}
   - component: {fileID: 902148373}
   - component: {fileID: 902148372}
+  - component: {fileID: 902148376}
   m_Layer: 5
   m_Name: Eris
   m_TagString: Untagged
@@ -7164,8 +7597,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &902148373
 MonoBehaviour:
@@ -7249,6 +7682,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902148370}
   m_CullTransparentMesh: 1
+--- !u!114 &902148376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902148370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &906800388
 GameObject:
   m_ObjectHideFlags: 0
@@ -7262,6 +7710,7 @@ GameObject:
   - component: {fileID: 906800392}
   - component: {fileID: 906800391}
   - component: {fileID: 906800390}
+  - component: {fileID: 906800394}
   m_Layer: 5
   m_Name: Eris
   m_TagString: Untagged
@@ -7307,8 +7756,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &906800391
 MonoBehaviour:
@@ -7392,6 +7841,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906800388}
   m_CullTransparentMesh: 1
+--- !u!114 &906800394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906800388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &908873392
 GameObject:
   m_ObjectHideFlags: 0
@@ -7563,6 +8027,7 @@ GameObject:
   - component: {fileID: 917889953}
   - component: {fileID: 917889952}
   - component: {fileID: 917889951}
+  - component: {fileID: 917889955}
   m_Layer: 5
   m_Name: Amazon
   m_TagString: Untagged
@@ -7608,8 +8073,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &917889952
 MonoBehaviour:
@@ -7693,6 +8158,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917889949}
   m_CullTransparentMesh: 1
+--- !u!114 &917889955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917889949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &920015978
 GameObject:
   m_ObjectHideFlags: 0
@@ -7785,6 +8265,7 @@ GameObject:
   - component: {fileID: 942745384}
   - component: {fileID: 942745383}
   - component: {fileID: 942745382}
+  - component: {fileID: 942745386}
   m_Layer: 5
   m_Name: Trident
   m_TagString: Untagged
@@ -7830,8 +8311,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &942745383
 MonoBehaviour:
@@ -7915,6 +8396,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942745380}
   m_CullTransparentMesh: 1
+--- !u!114 &942745386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942745380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &945744634
 GameObject:
   m_ObjectHideFlags: 0
@@ -8244,6 +8740,7 @@ GameObject:
   - component: {fileID: 994553618}
   - component: {fileID: 994553617}
   - component: {fileID: 994553616}
+  - component: {fileID: 994553620}
   m_Layer: 5
   m_Name: Amazon
   m_TagString: Untagged
@@ -8289,8 +8786,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &994553617
 MonoBehaviour:
@@ -8374,6 +8871,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994553614}
   m_CullTransparentMesh: 1
+--- !u!114 &994553620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994553614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &996773938
 GameObject:
   m_ObjectHideFlags: 0
@@ -8387,6 +8899,7 @@ GameObject:
   - component: {fileID: 996773942}
   - component: {fileID: 996773941}
   - component: {fileID: 996773940}
+  - component: {fileID: 996773944}
   m_Layer: 5
   m_Name: Trident
   m_TagString: Untagged
@@ -8432,8 +8945,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &996773941
 MonoBehaviour:
@@ -8517,6 +9030,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996773938}
   m_CullTransparentMesh: 1
+--- !u!114 &996773944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996773938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &996949112
 GameObject:
   m_ObjectHideFlags: 0
@@ -8530,6 +9058,7 @@ GameObject:
   - component: {fileID: 996949116}
   - component: {fileID: 996949115}
   - component: {fileID: 996949114}
+  - component: {fileID: 996949118}
   m_Layer: 5
   m_Name: Chariot
   m_TagString: Untagged
@@ -8575,8 +9104,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &996949115
 MonoBehaviour:
@@ -8660,6 +9189,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996949112}
   m_CullTransparentMesh: 1
+--- !u!114 &996949118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 996949112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1003006197
 GameObject:
   m_ObjectHideFlags: 0
@@ -8673,6 +9217,7 @@ GameObject:
   - component: {fileID: 1003006201}
   - component: {fileID: 1003006200}
   - component: {fileID: 1003006199}
+  - component: {fileID: 1003006203}
   m_Layer: 5
   m_Name: Zealot
   m_TagString: Untagged
@@ -8718,8 +9263,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1003006200
 MonoBehaviour:
@@ -8803,6 +9348,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1003006197}
   m_CullTransparentMesh: 1
+--- !u!114 &1003006203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003006197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1010493379
 GameObject:
   m_ObjectHideFlags: 0
@@ -8816,6 +9376,7 @@ GameObject:
   - component: {fileID: 1010493383}
   - component: {fileID: 1010493382}
   - component: {fileID: 1010493381}
+  - component: {fileID: 1010493385}
   m_Layer: 5
   m_Name: Stone
   m_TagString: Untagged
@@ -8861,8 +9422,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1010493382
 MonoBehaviour:
@@ -8946,6 +9507,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010493379}
   m_CullTransparentMesh: 1
+--- !u!114 &1010493385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010493379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1016909934
 GameObject:
   m_ObjectHideFlags: 0
@@ -9196,6 +9772,7 @@ GameObject:
   - component: {fileID: 1054240944}
   - component: {fileID: 1054240943}
   - component: {fileID: 1054240942}
+  - component: {fileID: 1054240946}
   m_Layer: 5
   m_Name: Lion
   m_TagString: Untagged
@@ -9241,8 +9818,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1054240943
 MonoBehaviour:
@@ -9326,6 +9903,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1054240940}
   m_CullTransparentMesh: 1
+--- !u!114 &1054240946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054240940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1089739223
 GameObject:
   m_ObjectHideFlags: 0
@@ -9813,6 +10405,7 @@ GameObject:
   - component: {fileID: 1178642071}
   - component: {fileID: 1178642070}
   - component: {fileID: 1178642069}
+  - component: {fileID: 1178642073}
   m_Layer: 5
   m_Name: Tower
   m_TagString: Untagged
@@ -9858,8 +10451,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1178642070
 MonoBehaviour:
@@ -9943,6 +10536,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178642067}
   m_CullTransparentMesh: 1
+--- !u!114 &1178642073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178642067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1192440913
 GameObject:
   m_ObjectHideFlags: 0
@@ -10035,6 +10643,7 @@ GameObject:
   - component: {fileID: 1208234002}
   - component: {fileID: 1208234001}
   - component: {fileID: 1208234000}
+  - component: {fileID: 1208234004}
   m_Layer: 5
   m_Name: Arrows
   m_TagString: Untagged
@@ -10080,8 +10689,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1208234001
 MonoBehaviour:
@@ -10165,6 +10774,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208233998}
   m_CullTransparentMesh: 1
+--- !u!114 &1208234004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208233998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1239369715
 GameObject:
   m_ObjectHideFlags: 0
@@ -10178,6 +10802,7 @@ GameObject:
   - component: {fileID: 1239369719}
   - component: {fileID: 1239369718}
   - component: {fileID: 1239369717}
+  - component: {fileID: 1239369721}
   m_Layer: 5
   m_Name: Arrows
   m_TagString: Untagged
@@ -10223,8 +10848,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1239369718
 MonoBehaviour:
@@ -10308,6 +10933,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1239369715}
   m_CullTransparentMesh: 1
+--- !u!114 &1239369721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239369715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1262549867
 GameObject:
   m_ObjectHideFlags: 0
@@ -10400,6 +11040,7 @@ GameObject:
   - component: {fileID: 1274500052}
   - component: {fileID: 1274500051}
   - component: {fileID: 1274500050}
+  - component: {fileID: 1274500054}
   m_Layer: 5
   m_Name: Hero
   m_TagString: Untagged
@@ -10445,8 +11086,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1274500051
 MonoBehaviour:
@@ -10530,6 +11171,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274500048}
   m_CullTransparentMesh: 1
+--- !u!114 &1274500054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274500048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1279313608
 GameObject:
   m_ObjectHideFlags: 0
@@ -10543,6 +11199,7 @@ GameObject:
   - component: {fileID: 1279313612}
   - component: {fileID: 1279313611}
   - component: {fileID: 1279313610}
+  - component: {fileID: 1279313614}
   m_Layer: 5
   m_Name: Enyo
   m_TagString: Untagged
@@ -10588,8 +11245,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1279313611
 MonoBehaviour:
@@ -10673,6 +11330,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279313608}
   m_CullTransparentMesh: 1
+--- !u!114 &1279313614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279313608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1288667928
 GameObject:
   m_ObjectHideFlags: 0
@@ -10722,6 +11394,7 @@ GameObject:
   - component: {fileID: 1288776524}
   - component: {fileID: 1288776523}
   - component: {fileID: 1288776527}
+  - component: {fileID: 1288776528}
   m_Layer: 5
   m_Name: Enyo
   m_TagString: Untagged
@@ -10879,6 +11552,21 @@ MonoBehaviour:
   targetAngle: 0
   rotationSpeed: 2
   objectType: 0
+--- !u!114 &1288776528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288776521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1295643915
 GameObject:
   m_ObjectHideFlags: 0
@@ -10971,6 +11659,7 @@ GameObject:
   - component: {fileID: 1304344209}
   - component: {fileID: 1304344208}
   - component: {fileID: 1304344207}
+  - component: {fileID: 1304344211}
   m_Layer: 5
   m_Name: Shields
   m_TagString: Untagged
@@ -11016,8 +11705,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1304344208
 MonoBehaviour:
@@ -11101,6 +11790,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304344205}
   m_CullTransparentMesh: 1
+--- !u!114 &1304344211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304344205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1315740913
 GameObject:
   m_ObjectHideFlags: 0
@@ -11328,6 +12032,7 @@ GameObject:
   - component: {fileID: 1345894428}
   - component: {fileID: 1345894427}
   - component: {fileID: 1345894426}
+  - component: {fileID: 1345894430}
   m_Layer: 5
   m_Name: Sword
   m_TagString: Untagged
@@ -11373,8 +12078,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1345894427
 MonoBehaviour:
@@ -11458,6 +12163,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1345894424}
   m_CullTransparentMesh: 1
+--- !u!114 &1345894430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345894424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1366829863
 GameObject:
   m_ObjectHideFlags: 0
@@ -11550,6 +12270,7 @@ GameObject:
   - component: {fileID: 1370334663}
   - component: {fileID: 1370334662}
   - component: {fileID: 1370334661}
+  - component: {fileID: 1370334665}
   m_Layer: 5
   m_Name: Hero
   m_TagString: Untagged
@@ -11595,8 +12316,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1370334662
 MonoBehaviour:
@@ -11680,6 +12401,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370334659}
   m_CullTransparentMesh: 1
+--- !u!114 &1370334665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370334659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1391598757
 GameObject:
   m_ObjectHideFlags: 0
@@ -11851,6 +12587,7 @@ GameObject:
   - component: {fileID: 1393812537}
   - component: {fileID: 1393812536}
   - component: {fileID: 1393812535}
+  - component: {fileID: 1393812539}
   m_Layer: 5
   m_Name: Amazon
   m_TagString: Untagged
@@ -11896,8 +12633,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1393812536
 MonoBehaviour:
@@ -11981,6 +12718,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393812533}
   m_CullTransparentMesh: 1
+--- !u!114 &1393812539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393812533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1414472558
 GameObject:
   m_ObjectHideFlags: 0
@@ -11994,6 +12746,7 @@ GameObject:
   - component: {fileID: 1414472562}
   - component: {fileID: 1414472561}
   - component: {fileID: 1414472560}
+  - component: {fileID: 1414472564}
   m_Layer: 5
   m_Name: Amazon
   m_TagString: Untagged
@@ -12039,8 +12792,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1414472561
 MonoBehaviour:
@@ -12124,6 +12877,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414472558}
   m_CullTransparentMesh: 1
+--- !u!114 &1414472564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414472558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1436003627
 GameObject:
   m_ObjectHideFlags: 0
@@ -12137,6 +12905,7 @@ GameObject:
   - component: {fileID: 1436003631}
   - component: {fileID: 1436003630}
   - component: {fileID: 1436003629}
+  - component: {fileID: 1436003633}
   m_Layer: 5
   m_Name: Enyo
   m_TagString: Untagged
@@ -12182,8 +12951,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1436003630
 MonoBehaviour:
@@ -12267,6 +13036,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1436003627}
   m_CullTransparentMesh: 1
+--- !u!114 &1436003633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436003627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1451820166
 GameObject:
   m_ObjectHideFlags: 0
@@ -12280,6 +13064,7 @@ GameObject:
   - component: {fileID: 1451820170}
   - component: {fileID: 1451820169}
   - component: {fileID: 1451820168}
+  - component: {fileID: 1451820172}
   m_Layer: 5
   m_Name: Zealot
   m_TagString: Untagged
@@ -12325,8 +13110,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1451820169
 MonoBehaviour:
@@ -12410,6 +13195,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451820166}
   m_CullTransparentMesh: 1
+--- !u!114 &1451820172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451820166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1459723615
 GameObject:
   m_ObjectHideFlags: 0
@@ -12423,6 +13223,7 @@ GameObject:
   - component: {fileID: 1459723619}
   - component: {fileID: 1459723618}
   - component: {fileID: 1459723617}
+  - component: {fileID: 1459723621}
   m_Layer: 5
   m_Name: Zealot
   m_TagString: Untagged
@@ -12468,8 +13269,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1459723618
 MonoBehaviour:
@@ -12553,6 +13354,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459723615}
   m_CullTransparentMesh: 1
+--- !u!114 &1459723621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459723615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1466084573
 GameObject:
   m_ObjectHideFlags: 0
@@ -12622,6 +13438,7 @@ GameObject:
   - component: {fileID: 1475660475}
   - component: {fileID: 1475660474}
   - component: {fileID: 1475660473}
+  - component: {fileID: 1475660477}
   m_Layer: 5
   m_Name: Ballista
   m_TagString: Untagged
@@ -12667,8 +13484,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1475660474
 MonoBehaviour:
@@ -12752,6 +13569,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475660471}
   m_CullTransparentMesh: 1
+--- !u!114 &1475660477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475660471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1501437990
 GameObject:
   m_ObjectHideFlags: 0
@@ -12765,6 +13597,7 @@ GameObject:
   - component: {fileID: 1501437994}
   - component: {fileID: 1501437993}
   - component: {fileID: 1501437992}
+  - component: {fileID: 1501437996}
   m_Layer: 5
   m_Name: Trident
   m_TagString: Untagged
@@ -12810,8 +13643,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1501437993
 MonoBehaviour:
@@ -12895,6 +13728,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1501437990}
   m_CullTransparentMesh: 1
+--- !u!114 &1501437996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501437990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1522045106
 GameObject:
   m_ObjectHideFlags: 0
@@ -12908,6 +13756,7 @@ GameObject:
   - component: {fileID: 1522045110}
   - component: {fileID: 1522045109}
   - component: {fileID: 1522045108}
+  - component: {fileID: 1522045112}
   m_Layer: 5
   m_Name: Guard
   m_TagString: Untagged
@@ -12953,8 +13802,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1522045109
 MonoBehaviour:
@@ -13038,6 +13887,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522045106}
   m_CullTransparentMesh: 1
+--- !u!114 &1522045112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522045106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1543777403
 GameObject:
   m_ObjectHideFlags: 0
@@ -13051,6 +13915,7 @@ GameObject:
   - component: {fileID: 1543777407}
   - component: {fileID: 1543777406}
   - component: {fileID: 1543777405}
+  - component: {fileID: 1543777409}
   m_Layer: 5
   m_Name: Elephant
   m_TagString: Untagged
@@ -13096,8 +13961,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1543777406
 MonoBehaviour:
@@ -13181,6 +14046,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543777403}
   m_CullTransparentMesh: 1
+--- !u!114 &1543777409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543777403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1544440893
 GameObject:
   m_ObjectHideFlags: 0
@@ -13352,6 +14232,7 @@ GameObject:
   - component: {fileID: 1561416720}
   - component: {fileID: 1561416719}
   - component: {fileID: 1561416718}
+  - component: {fileID: 1561416722}
   m_Layer: 5
   m_Name: Lion
   m_TagString: Untagged
@@ -13397,8 +14278,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1561416719
 MonoBehaviour:
@@ -13482,6 +14363,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561416716}
   m_CullTransparentMesh: 1
+--- !u!114 &1561416722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561416716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1562932447
 GameObject:
   m_ObjectHideFlags: 0
@@ -13495,6 +14391,7 @@ GameObject:
   - component: {fileID: 1562932451}
   - component: {fileID: 1562932450}
   - component: {fileID: 1562932449}
+  - component: {fileID: 1562932453}
   m_Layer: 5
   m_Name: Eris
   m_TagString: Untagged
@@ -13540,8 +14437,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1562932450
 MonoBehaviour:
@@ -13625,6 +14522,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562932447}
   m_CullTransparentMesh: 1
+--- !u!114 &1562932453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1562932447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1568368303
 GameObject:
   m_ObjectHideFlags: 0
@@ -13796,6 +14708,7 @@ GameObject:
   - component: {fileID: 1580382092}
   - component: {fileID: 1580382091}
   - component: {fileID: 1580382090}
+  - component: {fileID: 1580382094}
   m_Layer: 5
   m_Name: Ballista
   m_TagString: Untagged
@@ -13841,8 +14754,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1580382091
 MonoBehaviour:
@@ -13926,6 +14839,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1580382088}
   m_CullTransparentMesh: 1
+--- !u!114 &1580382094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580382088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1588250185
 GameObject:
   m_ObjectHideFlags: 0
@@ -13939,6 +14867,7 @@ GameObject:
   - component: {fileID: 1588250189}
   - component: {fileID: 1588250188}
   - component: {fileID: 1588250187}
+  - component: {fileID: 1588250191}
   m_Layer: 5
   m_Name: Tower
   m_TagString: Untagged
@@ -13984,8 +14913,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1588250188
 MonoBehaviour:
@@ -14069,6 +14998,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1588250185}
   m_CullTransparentMesh: 1
+--- !u!114 &1588250191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588250185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1589269419
 GameObject:
   m_ObjectHideFlags: 0
@@ -14082,6 +15026,7 @@ GameObject:
   - component: {fileID: 1589269423}
   - component: {fileID: 1589269422}
   - component: {fileID: 1589269421}
+  - component: {fileID: 1589269425}
   m_Layer: 5
   m_Name: Chariot
   m_TagString: Untagged
@@ -14127,8 +15072,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1589269422
 MonoBehaviour:
@@ -14212,6 +15157,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589269419}
   m_CullTransparentMesh: 1
+--- !u!114 &1589269425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589269419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1605899495
 GameObject:
   m_ObjectHideFlags: 0
@@ -14383,6 +15343,7 @@ GameObject:
   - component: {fileID: 1628066928}
   - component: {fileID: 1628066927}
   - component: {fileID: 1628066926}
+  - component: {fileID: 1628066930}
   m_Layer: 5
   m_Name: Guard
   m_TagString: Untagged
@@ -14428,8 +15389,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1628066927
 MonoBehaviour:
@@ -14513,6 +15474,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628066924}
   m_CullTransparentMesh: 1
+--- !u!114 &1628066930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628066924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1630245600
 GameObject:
   m_ObjectHideFlags: 0
@@ -14605,6 +15581,7 @@ GameObject:
   - component: {fileID: 1630520928}
   - component: {fileID: 1630520927}
   - component: {fileID: 1630520926}
+  - component: {fileID: 1630520930}
   m_Layer: 5
   m_Name: Elephant
   m_TagString: Untagged
@@ -14650,8 +15627,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1630520927
 MonoBehaviour:
@@ -14735,6 +15712,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630520924}
   m_CullTransparentMesh: 1
+--- !u!114 &1630520930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630520924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1653247556
 GameObject:
   m_ObjectHideFlags: 0
@@ -14827,6 +15819,7 @@ GameObject:
   - component: {fileID: 1677206257}
   - component: {fileID: 1677206256}
   - component: {fileID: 1677206255}
+  - component: {fileID: 1677206259}
   m_Layer: 5
   m_Name: Sword
   m_TagString: Untagged
@@ -14872,8 +15865,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1677206256
 MonoBehaviour:
@@ -14957,6 +15950,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1677206253}
   m_CullTransparentMesh: 1
+--- !u!114 &1677206259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677206253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1681774006
 GameObject:
   m_ObjectHideFlags: 0
@@ -15128,6 +16136,7 @@ GameObject:
   - component: {fileID: 1692882912}
   - component: {fileID: 1692882911}
   - component: {fileID: 1692882910}
+  - component: {fileID: 1692882914}
   m_Layer: 5
   m_Name: Mask
   m_TagString: Untagged
@@ -15173,8 +16182,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1692882911
 MonoBehaviour:
@@ -15258,6 +16267,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692882908}
   m_CullTransparentMesh: 1
+--- !u!114 &1692882914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692882908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1695393231
 GameObject:
   m_ObjectHideFlags: 0
@@ -15271,6 +16295,7 @@ GameObject:
   - component: {fileID: 1695393235}
   - component: {fileID: 1695393234}
   - component: {fileID: 1695393233}
+  - component: {fileID: 1695393237}
   m_Layer: 5
   m_Name: Hounds
   m_TagString: Untagged
@@ -15316,8 +16341,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1695393234
 MonoBehaviour:
@@ -15401,6 +16426,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695393231}
   m_CullTransparentMesh: 1
+--- !u!114 &1695393237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695393231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1699599950
 GameObject:
   m_ObjectHideFlags: 0
@@ -15414,6 +16454,7 @@ GameObject:
   - component: {fileID: 1699599954}
   - component: {fileID: 1699599953}
   - component: {fileID: 1699599952}
+  - component: {fileID: 1699599956}
   m_Layer: 5
   m_Name: Hounds
   m_TagString: Untagged
@@ -15459,8 +16500,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1699599953
 MonoBehaviour:
@@ -15544,6 +16585,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699599950}
   m_CullTransparentMesh: 1
+--- !u!114 &1699599956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699599950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1709535289
 GameObject:
   m_ObjectHideFlags: 0
@@ -15771,6 +16827,7 @@ GameObject:
   - component: {fileID: 1788621740}
   - component: {fileID: 1788621739}
   - component: {fileID: 1788621738}
+  - component: {fileID: 1788621742}
   m_Layer: 5
   m_Name: Tower
   m_TagString: Untagged
@@ -15816,8 +16873,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1788621739
 MonoBehaviour:
@@ -15901,6 +16958,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788621736}
   m_CullTransparentMesh: 1
+--- !u!114 &1788621742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788621736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1793506174
 GameObject:
   m_ObjectHideFlags: 0
@@ -15914,6 +16986,7 @@ GameObject:
   - component: {fileID: 1793506178}
   - component: {fileID: 1793506177}
   - component: {fileID: 1793506176}
+  - component: {fileID: 1793506180}
   m_Layer: 5
   m_Name: Namaka
   m_TagString: Untagged
@@ -15959,8 +17032,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1793506177
 MonoBehaviour:
@@ -16044,6 +17117,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793506174}
   m_CullTransparentMesh: 1
+--- !u!114 &1793506180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793506174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1816169453
 GameObject:
   m_ObjectHideFlags: 0
@@ -16057,6 +17145,7 @@ GameObject:
   - component: {fileID: 1816169457}
   - component: {fileID: 1816169456}
   - component: {fileID: 1816169455}
+  - component: {fileID: 1816169459}
   m_Layer: 5
   m_Name: Mask
   m_TagString: Untagged
@@ -16102,8 +17191,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1816169456
 MonoBehaviour:
@@ -16187,6 +17276,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1816169453}
   m_CullTransparentMesh: 1
+--- !u!114 &1816169459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1816169453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1835828510
 GameObject:
   m_ObjectHideFlags: 0
@@ -16279,6 +17383,7 @@ GameObject:
   - component: {fileID: 1838089421}
   - component: {fileID: 1838089420}
   - component: {fileID: 1838089419}
+  - component: {fileID: 1838089423}
   m_Layer: 5
   m_Name: Guard
   m_TagString: Untagged
@@ -16324,8 +17429,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1838089420
 MonoBehaviour:
@@ -16409,6 +17514,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1838089417}
   m_CullTransparentMesh: 1
+--- !u!114 &1838089423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838089417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1841563707
 GameObject:
   m_ObjectHideFlags: 0
@@ -16422,6 +17542,7 @@ GameObject:
   - component: {fileID: 1841563711}
   - component: {fileID: 1841563710}
   - component: {fileID: 1841563709}
+  - component: {fileID: 1841563713}
   m_Layer: 5
   m_Name: Ballista
   m_TagString: Untagged
@@ -16467,8 +17588,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1841563710
 MonoBehaviour:
@@ -16552,6 +17673,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841563707}
   m_CullTransparentMesh: 1
+--- !u!114 &1841563713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841563707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1862149162
 GameObject:
   m_ObjectHideFlags: 0
@@ -16779,6 +17915,7 @@ GameObject:
   - component: {fileID: 1900271064}
   - component: {fileID: 1900271063}
   - component: {fileID: 1900271062}
+  - component: {fileID: 1900271066}
   m_Layer: 5
   m_Name: Mask
   m_TagString: Untagged
@@ -16824,8 +17961,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1900271063
 MonoBehaviour:
@@ -16909,6 +18046,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900271060}
   m_CullTransparentMesh: 1
+--- !u!114 &1900271066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900271060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1901117980
 GameObject:
   m_ObjectHideFlags: 0
@@ -17080,6 +18232,7 @@ GameObject:
   - component: {fileID: 1911369384}
   - component: {fileID: 1911369383}
   - component: {fileID: 1911369382}
+  - component: {fileID: 1911369386}
   m_Layer: 5
   m_Name: Elephant
   m_TagString: Untagged
@@ -17125,8 +18278,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1911369383
 MonoBehaviour:
@@ -17210,6 +18363,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1911369380}
   m_CullTransparentMesh: 1
+--- !u!114 &1911369386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911369380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1919519391
 GameObject:
   m_ObjectHideFlags: 0
@@ -17223,6 +18391,7 @@ GameObject:
   - component: {fileID: 1919519395}
   - component: {fileID: 1919519394}
   - component: {fileID: 1919519393}
+  - component: {fileID: 1919519397}
   m_Layer: 5
   m_Name: Trident
   m_TagString: Untagged
@@ -17268,8 +18437,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1919519394
 MonoBehaviour:
@@ -17353,6 +18522,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1919519391}
   m_CullTransparentMesh: 1
+--- !u!114 &1919519397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919519391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1924328248
 GameObject:
   m_ObjectHideFlags: 0
@@ -17366,6 +18550,7 @@ GameObject:
   - component: {fileID: 1924328252}
   - component: {fileID: 1924328251}
   - component: {fileID: 1924328250}
+  - component: {fileID: 1924328254}
   m_Layer: 5
   m_Name: Stone
   m_TagString: Untagged
@@ -17411,8 +18596,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1924328251
 MonoBehaviour:
@@ -17496,6 +18681,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1924328248}
   m_CullTransparentMesh: 1
+--- !u!114 &1924328254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1924328248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1925590297
 GameObject:
   m_ObjectHideFlags: 0
@@ -17667,6 +18867,7 @@ GameObject:
   - component: {fileID: 1937808153}
   - component: {fileID: 1937808152}
   - component: {fileID: 1937808151}
+  - component: {fileID: 1937808155}
   m_Layer: 5
   m_Name: Eris
   m_TagString: Untagged
@@ -17712,8 +18913,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1937808152
 MonoBehaviour:
@@ -17797,6 +18998,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937808149}
   m_CullTransparentMesh: 1
+--- !u!114 &1937808155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937808149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1949279391
 GameObject:
   m_ObjectHideFlags: 0
@@ -17889,6 +19105,7 @@ GameObject:
   - component: {fileID: 1954747921}
   - component: {fileID: 1954747920}
   - component: {fileID: 1954747919}
+  - component: {fileID: 1954747923}
   m_Layer: 5
   m_Name: Mask
   m_TagString: Untagged
@@ -17934,8 +19151,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1954747920
 MonoBehaviour:
@@ -18019,6 +19236,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1954747917}
   m_CullTransparentMesh: 1
+--- !u!114 &1954747923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954747917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1969973991
 GameObject:
   m_ObjectHideFlags: 0
@@ -18258,6 +19490,7 @@ GameObject:
   - component: {fileID: 1981345974}
   - component: {fileID: 1981345973}
   - component: {fileID: 1981345972}
+  - component: {fileID: 1981345976}
   m_Layer: 5
   m_Name: Zealot
   m_TagString: Untagged
@@ -18303,8 +19536,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1981345973
 MonoBehaviour:
@@ -18388,6 +19621,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981345970}
   m_CullTransparentMesh: 1
+--- !u!114 &1981345976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981345970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1983032653
 GameObject:
   m_ObjectHideFlags: 0
@@ -18401,6 +19649,7 @@ GameObject:
   - component: {fileID: 1983032657}
   - component: {fileID: 1983032656}
   - component: {fileID: 1983032655}
+  - component: {fileID: 1983032659}
   m_Layer: 5
   m_Name: Horse
   m_TagString: Untagged
@@ -18446,8 +19695,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1983032656
 MonoBehaviour:
@@ -18531,6 +19780,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983032653}
   m_CullTransparentMesh: 1
+--- !u!114 &1983032659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983032653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &1987509573
 GameObject:
   m_ObjectHideFlags: 0
@@ -18544,6 +19808,7 @@ GameObject:
   - component: {fileID: 1987509577}
   - component: {fileID: 1987509576}
   - component: {fileID: 1987509575}
+  - component: {fileID: 1987509579}
   m_Layer: 5
   m_Name: Chariot
   m_TagString: Untagged
@@ -18589,8 +19854,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &1987509576
 MonoBehaviour:
@@ -18674,6 +19939,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987509573}
   m_CullTransparentMesh: 1
+--- !u!114 &1987509579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987509573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &2004467393
 GameObject:
   m_ObjectHideFlags: 0
@@ -19082,6 +20362,7 @@ GameObject:
   - component: {fileID: 2047481027}
   - component: {fileID: 2047481026}
   - component: {fileID: 2047481025}
+  - component: {fileID: 2047481029}
   m_Layer: 5
   m_Name: Ballista
   m_TagString: Untagged
@@ -19127,8 +20408,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &2047481026
 MonoBehaviour:
@@ -19212,6 +20493,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2047481023}
   m_CullTransparentMesh: 1
+--- !u!114 &2047481029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047481023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &2053470865
 GameObject:
   m_ObjectHideFlags: 0
@@ -19225,6 +20521,7 @@ GameObject:
   - component: {fileID: 2053470869}
   - component: {fileID: 2053470868}
   - component: {fileID: 2053470867}
+  - component: {fileID: 2053470871}
   m_Layer: 5
   m_Name: Chariot
   m_TagString: Untagged
@@ -19270,8 +20567,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &2053470868
 MonoBehaviour:
@@ -19355,6 +20652,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2053470865}
   m_CullTransparentMesh: 1
+--- !u!114 &2053470871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053470865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &2056701435
 GameObject:
   m_ObjectHideFlags: 0
@@ -19368,6 +20680,7 @@ GameObject:
   - component: {fileID: 2056701439}
   - component: {fileID: 2056701438}
   - component: {fileID: 2056701437}
+  - component: {fileID: 2056701441}
   m_Layer: 5
   m_Name: Arrows
   m_TagString: Untagged
@@ -19413,8 +20726,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &2056701438
 MonoBehaviour:
@@ -19498,6 +20811,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056701435}
   m_CullTransparentMesh: 1
+--- !u!114 &2056701441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056701435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &2072290060
 GameObject:
   m_ObjectHideFlags: 0
@@ -19546,6 +20874,7 @@ GameObject:
   - component: {fileID: 2112266555}
   - component: {fileID: 2112266554}
   - component: {fileID: 2112266553}
+  - component: {fileID: 2112266557}
   m_Layer: 5
   m_Name: Enyo
   m_TagString: Untagged
@@ -19591,8 +20920,8 @@ MonoBehaviour:
   fateCard: 0
   curses: 0
   spells: 0
-  ImageGameobject: {fileID: 0}
-  BackSide: {fileID: 0}
+  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
+  BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
 --- !u!114 &2112266554
 MonoBehaviour:
@@ -19676,6 +21005,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112266551}
   m_CullTransparentMesh: 1
+--- !u!114 &2112266557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112266551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAngle: 0
+  rotationSpeed: 2
+  objectType: 0
 --- !u!1 &2127200228
 GameObject:
   m_ObjectHideFlags: 0

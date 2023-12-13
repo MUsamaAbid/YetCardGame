@@ -29,6 +29,10 @@ public class DeckManager : MonoBehaviour
 
     public void AddCardInHandDeck(Card card)
     {
+        //if (playerNumber == Player.Player1)
+        {
+            card.Rotate();
+        }
         InHandDeck.Add(card);
         ArrangeCardsInHandDeck();
     }
