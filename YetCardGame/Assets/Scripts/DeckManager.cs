@@ -29,14 +29,36 @@ public class DeckManager : MonoBehaviour
 
     public void AddCardInHandDeck(Card card)
     {
-        //if (playerNumber == Player.Player1)
+        if (playerNumber == Player.Player1)
         {
-            card.Rotate();
+            card.RotateInHand();
+            card.AssignPlayer(Player.Player1);
         }
+        else if (playerNumber == Player.Player2)
+        {
+            card.RotateUpsideDown();
+            card.AssignPlayer(Player.Player2);
+        }
+
         InHandDeck.Add(card);
         ArrangeCardsInHandDeck();
     }
+    public void AddCardOnTableDeck(Card card)
+    {
+        if (playerNumber == Player.Player1)
+        {
+            //card.RotateInHand();
+            //card.AssignPlayer(Player.Player1);
+        }
+        else if (playerNumber == Player.Player2)
+        {
+            //card.RotateUpsideDown();
+            //card.AssignPlayer(Player.Player2);
+        }
 
+        InHandDeck.Add(card);
+        ArrangeCardsInHandDeck();
+    }
     void ArrangeCardsInHandDeck()
     {
         foreach(var c in InHandDeck)
@@ -94,6 +116,67 @@ public class DeckManager : MonoBehaviour
                     Vector2 pos = new Vector2((i - middle) * cardOverLapUnits, 0);
                     //   InHandDeck[i].gameObject.GetComponent<RectTransform>().anchoredPosition = pos;
                     InHandDeck[i].SetTargetPosition(pos);
+                }
+            }
+        }
+    }
+    void ArrangeCardsOnTable()
+    {
+        foreach (var c in OnTableDeck)
+        {
+            c.transform.parent = ParentOnTableDeck;
+        }
+
+        if (OnTableDeck.Count != 0)
+        {
+            if (OnTableDeck.Count == 1)
+            {
+                Vector2 pos = new Vector2(0, 0);
+                //InHandDeck[0].transform.parent = ParentInHandDeck;
+                OnTableDeck[0].SetTargetPosition(pos);
+            }
+            else if (OnTableDeck.Count % 2 == 0)
+            {
+                int middle = OnTableDeck.Count / 2;
+                //InHandDeck[middle].transform.parent = ParentInHandDeck;
+
+                Vector2 middlePos = new Vector2(cardOverLapUnits / 2, 0);
+                OnTableDeck[middle].SetTargetPosition(middlePos);
+
+                for (int i = middle - 1; i >= 0; i--) //From 0 to middle is the right side of the deck
+                {
+                    //InHandDeck[i].transform.parent = ParentInHandDeck;
+                    Vector2 pos = new Vector2((-(middle - i) * cardOverLapUnits) - (-cardOverLapUnits / 2), 0);
+                    OnTableDeck[i].SetTargetPosition(pos);
+                }
+                for (int i = OnTableDeck.Count - 1; i > middle; i--) //From middle to up is the left side of the deck
+                {
+                    //InHandDeck[i].transform.parent = ParentInHandDeck;
+                    Vector2 pos = new Vector2((((i + 1) - middle) * cardOverLapUnits) - (cardOverLapUnits / 2), 0);
+                    OnTableDeck[i].SetTargetPosition(pos);
+                }
+            }
+            else
+            {
+                int middle = OnTableDeck.Count / 2;
+                //InHandDeck[middle].transform.parent = ParentInHandDeck;
+
+                Vector2 middlePos = new Vector2(0, 0);
+                OnTableDeck[middle].SetTargetPosition(middlePos);
+
+                for (int i = middle - 1; i >= 0; i--)
+                {
+                    //InHandDeck[i].transform.parent = ParentInHandDeck;
+                    Vector2 pos = new Vector2(-(middle - i) * cardOverLapUnits, 0);
+                    //   InHandDeck[i].gameObject.GetComponent<RectTransform>().anchoredPosition = pos;
+                    OnTableDeck[i].SetTargetPosition(pos);
+                }
+                for (int i = OnTableDeck.Count - 1; i > middle; i--)
+                {
+                    //InHandDeck[i].transform.parent = ParentInHandDeck;
+                    Vector2 pos = new Vector2((i - middle) * cardOverLapUnits, 0);
+                    //   InHandDeck[i].gameObject.GetComponent<RectTransform>().anchoredPosition = pos;
+                    OnTableDeck[i].SetTargetPosition(pos);
                 }
             }
         }

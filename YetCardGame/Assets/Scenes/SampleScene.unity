@@ -418,6 +418,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &48610734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,7 +514,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &50143600
@@ -656,6 +657,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &74793670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -750,7 +753,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &106628118
@@ -815,6 +817,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &106628121
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -909,7 +913,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &113395034
@@ -1053,6 +1056,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &121559433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,7 +1152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &126101718
@@ -1268,6 +1272,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &131109903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1362,7 +1368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &146516837
@@ -1857,6 +1862,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &233822610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1951,7 +1958,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &234649783
@@ -2016,6 +2022,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &234649786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2110,7 +2118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &255050772
@@ -2649,6 +2656,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &349083577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2743,7 +2752,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &362736192
@@ -2808,6 +2816,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &362736195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2902,7 +2912,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &366446212
@@ -2967,6 +2976,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &366446215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3061,7 +3072,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &370242946
@@ -3182,6 +3192,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &385845982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3276,7 +3288,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &397498648
@@ -3386,6 +3397,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &406782479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3480,7 +3493,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &406787991
@@ -3861,6 +3873,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &439969238
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3955,7 +3969,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &508795788
@@ -4020,6 +4033,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &508795791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4114,7 +4129,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &519303074
@@ -4179,6 +4193,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &519303077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4273,7 +4289,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &519420028
@@ -4627,6 +4642,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &562010569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4721,7 +4738,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &583213992
@@ -4865,6 +4881,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &611319045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4959,7 +4977,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &631987905
@@ -5024,6 +5041,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &631987908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5118,7 +5137,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &652728634
@@ -5183,6 +5201,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &652728637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5277,7 +5297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &713807231
@@ -5500,6 +5519,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &720266133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5594,7 +5615,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &733583910
@@ -5708,6 +5728,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 736677694}
+  - component: {fileID: 736677696}
   - component: {fileID: 736677695}
   m_Layer: 5
   m_Name: GameDeck
@@ -5837,6 +5858,18 @@ MonoBehaviour:
   Player2Deck: []
   Player1: {fileID: 126101720}
   Player2: {fileID: 1771370302}
+--- !u!114 &736677696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736677693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1358a4b155d824a08a471e8689f00569, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &753461763
 GameObject:
   m_ObjectHideFlags: 0
@@ -5899,6 +5932,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &753461766
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5993,7 +6028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &778864311
@@ -6295,6 +6329,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &813188070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6389,7 +6425,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &814654966
@@ -6454,6 +6489,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &814654969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6548,7 +6585,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &844857158
@@ -6583,8 +6619,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -5}
-  m_SizeDelta: {x: 964.4886, y: 211.5824}
+  m_AnchoredPosition: {x: 0, y: -180}
+  m_SizeDelta: {x: 964.4886, y: 21}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &853889555
 GameObject:
@@ -6806,6 +6842,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &873420439
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6900,7 +6938,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &878627771
@@ -7044,6 +7081,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &880168689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7138,7 +7177,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &890488297
@@ -7203,6 +7241,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &890488300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7297,7 +7337,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &895294327
@@ -7441,6 +7480,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &895658359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7535,7 +7576,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &902148370
@@ -7600,6 +7640,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &902148373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7694,7 +7736,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &906800388
@@ -7759,6 +7800,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &906800391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7853,7 +7896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &908873392
@@ -8076,6 +8118,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &917889952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8170,7 +8214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &920015978
@@ -8314,6 +8357,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &942745383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8408,7 +8453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &945744634
@@ -8789,6 +8833,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &994553617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8883,7 +8929,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &996773938
@@ -8948,6 +8993,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &996773941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9042,7 +9089,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &996949112
@@ -9107,6 +9153,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &996949115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9201,7 +9249,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1003006197
@@ -9266,6 +9313,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1003006200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9360,7 +9409,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1010493379
@@ -9425,6 +9473,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1010493382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9519,7 +9569,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1016909934
@@ -9821,6 +9870,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1054240943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9915,7 +9966,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1089739223
@@ -10454,6 +10504,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1178642070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10548,7 +10600,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1192440913
@@ -10692,6 +10743,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1208234001
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10786,7 +10839,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1239369715
@@ -10851,6 +10903,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1239369718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10945,7 +10999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1262549867
@@ -11089,6 +11142,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1274500051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11183,7 +11238,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1279313608
@@ -11248,6 +11302,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1279313611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11342,7 +11398,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1288667928
@@ -11443,6 +11498,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1288776524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11549,7 +11606,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!114 &1288776528
@@ -11564,7 +11620,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1295643915
@@ -11708,6 +11763,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1304344208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11802,7 +11859,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1315740913
@@ -12081,6 +12137,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1345894427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12175,7 +12233,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1366829863
@@ -12319,6 +12376,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1370334662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12413,7 +12472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1391598757
@@ -12636,6 +12694,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1393812536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12730,7 +12790,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1414472558
@@ -12795,6 +12854,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1414472561
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12889,7 +12950,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1436003627
@@ -12954,6 +13014,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1436003630
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13048,7 +13110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1451820166
@@ -13113,6 +13174,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1451820169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13207,7 +13270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1459723615
@@ -13272,6 +13334,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1459723618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13366,7 +13430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1466084573
@@ -13487,6 +13550,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1475660474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13581,7 +13646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1501437990
@@ -13646,6 +13710,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1501437993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13740,7 +13806,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1522045106
@@ -13805,6 +13870,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1522045109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13899,7 +13966,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1543777403
@@ -13964,6 +14030,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1543777406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14058,7 +14126,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1544440893
@@ -14281,6 +14348,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1561416719
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14375,7 +14444,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1562932447
@@ -14440,6 +14508,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1562932450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14534,7 +14604,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1568368303
@@ -14757,6 +14826,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1580382091
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14851,7 +14922,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1588250185
@@ -14916,6 +14986,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1588250188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15010,7 +15082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1589269419
@@ -15075,6 +15146,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1589269422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15169,7 +15242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1605899495
@@ -15392,6 +15464,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1628066927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15486,7 +15560,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1630245600
@@ -15630,6 +15703,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1630520927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15724,7 +15799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1653247556
@@ -15868,6 +15942,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1677206256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15962,7 +16038,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1681774006
@@ -16185,6 +16260,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1692882911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16279,7 +16356,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1695393231
@@ -16344,6 +16420,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1695393234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16438,7 +16516,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1699599950
@@ -16503,6 +16580,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1699599953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16597,7 +16676,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1709535289
@@ -16876,6 +16954,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1788621739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16970,7 +17050,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1793506174
@@ -17035,6 +17114,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1793506177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17129,7 +17210,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1816169453
@@ -17194,6 +17274,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1816169456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17288,7 +17370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1835828510
@@ -17432,6 +17513,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1838089420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17526,7 +17609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1841563707
@@ -17591,6 +17673,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1841563710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17685,7 +17769,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1862149162
@@ -17964,6 +18047,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1900271063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18058,7 +18143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1901117980
@@ -18281,6 +18365,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1911369383
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18375,7 +18461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1919519391
@@ -18440,6 +18525,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1919519394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18534,7 +18621,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1924328248
@@ -18599,6 +18685,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1924328251
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18693,7 +18781,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1925590297
@@ -18916,6 +19003,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1937808152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19010,7 +19099,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1949279391
@@ -19154,6 +19242,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1954747920
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19248,7 +19338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1969973991
@@ -19539,6 +19628,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1981345973
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19633,7 +19724,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1983032653
@@ -19698,6 +19788,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1983032656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19792,7 +19884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &1987509573
@@ -19857,6 +19948,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &1987509576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19951,7 +20044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &2004467393
@@ -20411,6 +20503,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &2047481026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20505,7 +20599,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &2053470865
@@ -20570,6 +20663,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &2053470868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20664,7 +20759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &2056701435
@@ -20729,6 +20823,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &2056701438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20823,7 +20919,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &2072290060
@@ -20923,6 +21018,8 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  AttackNumber: 0
+  DefenceNumber: 0
 --- !u!114 &2112266554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21017,7 +21114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetAngle: 0
   rotationSpeed: 2
   objectType: 0
 --- !u!1 &2127200228

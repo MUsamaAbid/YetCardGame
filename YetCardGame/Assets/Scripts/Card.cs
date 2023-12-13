@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+//using UnityEngine.UIElements;
 
 public class Card : MonoBehaviour
 {
@@ -22,24 +23,57 @@ public class Card : MonoBehaviour
 
     [SerializeField] GameObject GeneratedBacksideImage;
 
+    Player player;
+
+    [Header("Card Properties")]
+    [ReadOnly]
+    public int AttackNumber;
+    [ReadOnly]
+    public int DefenceNumber;
+
     Vector2 Targetpos;
     bool MoveToTargetPos = false;
     int speed = 1000;
 
     private void Start()
     {
+        AssignProperties();
+        gameObject.GetComponent<Button>().onClick.AddListener(OnCardDown);
+
         transform.rotation = Quaternion.Euler(0, 180, 0);
         if (ImageGameobject && BackSide)
         {
             GenerateBackside();
         }
     }
-    public void Rotate()
+    public void OnCardDown()
     {
-        GetComponent<RotateObject>().Rotate(2f, ObjectType.Card);
+        if(player == Player.Player2)
+        {
+            return;
+        }
+
+        Debug.Log("Button pressed");
+    }
+    public void AssignPlayer(Player p)
+    {
+        player = p;
+    }
+    void AssignProperties()
+    {
+        AttackNumber = CardEnums.instance.ReturnAttack(cardName);
+        DefenceNumber = CardEnums.instance.ReturnDefence(cardName);
+    }
+    public void RotateInHand()
+    {
+        GetComponent<RotateObject>().RotateInHand(2f, ObjectType.Card);
         //GenerateBackside();
     }
-
+    public void RotateUpsideDown()
+    {
+        GetComponent<RotateObject>().RotateUpsideDown(4f, ObjectType.Card);
+        //GenerateBackside();
+    }
     public void GenerateBackside()
     {
         GeneratedBacksideImage = Instantiate(ImageGameobject, transform);

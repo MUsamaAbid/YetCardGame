@@ -97,6 +97,14 @@ public enum Spells
 }
 public class CardEnums : MonoBehaviour
 {
+    #region Instance
+    public static CardEnums instance;
+    private void Awake()
+    {
+        instance = this;
+    }
+    #endregion
+
     public int ReturnAttack(CardName cardName)
     {
         switch (cardName)
