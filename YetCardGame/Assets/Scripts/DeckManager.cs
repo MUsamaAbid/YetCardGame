@@ -32,12 +32,12 @@ public class DeckManager : MonoBehaviour
         if (playerNumber == Player.Player1)
         {
             card.RotateInHand();
-            card.AssignPlayer(Player.Player1);
+            card.AssignPlayer(Player.Player1, this);
         }
         else if (playerNumber == Player.Player2)
         {
             card.RotateUpsideDown();
-            card.AssignPlayer(Player.Player2);
+            card.AssignPlayer(Player.Player2, this);
         }
 
         InHandDeck.Add(card);
@@ -56,8 +56,22 @@ public class DeckManager : MonoBehaviour
             //card.AssignPlayer(Player.Player2);
         }
 
-        InHandDeck.Add(card);
+        RemoveFromInHandDeck(card);
+        OnTableDeck.Add(card);
+
         ArrangeCardsInHandDeck();
+        ArrangeCardsOnTable();
+    }
+    void RemoveFromInHandDeck(Card card)
+    {
+        for (int i = 0; i < InHandDeck.Count; i++)
+        {
+            if (card == InHandDeck[i])
+            {
+                InHandDeck.RemoveAt(i);
+                Debug.Log("RemovedFrom the list");
+            }
+        }
     }
     void ArrangeCardsInHandDeck()
     {

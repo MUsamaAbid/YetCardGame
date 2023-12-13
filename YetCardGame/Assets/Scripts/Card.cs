@@ -23,6 +23,8 @@ public class Card : MonoBehaviour
 
     [SerializeField] GameObject GeneratedBacksideImage;
 
+    public DeckManager deckManager;
+
     Player player;
 
     [Header("Card Properties")]
@@ -48,16 +50,21 @@ public class Card : MonoBehaviour
     }
     public void OnCardDown()
     {
-        if(player == Player.Player2)
+        if (player == Player.Player2)
         {
-            return;
-        }
+            deckManager.AddCardOnTableDeck(this);
 
-        Debug.Log("Button pressed");
+            //return;
+        }
+        else if (player == Player.Player1)
+        {
+            deckManager.AddCardOnTableDeck(this);
+        }
     }
-    public void AssignPlayer(Player p)
+    public void AssignPlayer(Player p, DeckManager d)
     {
         player = p;
+        deckManager = d;
     }
     void AssignProperties()
     {
