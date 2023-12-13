@@ -81,6 +81,10 @@ public class Card : MonoBehaviour
         GetComponent<RotateObject>().RotateUpsideDown(4f, ObjectType.Card);
         //GenerateBackside();
     }
+    public void RotateDownsideUp()
+    {
+        GetComponent<RotateObject>().RotateDownsideUp(4f, ObjectType.Card);
+    }
     public void GenerateBackside()
     {
         GeneratedBacksideImage = Instantiate(ImageGameobject, transform);

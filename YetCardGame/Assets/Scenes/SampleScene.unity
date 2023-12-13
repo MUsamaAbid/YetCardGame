@@ -418,6 +418,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &48610734
@@ -657,6 +658,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &74793670
@@ -817,6 +819,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &106628121
@@ -1056,6 +1059,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &121559433
@@ -1209,7 +1213,7 @@ MonoBehaviour:
   ParentOnTableDeck: {fileID: 162812184}
   InHandDeck: []
   OnTableDeck: []
-  cardOverLapUnits: -75
+  inHandCardOverLapUnits: -75
 --- !u!1 &131109900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1272,6 +1276,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &131109903
@@ -1862,6 +1867,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &233822610
@@ -2022,6 +2028,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &234649786
@@ -2656,6 +2663,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &349083577
@@ -2816,6 +2824,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &362736195
@@ -2976,6 +2985,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &366446215
@@ -3192,6 +3202,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &385845982
@@ -3397,6 +3408,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &406782479
@@ -3873,6 +3885,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &439969238
@@ -4033,6 +4046,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &508795791
@@ -4193,6 +4207,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &519303077
@@ -4642,6 +4657,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &562010569
@@ -4881,6 +4897,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &611319045
@@ -5041,6 +5058,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &631987908
@@ -5201,6 +5219,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &652728637
@@ -5519,6 +5538,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &720266133
@@ -5932,6 +5952,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &753461766
@@ -6329,6 +6350,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &813188070
@@ -6489,6 +6511,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &814654969
@@ -6842,6 +6865,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &873420439
@@ -7081,6 +7105,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &880168689
@@ -7241,6 +7266,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &890488300
@@ -7480,6 +7506,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &895658359
@@ -7640,6 +7667,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &902148373
@@ -7800,6 +7828,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &906800391
@@ -8118,6 +8147,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &917889952
@@ -8357,6 +8387,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &942745383
@@ -8833,6 +8864,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &994553617
@@ -8993,6 +9025,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &996773941
@@ -9153,6 +9186,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &996949115
@@ -9313,6 +9347,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1003006200
@@ -9473,6 +9508,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1010493382
@@ -9870,6 +9906,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1054240943
@@ -10504,6 +10541,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1178642070
@@ -10743,6 +10781,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1208234001
@@ -10903,6 +10942,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1239369718
@@ -11142,6 +11182,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1274500051
@@ -11302,6 +11343,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1279313611
@@ -11498,6 +11540,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1288776524
@@ -11763,6 +11806,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1304344208
@@ -12137,6 +12181,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1345894427
@@ -12376,6 +12421,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1370334662
@@ -12694,6 +12740,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1393812536
@@ -12854,6 +12901,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1414472561
@@ -13014,6 +13062,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1436003630
@@ -13174,6 +13223,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1451820169
@@ -13334,6 +13384,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1459723618
@@ -13550,6 +13601,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1475660474
@@ -13710,6 +13762,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1501437993
@@ -13870,6 +13923,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1522045109
@@ -14030,6 +14084,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1543777406
@@ -14348,6 +14403,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1561416719
@@ -14508,6 +14564,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1562932450
@@ -14826,6 +14883,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1580382091
@@ -14986,6 +15044,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1588250188
@@ -15146,6 +15205,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1589269422
@@ -15464,6 +15524,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1628066927
@@ -15703,6 +15764,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1630520927
@@ -15942,6 +16004,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1677206256
@@ -16260,6 +16323,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1692882911
@@ -16420,6 +16484,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1695393234
@@ -16580,6 +16645,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1699599953
@@ -16812,7 +16878,7 @@ MonoBehaviour:
   ParentOnTableDeck: {fileID: 2072290061}
   InHandDeck: []
   OnTableDeck: []
-  cardOverLapUnits: -75
+  inHandCardOverLapUnits: -75
 --- !u!1 &1787715466
 GameObject:
   m_ObjectHideFlags: 0
@@ -16954,6 +17020,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1788621739
@@ -17114,6 +17181,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1793506177
@@ -17274,6 +17342,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1816169456
@@ -17513,6 +17582,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1838089420
@@ -17673,6 +17743,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1841563710
@@ -18047,6 +18118,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1900271063
@@ -18365,6 +18437,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1911369383
@@ -18525,6 +18598,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1919519394
@@ -18685,6 +18759,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1924328251
@@ -19003,6 +19078,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1937808152
@@ -19242,6 +19318,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1954747920
@@ -19628,6 +19705,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1981345973
@@ -19788,6 +19866,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1983032656
@@ -19948,6 +20027,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1987509576
@@ -20503,6 +20583,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &2047481026
@@ -20663,6 +20744,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &2053470868
@@ -20823,6 +20905,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &2056701438
@@ -21018,6 +21101,7 @@ MonoBehaviour:
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
+  deckManager: {fileID: 0}
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &2112266554

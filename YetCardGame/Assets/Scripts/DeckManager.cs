@@ -10,17 +10,27 @@ public enum Player
     Player1,
     Player2
 }
+public enum Role
+{
+    Null,
+    Attack,
+    Defence
+}
 public class DeckManager : MonoBehaviour
 {
-    [SerializeField] Player playerNumber;
+    [ReadOnly]
+    public Player playerNumber;
 
     [SerializeField] RectTransform ParentInHandDeck;
     [SerializeField] RectTransform ParentOnTableDeck;
 
-    [SerializeField] List<Card> InHandDeck;
-    [SerializeField] List<Card> OnTableDeck;
+    [ReadOnly]
+    public List<Card> InHandDeck;
+    [ReadOnly]
+    public List<Card> OnTableDeck;
 
-    [SerializeField] int cardOverLapUnits = 200;
+    [SerializeField] int inHandCardOverLapUnits = 200;
+    [SerializeField] int onTableCardOverLapUnits = 200;
 
     private void Start()
     {
@@ -54,6 +64,7 @@ public class DeckManager : MonoBehaviour
         {
             //card.RotateUpsideDown();
             //card.AssignPlayer(Player.Player2);
+            card.RotateDownsideUp();
         }
 
         RemoveFromInHandDeck(card);
@@ -93,19 +104,19 @@ public class DeckManager : MonoBehaviour
                 int middle = InHandDeck.Count / 2;
                 //InHandDeck[middle].transform.parent = ParentInHandDeck;
 
-                Vector2 middlePos = new Vector2(cardOverLapUnits / 2, 0);
+                Vector2 middlePos = new Vector2(inHandCardOverLapUnits / 2, 0);
                 InHandDeck[middle].SetTargetPosition(middlePos);
 
                 for (int i = middle - 1; i >= 0; i--) //From 0 to middle is the right side of the deck
                 {
                     //InHandDeck[i].transform.parent = ParentInHandDeck;
-                    Vector2 pos = new Vector2((-(middle - i) * cardOverLapUnits) - (-cardOverLapUnits / 2), 0);
+                    Vector2 pos = new Vector2((-(middle - i) * inHandCardOverLapUnits) - (-inHandCardOverLapUnits / 2), 0);
                     InHandDeck[i].SetTargetPosition(pos);
                 }
                 for (int i = InHandDeck.Count - 1; i > middle; i--) //From middle to up is the left side of the deck
                 {
                     //InHandDeck[i].transform.parent = ParentInHandDeck;
-                    Vector2 pos = new Vector2((((i + 1) - middle) * cardOverLapUnits) - (cardOverLapUnits / 2), 0);
+                    Vector2 pos = new Vector2((((i + 1) - middle) * inHandCardOverLapUnits) - (inHandCardOverLapUnits / 2), 0);
                     InHandDeck[i].SetTargetPosition(pos);
                 }
             }
@@ -120,14 +131,14 @@ public class DeckManager : MonoBehaviour
                 for (int i = middle - 1; i >= 0; i--)
                 {
                     //InHandDeck[i].transform.parent = ParentInHandDeck;
-                    Vector2 pos = new Vector2(-(middle - i) * cardOverLapUnits, 0);
+                    Vector2 pos = new Vector2(-(middle - i) * inHandCardOverLapUnits, 0);
                     //   InHandDeck[i].gameObject.GetComponent<RectTransform>().anchoredPosition = pos;
                     InHandDeck[i].SetTargetPosition(pos);
                 }
                 for (int i = InHandDeck.Count - 1; i > middle; i--)
                 {
                     //InHandDeck[i].transform.parent = ParentInHandDeck;
-                    Vector2 pos = new Vector2((i - middle) * cardOverLapUnits, 0);
+                    Vector2 pos = new Vector2((i - middle) * inHandCardOverLapUnits, 0);
                     //   InHandDeck[i].gameObject.GetComponent<RectTransform>().anchoredPosition = pos;
                     InHandDeck[i].SetTargetPosition(pos);
                 }
@@ -154,19 +165,19 @@ public class DeckManager : MonoBehaviour
                 int middle = OnTableDeck.Count / 2;
                 //InHandDeck[middle].transform.parent = ParentInHandDeck;
 
-                Vector2 middlePos = new Vector2(cardOverLapUnits / 2, 0);
+                Vector2 middlePos = new Vector2(onTableCardOverLapUnits / 2, 0);
                 OnTableDeck[middle].SetTargetPosition(middlePos);
 
                 for (int i = middle - 1; i >= 0; i--) //From 0 to middle is the right side of the deck
                 {
                     //InHandDeck[i].transform.parent = ParentInHandDeck;
-                    Vector2 pos = new Vector2((-(middle - i) * cardOverLapUnits) - (-cardOverLapUnits / 2), 0);
+                    Vector2 pos = new Vector2((-(middle - i) * onTableCardOverLapUnits) - (-onTableCardOverLapUnits / 2), 0);
                     OnTableDeck[i].SetTargetPosition(pos);
                 }
                 for (int i = OnTableDeck.Count - 1; i > middle; i--) //From middle to up is the left side of the deck
                 {
                     //InHandDeck[i].transform.parent = ParentInHandDeck;
-                    Vector2 pos = new Vector2((((i + 1) - middle) * cardOverLapUnits) - (cardOverLapUnits / 2), 0);
+                    Vector2 pos = new Vector2((((i + 1) - middle) * onTableCardOverLapUnits) - (onTableCardOverLapUnits / 2), 0);
                     OnTableDeck[i].SetTargetPosition(pos);
                 }
             }
@@ -181,14 +192,14 @@ public class DeckManager : MonoBehaviour
                 for (int i = middle - 1; i >= 0; i--)
                 {
                     //InHandDeck[i].transform.parent = ParentInHandDeck;
-                    Vector2 pos = new Vector2(-(middle - i) * cardOverLapUnits, 0);
+                    Vector2 pos = new Vector2(-(middle - i) * onTableCardOverLapUnits, 0);
                     //   InHandDeck[i].gameObject.GetComponent<RectTransform>().anchoredPosition = pos;
                     OnTableDeck[i].SetTargetPosition(pos);
                 }
                 for (int i = OnTableDeck.Count - 1; i > middle; i--)
                 {
                     //InHandDeck[i].transform.parent = ParentInHandDeck;
-                    Vector2 pos = new Vector2((i - middle) * cardOverLapUnits, 0);
+                    Vector2 pos = new Vector2((i - middle) * onTableCardOverLapUnits, 0);
                     //   InHandDeck[i].gameObject.GetComponent<RectTransform>().anchoredPosition = pos;
                     OnTableDeck[i].SetTargetPosition(pos);
                 }

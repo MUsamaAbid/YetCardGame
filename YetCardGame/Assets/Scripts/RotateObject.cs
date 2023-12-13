@@ -13,6 +13,7 @@ public class RotateObject : MonoBehaviour
 
     bool rotateInHand = false;
     bool rotateUpsideDown = false;
+    bool rotateDownsideUp = false;
 
     [SerializeField] ObjectType objectType;
 
@@ -29,6 +30,13 @@ public class RotateObject : MonoBehaviour
         objectType = type;
 
         rotateUpsideDown = true;
+    }
+    public void RotateDownsideUp(float speed, ObjectType type)
+    {
+        rotationSpeed = speed;
+        objectType = type;
+
+        rotateDownsideUp = true;
     }
     private bool actionPerformed = false;
 
@@ -65,6 +73,26 @@ public class RotateObject : MonoBehaviour
             // Rotate the object
             PerformRotationUpsideDown();
         }
+        if (rotateDownsideUp) //Change it to rorate for upside down
+        {
+            // Calculate the current y-axis rotation in the range [0, 360]
+            float currentRotation = (transform.eulerAngles.x + 360) % 360;
+            if ((currentRotation > 270 || currentRotation < 90) && !actionPerformed)
+            {
+                // Perform your action here
+                Debug.Log("Action performed!");
+                GetComponent<Card>().DeleteBackside();
+                // Set a flag to ensure the action is performed only once
+                actionPerformed = true;
+            }
+            else
+            {
+                // Reset the flag when the rotation is not within the specified range
+                actionPerformed = false;
+            }
+            // Rotate the object
+            PerformRotationDownSideUp();
+        }
     }
 
     void PerformRotationInHand()
@@ -82,7 +110,7 @@ public class RotateObject : MonoBehaviour
     void PerformRotationUpsideDown()
     {
         // Calculate the target rotation using Quaternion.Euler
-        Quaternion targetRotation = Quaternion.Euler(0, 180, 180); // Rotate continuously
+        Quaternion targetRotation = Quaternion.Euler(0, 0, 180); // Rotate continuously
 
         // Gradually rotateInHand towards the target rotation
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
@@ -100,7 +128,7 @@ public class RotateObject : MonoBehaviour
         transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         if (transform.localRotation == targetRotation)
         {
-            rotateUpsideDown = false;
+            rotateDownsideUp = false;
         }
     }
 }
