@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 using static Unity.VisualScripting.Metadata;
+using static UnityEditor.Experimental.GraphView.GraphView;
 
 public enum Player
 {
@@ -32,11 +33,36 @@ public class DeckManager : MonoBehaviour
     [SerializeField] int inHandCardOverLapUnits = 200;
     [SerializeField] int onTableCardOverLapUnits = 200;
 
+    [ReadOnly]
+    public Role role;
+
+    bool myTurn = false;
+
     private void Start()
     {
         ArrangeCardsInHandDeck();
     }
+    public void Play(Player player)
+    {
+        if (player == Player.Player1)
+        {
 
+        }
+        else if(player == Player.Player2)
+        {
+            GetComponent<EnemyAI>().Play();
+        }
+    }
+    public void PlayCard(Card card) //Called from enemy AI
+    {
+        for (int i = 0; i < InHandDeck.Count; i++)
+        {
+            if (InHandDeck[i] == card)
+            {
+                InHandDeck[i].OnCardDown();
+            }
+        }
+    }
     public void AddCardInHandDeck(Card card)
     {
         if (playerNumber == Player.Player1)

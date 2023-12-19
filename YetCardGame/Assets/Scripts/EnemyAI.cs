@@ -24,8 +24,6 @@ public enum AILevel
 
 public class EnemyAI : MonoBehaviour
 {
-    //[SerializeField] GameplayCardManager gamePlayCardManager;
-
     DeckManager Player1;
     DeckManager Player2;
 
@@ -41,18 +39,32 @@ public class EnemyAI : MonoBehaviour
     }
     private void Update()
     {
-        SortAttackCards();
-        SortDefenceCards();
+        //SortAttackCards();
+        //SortDefenceCards();
     }
-    void Play()
+    public void Play()
     {
+        role = Player2.role;
+
         if (role == Role.Attack)
         {
-
+            SortAttackCards();
         }
         else if (role == Role.Defence)
         {
-
+            SortDefenceCards();
+        }
+        PlayCard();
+    }
+    void PlayCard()
+    {
+        if (role == Role.Attack)
+        {
+            Player2.PlayCard(AttackCards[0]);
+        }
+        else if (role == Role.Defence)
+        {
+            Player2.PlayCard(DefenceCards[0]);
         }
     }
     void SortAttackCards()
