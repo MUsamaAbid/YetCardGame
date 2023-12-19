@@ -53,13 +53,13 @@ public class DeckManager : MonoBehaviour
             GetComponent<EnemyAI>().Play();
         }
     }
-    public void PlayCard(Card card) //Called from enemy AI
+    public void  PlayCard(Card card) //Called from enemy AI
     {
         for (int i = 0; i < InHandDeck.Count; i++)
         {
             if (InHandDeck[i] == card)
             {
-                InHandDeck[i].OnCardDown();
+                InHandDeck[i].PlayCard();
             }
         }
     }
@@ -76,7 +76,9 @@ public class DeckManager : MonoBehaviour
             card.AssignPlayer(Player.Player2, this);
         }
 
+        card.deck = Deck.InHandDeck;
         InHandDeck.Add(card);
+
         ArrangeCardsInHandDeck();
     }
     public void AddCardOnTableDeck(Card card)
@@ -94,6 +96,7 @@ public class DeckManager : MonoBehaviour
         }
 
         RemoveFromInHandDeck(card);
+        card.deck = Deck.OnTableDeck;
         OnTableDeck.Add(card);
 
         ArrangeCardsInHandDeck();

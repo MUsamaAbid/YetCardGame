@@ -4,7 +4,12 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 //using UnityEngine.UIElements;
-
+public enum Deck
+{
+    Null,
+    InHandDeck,
+    OnTableDeck
+}
 public class Card : MonoBehaviour
 {
     [SerializeField] CardType cardType;
@@ -24,6 +29,7 @@ public class Card : MonoBehaviour
     [SerializeField] GameObject GeneratedBacksideImage;
 
     public DeckManager deckManager;
+    public Deck deck;
 
     Player player;
 
@@ -50,6 +56,17 @@ public class Card : MonoBehaviour
     }
     public void OnCardDown()
     {
+        if (player == Player.Player1)
+        {
+            if (deck == Deck.InHandDeck)
+            {
+                PlayCard();
+            }
+        }
+    }
+
+    public void PlayCard()
+    {
         if (player == Player.Player2)
         {
             deckManager.AddCardOnTableDeck(this);
@@ -61,6 +78,7 @@ public class Card : MonoBehaviour
             deckManager.AddCardOnTableDeck(this);
         }
     }
+
     public void AssignPlayer(Player p, DeckManager d)
     {
         player = p;
