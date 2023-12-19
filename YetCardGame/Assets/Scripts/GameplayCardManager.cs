@@ -7,6 +7,14 @@ using UnityEngine;
 
 public class GameplayCardManager : MonoBehaviour
 {
+    #region Instance
+    public static GameplayCardManager Instance;
+    private void Awake()
+    {
+        Instance = this;
+    }
+    #endregion
+
     [SerializeField] GameObject MainDeckParent;
 
     [SerializeField] List<Card> MainCardDeck;
@@ -92,5 +100,17 @@ public class GameplayCardManager : MonoBehaviour
     {
         Player1Deck.Add(card);
         Player1.AddCardInHandDeck(card);
+    }
+    public DeckManager ReturnPlayer(Player player)
+    {
+        if(player == Player.Player1)
+        {
+            return Player1;
+        }
+        else
+        {
+            return Player2;
+        }
+
     }
 }
