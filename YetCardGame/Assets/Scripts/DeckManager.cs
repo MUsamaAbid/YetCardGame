@@ -36,7 +36,7 @@ public class DeckManager : MonoBehaviour
     [ReadOnly]
     public Role role;
 
-    bool myTurn = false;
+    bool played = false;
 
     private void Start()
     {
@@ -246,5 +246,13 @@ public class DeckManager : MonoBehaviour
                 }
             }
         }
+    }
+    public bool IfPlayed()
+    {
+        return played;
+    }
+    public void ResetRound()
+    {
+        played = false;
     }
 }

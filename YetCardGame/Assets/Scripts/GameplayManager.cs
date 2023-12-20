@@ -41,6 +41,11 @@ public class GameplayManager : MonoBehaviour
             Player1.role = Role.Defence;
             Player2.role = Role.Attack;
 
+            Debug.Log("RRR Role Assigned");
+
+            Debug.Log("RRR Player1: " + Player1.role);
+            Debug.Log("RRR Player2: " + Player2.role);
+
             currentPlayer = Player.Player2;
 
             Player2.Play(Player.Player2);
@@ -50,44 +55,66 @@ public class GameplayManager : MonoBehaviour
             Player1.role = Role.Attack;
             Player2.role = Role.Defence;
 
+            Debug.Log("RRR Role Assigned");
+
+            Debug.Log("RRR Player1: " + Player1.role);
+            Debug.Log("RRR Player2: " + Player2.role);
+
             currentPlayer = Player.Player1;
 
             Player1.Play(Player.Player1);
 
             GameplayUIManager.Instance.EnableAttackScreen(true);
         }
+        
     }
     public void EndTurn()
     {
-        //Swapping player and roles
-        if (currentPlayer == Player.Player1)
+        //if (Player1.IfPlayed() && Player2.IfPlayed())
+        //{
+        //    CalculateResults();
+        //    NextRound();
+        //}
+        //else
         {
-            if(Player1.role == Role.Attack)
+            //Swapping player and roles
+            if (currentPlayer == Player.Player1)
             {
-                Player2.role = Role.Defence;
-            }
-            else if(Player1.role == Role.Defence)
-            {
-                Player2.role = Role.Attack;
-            }
+                if (Player1.role == Role.Attack)
+                {
+                    Player2.role = Role.Defence;
+                }
+                else if (Player1.role == Role.Defence)
+                {
+                    Player2.role = Role.Attack;
+                }
+                currentPlayer = Player.Player2;
 
-            Player1.role = Role.Null;
-            Player2.Play(Player.Player2);
-        }
-        else if (currentPlayer == Player.Player2)
-        {
-            if (Player2.role == Role.Attack)
-            {
-                Player1.role = Role.Defence;
-            }
-            else if (Player2.role == Role.Defence)
-            {
-                Player1.role = Role.Attack;
-            }
+                //Player1.role = Role.Null;
 
-            Player2.role = Role.Null;
-            Player1.Play(Player.Player1);
+                Player2.Play(Player.Player2);
+            }
+            else if (currentPlayer == Player.Player2)
+            {
+                if (Player2.role == Role.Attack)
+                {
+                    Player1.role = Role.Defence;
+                }
+                else if (Player2.role == Role.Defence)
+                {
+                    Player1.role = Role.Attack;
+                }
+                currentPlayer = Player.Player1;
+
+                //Player2.role = Role.Null;
+
+                Player1.Play(Player.Player1);
+            }
         }
+    }
+    public void CalculateResults()
+    {
+
     }
     public void NextRound()
     {

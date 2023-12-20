@@ -58,6 +58,7 @@ public class EnemyAI : MonoBehaviour
     }
     void PlayCard()
     {
+        Debug.Log("RRR Card played");
         if (role == Role.Attack)
         {
             Player2.PlayCard(AttackCards[0]);
