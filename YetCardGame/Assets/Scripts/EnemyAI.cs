@@ -66,6 +66,7 @@ public class EnemyAI : MonoBehaviour
         {
             Player2.PlayCard(DefenceCards[0]);
         }
+        GameplayManager.Instance.EndTurn();
     }
     void SortAttackCards()
     {

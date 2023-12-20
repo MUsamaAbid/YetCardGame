@@ -419,6 +419,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &48610734
@@ -659,6 +660,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &74793670
@@ -820,6 +822,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &106628121
@@ -1060,6 +1063,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &121559433
@@ -1279,6 +1283,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &131109903
@@ -1870,6 +1875,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &233822610
@@ -2031,6 +2037,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &234649786
@@ -2241,6 +2248,7 @@ RectTransform:
   - {fileID: 555023483}
   - {fileID: 126101719}
   - {fileID: 1771370301}
+  - {fileID: 1476414548}
   m_Father: {fileID: 733583914}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2665,6 +2673,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &349083577
@@ -2826,6 +2835,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &362736195
@@ -2987,6 +2997,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &366446215
@@ -3204,6 +3215,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &385845982
@@ -3410,6 +3422,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &406782479
@@ -3887,6 +3900,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &439969238
@@ -4048,6 +4062,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &508795791
@@ -4209,6 +4224,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &519303077
@@ -4399,6 +4415,185 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &521921730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 521921732}
+  - component: {fileID: 521921731}
+  m_Layer: 0
+  m_Name: Gameplay UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &521921731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521921730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453c056653a394904bf59ab63516da8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttackScreen: {fileID: 1753954578}
+  DefendScreen: {fileID: 532592628}
+--- !u!4 &521921732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521921730}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 905.5762, y: 431.5098, z: -2.7985802}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &532592628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 532592629}
+  - component: {fileID: 532592632}
+  - component: {fileID: 532592631}
+  - component: {fileID: 532592630}
+  m_Layer: 5
+  m_Name: Defend
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &532592629
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532592628}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1784428553}
+  m_Father: {fileID: 1476414548}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 278, y: 86}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &532592630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532592628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 532592631}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 532592628}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &532592631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532592628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &532592632
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532592628}
+  m_CullTransparentMesh: 1
 --- !u!1 &541307511
 GameObject:
   m_ObjectHideFlags: 0
@@ -4660,6 +4855,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &562010569
@@ -4900,6 +5096,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &611319045
@@ -5061,6 +5258,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &631987908
@@ -5222,6 +5420,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &652728637
@@ -5541,6 +5740,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &720266133
@@ -5955,6 +6155,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &753461766
@@ -6353,6 +6554,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &813188070
@@ -6514,6 +6716,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &814654969
@@ -6868,6 +7071,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &873420439
@@ -7108,6 +7312,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &880168689
@@ -7269,6 +7474,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &890488300
@@ -7509,6 +7715,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &895658359
@@ -7670,6 +7877,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &902148373
@@ -7831,6 +8039,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &906800391
@@ -8150,6 +8359,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &917889952
@@ -8390,6 +8600,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &942745383
@@ -8867,6 +9078,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &994553617
@@ -9028,6 +9240,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &996773941
@@ -9189,6 +9402,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &996949115
@@ -9350,6 +9564,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1003006200
@@ -9511,6 +9726,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1010493382
@@ -9909,6 +10125,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1054240943
@@ -10544,6 +10761,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1178642070
@@ -10784,6 +11002,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1208234001
@@ -10945,6 +11164,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1239369718
@@ -11122,6 +11342,138 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1262549867}
   m_CullTransparentMesh: 1
+--- !u!1 &1268222913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1268222914}
+  - component: {fileID: 1268222917}
+  - component: {fileID: 1268222916}
+  - component: {fileID: 1268222915}
+  m_Layer: 5
+  m_Name: End turn button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1268222914
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268222913}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1476414548}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -20, y: -20}
+  m_SizeDelta: {x: 158, y: 40}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1268222915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268222913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1268222916}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 126101720}
+        m_TargetAssemblyTypeName: DeckManager, Assembly-CSharp
+        m_MethodName: EndTurn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1268222916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268222913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 2323267444282277311, guid: 50383f517393145ef915d728fac901bc, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1268222917
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268222913}
+  m_CullTransparentMesh: 1
 --- !u!1 &1274500048
 GameObject:
   m_ObjectHideFlags: 0
@@ -11185,6 +11537,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1274500051
@@ -11346,6 +11699,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1279313611
@@ -11543,6 +11897,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1288776524
@@ -11809,6 +12164,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1304344208
@@ -12184,6 +12540,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1345894427
@@ -12424,6 +12781,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1370334662
@@ -12743,6 +13101,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1393812536
@@ -12904,6 +13263,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1414472561
@@ -13065,6 +13425,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1436003630
@@ -13226,6 +13587,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1451820169
@@ -13387,6 +13749,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1459723618
@@ -13604,6 +13967,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1475660474
@@ -13702,6 +14066,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 2
   objectType: 0
+--- !u!1 &1476414547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1476414548}
+  m_Layer: 5
+  m_Name: UI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1476414548
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1476414547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 532592629}
+  - {fileID: 1753954579}
+  - {fileID: 1268222914}
+  m_Father: {fileID: 277812844}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1501437990
 GameObject:
   m_ObjectHideFlags: 0
@@ -13765,6 +14167,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1501437993
@@ -13926,6 +14329,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1522045109
@@ -14087,6 +14491,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1543777406
@@ -14406,6 +14811,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1561416719
@@ -14567,6 +14973,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1562932450
@@ -14886,6 +15293,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1580382091
@@ -15047,6 +15455,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1588250188
@@ -15208,6 +15617,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1589269422
@@ -15571,6 +15981,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1628066927
@@ -15811,6 +16222,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1630520927
@@ -16051,6 +16463,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1677206256
@@ -16370,6 +16783,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1692882911
@@ -16531,6 +16945,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1695393234
@@ -16692,6 +17107,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1699599953
@@ -16869,6 +17285,139 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709535289}
   m_CullTransparentMesh: 1
+--- !u!1 &1753954578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753954579}
+  - component: {fileID: 1753954582}
+  - component: {fileID: 1753954581}
+  - component: {fileID: 1753954580}
+  m_Layer: 5
+  m_Name: Attack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1753954579
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753954578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2112732505}
+  m_Father: {fileID: 1476414548}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 278, y: 86}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1753954580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753954578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1753954581}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1753954578}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1753954581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753954578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1753954582
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753954578}
+  m_CullTransparentMesh: 1
 --- !u!1 &1771370300
 GameObject:
   m_ObjectHideFlags: 0
@@ -16940,6 +17489,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86ffa8413b164460095b82fc862398e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1784428552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1784428553}
+  - component: {fileID: 1784428555}
+  - component: {fileID: 1784428554}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1784428553
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784428552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 532592629}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1784428554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784428552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 23
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Defend (OK)
+--- !u!222 &1784428555
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784428552}
+  m_CullTransparentMesh: 1
 --- !u!1 &1787715466
 GameObject:
   m_ObjectHideFlags: 0
@@ -17082,6 +17710,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1788621739
@@ -17243,6 +17872,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1793506177
@@ -17404,6 +18034,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1816169456
@@ -17644,6 +18275,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1838089420
@@ -17805,6 +18437,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1841563710
@@ -18180,6 +18813,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1900271063
@@ -18499,6 +19133,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1911369383
@@ -18660,6 +19295,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1919519394
@@ -18821,6 +19457,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1924328251
@@ -19140,6 +19777,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1937808152
@@ -19380,6 +20018,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1954747920
@@ -19767,6 +20406,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1981345973
@@ -19928,6 +20568,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1983032656
@@ -20089,6 +20730,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &1987509576
@@ -20645,6 +21287,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &2047481026
@@ -20806,6 +21449,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &2053470868
@@ -20967,6 +21611,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &2056701438
@@ -21163,6 +21808,7 @@ MonoBehaviour:
   BackSide: {fileID: 8334651344603559088, guid: 686aff8d94b7a4b28a270c27c6d3a000, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
+  deck: 0
   AttackNumber: 0
   DefenceNumber: 0
 --- !u!114 &2112266554
@@ -21261,6 +21907,85 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 2
   objectType: 0
+--- !u!1 &2112732504
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2112732505}
+  - component: {fileID: 2112732507}
+  - component: {fileID: 2112732506}
+  m_Layer: 5
+  m_Name: Text (Legacy)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2112732505
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112732504}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1753954579}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2112732506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112732504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 23
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Attack (OK)
+--- !u!222 &2112732507
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112732504}
+  m_CullTransparentMesh: 1
 --- !u!1 &2127200228
 GameObject:
   m_ObjectHideFlags: 0
@@ -21428,3 +22153,4 @@ SceneRoots:
   - {fileID: 733583914}
   - {fileID: 397498650}
   - {fileID: 1623012211}
+  - {fileID: 521921732}

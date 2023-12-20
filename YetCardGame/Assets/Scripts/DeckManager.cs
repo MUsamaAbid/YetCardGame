@@ -46,9 +46,16 @@ public class DeckManager : MonoBehaviour
     {
         if (player == Player.Player1)
         {
-
+            if (role == Role.Attack)
+            {
+                GameplayUIManager.Instance.EnableAttackScreen(true);
+            }
+            else if (role == Role.Defence)
+            {
+                GameplayUIManager.Instance.EnableDefenceScreen(true);
+            }
         }
-        else if(player == Player.Player2)
+        else if (player == Player.Player2)
         {
             GetComponent<EnemyAI>().Play();
         }
@@ -63,6 +70,11 @@ public class DeckManager : MonoBehaviour
             }
         }
     }
+    public void EndTurn()
+    {
+        GameplayManager.Instance.EndTurn();
+    }
+
     public void AddCardInHandDeck(Card card)
     {
         if (playerNumber == Player.Player1)
