@@ -58,7 +58,6 @@ public class EnemyAI : MonoBehaviour
     }
     void PlayCard()
     {
-        Debug.Log("RRR Card played");
         if (role == Role.Attack)
         {
             Player2.PlayCard(AttackCards[0]);
@@ -67,7 +66,7 @@ public class EnemyAI : MonoBehaviour
         {
             Player2.PlayCard(DefenceCards[0]);
         }
-        GameplayManager.Instance.EndTurn();
+        Player2.EndTurn();
     }
     void SortAttackCards()
     {

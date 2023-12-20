@@ -72,6 +72,8 @@ public class DeckManager : MonoBehaviour
     }
     public void EndTurn()
     {
+        played = true;
+        
         GameplayManager.Instance.EndTurn();
     }
 

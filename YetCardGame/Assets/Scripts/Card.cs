@@ -56,7 +56,7 @@ public class Card : MonoBehaviour
     }
     public void OnCardDown()
     {
-        if (player == Player.Player1)
+        if (player == Player.Player1 && !deckManager.IfPlayed())
         {
             if (deck == Deck.InHandDeck)
             {
