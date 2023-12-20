@@ -106,7 +106,28 @@ public class GameplayManager : MonoBehaviour
     }
     public void CalculateResults()
     {
-
+        if(Player1.role == Role.Attack)
+        {
+            if(Player1.CalculateAttackAmount() > Player2.CalculateDefenceAmount())
+            {
+                Debug.Log("Player1 won");
+            }
+            else
+            {
+                Debug.Log("Player 2 won");
+            }
+        }
+        else
+        {
+            if(Player1.CalculateDefenceAmount() > Player2.CalculateAttackAmount())
+            {
+                Debug.Log("player 1 won");
+            }
+            else
+            {
+                Debug.Log("Player 2 won");
+            }
+        }
     }
     public void NextRound()
     {

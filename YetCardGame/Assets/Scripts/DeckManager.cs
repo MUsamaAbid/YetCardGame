@@ -73,10 +73,34 @@ public class DeckManager : MonoBehaviour
     public void EndTurn()
     {
         played = true;
-        
+        //if(role == Role.Attack)
+        //{
+        //    CalculateAttackAmount();
+        //}
+        //else if(role == Role.Defence)
+        //{
+        //    CalculateDefenceAmount();
+        //}
         GameplayManager.Instance.EndTurn();
     }
-
+    public int CalculateAttackAmount()
+    {
+        int totalAttack = 0;
+        for (int i = 0; i < OnTableDeck.Count; i++)
+        {
+            totalAttack += OnTableDeck[i].AttackNumber;
+        }
+        return totalAttack;
+    }
+    public int CalculateDefenceAmount()
+    {
+        int totalDefence = 0;
+        for (int i = 0; i < OnTableDeck.Count; i++)
+        {
+            totalDefence += OnTableDeck[i].DefenceNumber;
+        }
+        return totalDefence;
+    }
     public void AddCardInHandDeck(Card card)
     {
         if (playerNumber == Player.Player1)
