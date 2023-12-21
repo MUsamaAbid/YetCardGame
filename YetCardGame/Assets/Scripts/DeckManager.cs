@@ -46,6 +46,7 @@ public class DeckManager : MonoBehaviour
     {
         if (player == Player.Player1)
         {
+
             if (role == Role.Attack)
             {
                 GameplayUIManager.Instance.EnableAttackScreen(true);
@@ -57,6 +58,8 @@ public class DeckManager : MonoBehaviour
         }
         else if (player == Player.Player2)
         {
+            GameplayUIManager.Instance.EnableEndTurnButton(false);
+
             GetComponent<EnemyAI>().Play();
         }
     }

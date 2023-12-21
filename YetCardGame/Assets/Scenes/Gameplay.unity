@@ -3849,6 +3849,7 @@ GameObject:
   - component: {fileID: 436500703}
   - component: {fileID: 436500702}
   - component: {fileID: 436500701}
+  - component: {fileID: 436500704}
   m_Layer: 5
   m_Name: Win Screen (Player 2)
   m_TagString: Untagged
@@ -3970,6 +3971,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436500699}
   m_CullTransparentMesh: 1
+--- !u!114 &436500704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436500699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de0b9f67c3ae47a1971b6d6d4b8cafe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g: {fileID: 0}
+  DisableAfter: 2
 --- !u!1 &439106989
 GameObject:
   m_ObjectHideFlags: 0
@@ -4663,6 +4678,7 @@ MonoBehaviour:
   SummaryScreen: {fileID: 1758064076}
   Player1Wins: {fileID: 1466460229}
   Player2Wins: {fileID: 232467000}
+  EndTurnButton: {fileID: 1268222915}
 --- !u!4 &521921732
 Transform:
   m_ObjectHideFlags: 0
@@ -4690,6 +4706,7 @@ GameObject:
   - component: {fileID: 532592632}
   - component: {fileID: 532592631}
   - component: {fileID: 532592630}
+  - component: {fileID: 532592633}
   m_Layer: 5
   m_Name: Defend
   m_TagString: Untagged
@@ -4811,6 +4828,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532592628}
   m_CullTransparentMesh: 1
+--- !u!114 &532592633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532592628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de0b9f67c3ae47a1971b6d6d4b8cafe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g: {fileID: 0}
+  DisableAfter: 2
 --- !u!1 &541307511
 GameObject:
   m_ObjectHideFlags: 0
@@ -7158,6 +7189,7 @@ GameObject:
   - component: {fileID: 859303258}
   - component: {fileID: 859303257}
   - component: {fileID: 859303256}
+  - component: {fileID: 859303259}
   m_Layer: 5
   m_Name: Win Screen (Player 1)
   m_TagString: Untagged
@@ -7279,6 +7311,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859303254}
   m_CullTransparentMesh: 1
+--- !u!114 &859303259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859303254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de0b9f67c3ae47a1971b6d6d4b8cafe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g: {fileID: 0}
+  DisableAfter: 2
 --- !u!1 &859308808
 GameObject:
   m_ObjectHideFlags: 0
@@ -11850,7 +11896,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1268222916}
   m_OnClick:
     m_PersistentCalls:
@@ -17887,6 +17933,7 @@ GameObject:
   - component: {fileID: 1753954582}
   - component: {fileID: 1753954581}
   - component: {fileID: 1753954580}
+  - component: {fileID: 1753954583}
   m_Layer: 5
   m_Name: Attack
   m_TagString: Untagged
@@ -18008,6 +18055,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753954578}
   m_CullTransparentMesh: 1
+--- !u!114 &1753954583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753954578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9de0b9f67c3ae47a1971b6d6d4b8cafe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  g: {fileID: 0}
+  DisableAfter: 2
 --- !u!1 &1758064076
 GameObject:
   m_ObjectHideFlags: 0

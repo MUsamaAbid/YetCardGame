@@ -67,7 +67,7 @@ public class Card : MonoBehaviour
 
     public void PlayCard()
     {
-        if (player == Player.Player2)
+        if (player == Player.Player2)//Wont come here because restriction is on OnCardDown()
         {
             deckManager.AddCardOnTableDeck(this);
 
@@ -75,7 +75,17 @@ public class Card : MonoBehaviour
         }
         else if (player == Player.Player1)
         {
+
             deckManager.AddCardOnTableDeck(this);
+
+            if(deckManager.role == Role.Attack)
+            {
+                deckManager.EndTurn();
+            }
+            else
+            {
+                GameplayUIManager.Instance.EnableEndTurnButton(true);
+            }
         }
     }
 

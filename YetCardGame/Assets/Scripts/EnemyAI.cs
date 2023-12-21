@@ -54,10 +54,11 @@ public class EnemyAI : MonoBehaviour
         {
             SortDefenceCards();
         }
-        PlayCard();
+        StartCoroutine(PlayCard());
     }
-    void PlayCard()
+    IEnumerator PlayCard()
     {
+        yield return new WaitForSeconds(1f);
         if (role == Role.Attack)
         {
             Player2.PlayCard(AttackCards[0]);
@@ -80,10 +81,10 @@ public class EnemyAI : MonoBehaviour
         AttackCards.Sort((card1, card2) => card1.AttackNumber.CompareTo(card2.AttackNumber));
 
         // Print the sorted list
-        for (int i = 0; i < AttackCards.Count; i++)
-        {
-            Debug.Log(AttackCards[i].name + ":" + AttackCards[i].AttackNumber);
-        }
+        //for (int i = 0; i < AttackCards.Count; i++)
+        //{
+        //    Debug.Log(AttackCards[i].name + ":" + AttackCards[i].AttackNumber);
+        //}
     }
     void SortDefenceCards()
     {
@@ -93,10 +94,10 @@ public class EnemyAI : MonoBehaviour
         DefenceCards.Sort((card1, card2) => card1.DefenceNumber.CompareTo(card2.DefenceNumber));
 
         // Print the sorted list
-        for (int i = 0; i < DefenceCards.Count; i++)
-        {
-            Debug.Log(DefenceCards[i].name + ":" + DefenceCards[i].DefenceNumber);
-        }
+        //for (int i = 0; i < DefenceCards.Count; i++)
+        //{
+        //    Debug.Log(DefenceCards[i].name + ":" + DefenceCards[i].DefenceNumber);
+        //}
     }
     int ReturnPlayerAttack()
     {

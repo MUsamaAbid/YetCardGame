@@ -23,6 +23,8 @@ public class GameplayUIManager : MonoBehaviour
     [SerializeField] Text Player1Wins;
     [SerializeField] Text Player2Wins;
 
+    [SerializeField] Button EndTurnButton;
+
     public void EnableAttackScreen(bool b)
     {
         AttackScreen.SetActive(b);
@@ -37,7 +39,7 @@ public class GameplayUIManager : MonoBehaviour
     }
     public void EnablePlayer2WinScreen(bool b)
     {
-        Player1WinScreen.SetActive(b);
+        Player2WinScreen.SetActive(b);
     }
     public void ShowSummaryScreen()
     {
@@ -45,5 +47,9 @@ public class GameplayUIManager : MonoBehaviour
         Player2Wins.text = "Player 2 wins: " + PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerTwoWins, 0).ToString();
 
         SummaryScreen.SetActive(true);
+    }
+    public void EnableEndTurnButton(bool b)
+    {
+        EndTurnButton.interactable = b;
     }
 }

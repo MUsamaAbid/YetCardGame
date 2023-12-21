@@ -28,13 +28,12 @@ public class GameplayManager : MonoBehaviour
     {
         Player1 = GameplayCardManager.Instance.ReturnPlayer(Player.Player1);
         Player2 = GameplayCardManager.Instance.ReturnPlayer(Player.Player2);
+        currentRound = Round.One;
 
         Invoke("Toss", 5f);
     }
     public void Toss()
     {
-        currentRound = Round.One;
-
         int ran = Random.Range(0, 100);
         if(ran > 50)
         {
@@ -60,25 +59,41 @@ public class GameplayManager : MonoBehaviour
     }
     public void EndTurn()
     {
-        Debug.Log("Round: " + currentRound);
-        Debug.Log("Player1 Played: " + Player1.IfPlayed());
-        Debug.Log("Player2 Played: " + Player2.IfPlayed());
+        //Debug.Log("Round: " + currentRound);
+        //Debug.Log("Player1 Played: " + Player1.IfPlayed());
+        //Debug.Log("Player2 Played: " + Player2.IfPlayed());
 
         if (Player1.IfPlayed() && Player2.IfPlayed())
         {
+            GameplayUIManager.Instance.EnableEndTurnButton(false);
+
             CalculateResults();
+            Debug.Log("Rounds:" + currentRound);
             if (currentRound == Round.One || currentRound == Round.Two)
             {
                 //Add to round
                 if (currentRound == Round.One)
                 {
                     currentRound = Round.Two;
+                    StartCoroutine(StartNextRound());
                 }
                 else if (currentRound == Round.Two)
                 {
-                    currentRound = Round.Three;
+                    if(PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerOneWins, 0) == 2
+                        || PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerTwoWins, 0) == 2)
+                    {
+                        GameplayUIManager.Instance.ShowSummaryScreen();
+                    }
+                    else
+                    {
+                        currentRound = Round.Three;
+
+                        Player1.ResetRound();
+                        Player2.ResetRound();
+
+                        Invoke("Toss", 5f);
+                    }
                 }
-                StartCoroutine(StartNextRound());
             }
             else if(currentRound == Round.Three)
             {
@@ -93,6 +108,8 @@ public class GameplayManager : MonoBehaviour
             //Swapping player and roles
             if (currentPlayer == Player.Player1)
             {
+                GameplayUIManager.Instance.EnableEndTurnButton(false);
+
                 if (Player1.role == Role.Attack)
                 {
                     Player2.role = Role.Defence;
@@ -171,14 +188,17 @@ public class GameplayManager : MonoBehaviour
     }
     IEnumerator StartNextRound()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(1f);
+
+        Player1.ResetRound();
+        Player2.ResetRound();
+
+        yield return new WaitForSeconds(3f);
+
         NextRound();
     }
     public void NextRound()
     {
-        Player1.ResetRound();
-        Player2.ResetRound();
-
         //Swapping player and roles
         if (currentPlayer == Player.Player1) //Second player is the defence one
         {
