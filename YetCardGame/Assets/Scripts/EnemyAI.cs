@@ -66,6 +66,10 @@ public class EnemyAI : MonoBehaviour
         {
             Player2.PlayCard(DefenceCards[0]);
         }
+        Invoke("EndTurn", 2f);
+    }
+    void EndTurn()
+    {
         Player2.EndTurn();
     }
     void SortAttackCards()

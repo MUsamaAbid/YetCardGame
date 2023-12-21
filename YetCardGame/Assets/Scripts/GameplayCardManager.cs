@@ -76,7 +76,11 @@ public class GameplayCardManager : MonoBehaviour
         }
 
     }
-    void DistributeCards(Player player, int cardAmount)
+    public void DistributeMoreCards(Player player, int cardAmount)
+    {
+        StartCoroutine(DistributeCards(player, cardAmount));
+    }
+    IEnumerator DistributeCards(Player player, int cardAmount)
     {
         //Shuffle cards by swapping there places.
         //Pick a random number and distribute from there
@@ -93,8 +97,8 @@ public class GameplayCardManager : MonoBehaviour
                 Player2.AddCardInHandDeck(MainCardDeck[i]);
                 MainCardDeck.RemoveAt(i);
             }
+            yield return new WaitForSeconds(0.5f);
         }
-
     }
     public void AddToPlayer1Deck(Card card)
     {

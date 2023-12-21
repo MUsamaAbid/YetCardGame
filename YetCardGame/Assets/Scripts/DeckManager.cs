@@ -280,5 +280,12 @@ public class DeckManager : MonoBehaviour
     public void ResetRound()
     {
         played = false;
+
+        for (int i = 0; i < OnTableDeck.Count; i++)
+        {
+            Destroy(OnTableDeck[i].gameObject);
+        }
+
+        OnTableDeck.Clear();
     }
 }
