@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_subterranean_realm_filled_with_raging_undergr_0: 4209634942188697897
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

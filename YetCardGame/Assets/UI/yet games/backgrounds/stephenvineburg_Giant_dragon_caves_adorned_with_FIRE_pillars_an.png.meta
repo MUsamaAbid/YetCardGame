@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_Giant_dragon_caves_adorned_with_FIRE_pillars_an_0: -5119163840501827032
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

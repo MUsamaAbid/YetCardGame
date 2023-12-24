@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_High_jagged_cliffs_shrouded_in_an_eternal_twili_0: -7288538416477138152
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

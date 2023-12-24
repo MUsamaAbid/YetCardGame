@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_series_of_interconnected_earth_caverns_adorne_0: -3193757286668034189
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

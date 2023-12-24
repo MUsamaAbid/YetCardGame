@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AEALOT FIRE_0: 99280152969770612
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 public enum Round
 {
     Null,
@@ -221,5 +223,9 @@ public class GameplayManager : MonoBehaviour
 
             Player2.Play(Player.Player2);
         }
+    }
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(1);
     }
 }

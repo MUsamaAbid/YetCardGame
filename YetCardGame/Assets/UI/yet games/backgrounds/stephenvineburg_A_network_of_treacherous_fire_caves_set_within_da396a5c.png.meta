@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      stephenvineburg_A_network_of_treacherous_fire_caves_set_within_da396a5c_0: 6103463841245707919
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

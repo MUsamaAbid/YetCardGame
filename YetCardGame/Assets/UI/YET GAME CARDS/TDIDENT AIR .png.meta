@@ -156,7 +156,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TDIDENT AIR _0: -8163554023041059481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
