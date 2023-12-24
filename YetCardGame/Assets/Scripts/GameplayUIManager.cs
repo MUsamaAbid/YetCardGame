@@ -23,6 +23,9 @@ public class GameplayUIManager : MonoBehaviour
     [SerializeField] Text Player1Wins;
     [SerializeField] Text Player2Wins;
 
+    [SerializeField] Text Player1WinsText;
+    [SerializeField] Text Player2WinsText;
+
     [SerializeField] Button EndTurnButton;
 
     public void EnableAttackScreen(bool b)
@@ -40,6 +43,11 @@ public class GameplayUIManager : MonoBehaviour
     public void EnablePlayer2WinScreen(bool b)
     {
         Player2WinScreen.SetActive(b);
+    }
+    public void UpdateWinningScore()
+    {
+        Player1WinsText.text = PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerOneWins, 0).ToString();
+        Player2WinsText.text = PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerTwoWins, 0).ToString();
     }
     public void ShowSummaryScreen()
     {

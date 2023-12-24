@@ -185,6 +185,7 @@ public class GameplayManager : MonoBehaviour
                 PlayerPrefs.SetInt(str, PlayerPrefs.GetInt(str, 0) + 1);
             }
         }
+        GameplayUIManager.Instance.UpdateWinningScore();
     }
     IEnumerator StartNextRound()
     {
