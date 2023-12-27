@@ -1,0 +1,21 @@
+# ninja log v5
+1	1019	1703446860064756354	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1e3d9e8197887162
+1019	1103	1703446860130592320	/Users/usama/Documents/UnityProjects/YetCardGame/YetCardGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/611e3b71/obj/arm64-v8a/libgame.so	7b3ca13e67491fd7
+1	866	1703446859912951634	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9a3180e8b11016c4
+3	855	1703446859901148046	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	ee503fb0bacdd62f
+2	979	1703446860024901197	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ca981d76e8025e6d
+1	785	1703446859830360478	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	5711f726f114cc5
+2	762	1703446859806720677	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	6797638338c0730
+480	812	1703446859841149895	/Users/usama/Documents/UnityProjects/YetCardGame/YetCardGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/611e3b71/obj/arm64-v8a/libswappywrapper.so	da2bdb45180f63e4
+2	786	1703446859832133569	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	69db30532ef306c
+3	480	1703446859525046199	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	96e2a706441547b5
+3	392	1703447343381808063	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	96e2a706441547b5
+2	666	1703447343656777890	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	6797638338c0730
+1	690	1703447343678514103	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	5711f726f114cc5
+2	691	1703447343681253291	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	69db30532ef306c
+392	691	1703447343662391559	/Users/usama/Documents/UnityProjects/YetCardGame/YetCardGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/611e3b71/obj/arm64-v8a/libswappywrapper.so	da2bdb45180f63e4
+2	746	1703447343736830936	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	ee503fb0bacdd62f
+1	758	1703447343750152457	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	9a3180e8b11016c4
+1	864	1703447343854548402	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	ca981d76e8025e6d
+0	900	1703447343891530609	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	1e3d9e8197887162
+900	975	1703447343950651865	/Users/usama/Documents/UnityProjects/YetCardGame/YetCardGame/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/611e3b71/obj/arm64-v8a/libgame.so	7b3ca13e67491fd7

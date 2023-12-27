@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
-using static Unity.VisualScripting.Metadata;
-using static UnityEditor.Experimental.GraphView.GraphView;
+using Unity.VisualScripting;
+//using static Unity.VisualScripting.Metadata;
+//using static UnityEditor.Experimental.GraphView.GraphView;
 
 public enum Player
 {
@@ -19,21 +20,21 @@ public enum Role
 }
 public class DeckManager : MonoBehaviour
 {
-    [ReadOnly]
+    //[ReadOnly]
     public Player playerNumber;
 
     [SerializeField] RectTransform ParentInHandDeck;
     [SerializeField] RectTransform ParentOnTableDeck;
 
-    [ReadOnly]
+    //[ReadOnly]
     public List<Card> InHandDeck;
-    [ReadOnly]
+    //[ReadOnly]
     public List<Card> OnTableDeck;
 
     [SerializeField] int inHandCardOverLapUnits = 200;
     [SerializeField] int onTableCardOverLapUnits = 200;
 
-    [ReadOnly]
+    //[ReadOnly]
     public Role role;
 
     bool played = false;

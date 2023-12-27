@@ -34,9 +34,9 @@ public class Card : MonoBehaviour
     Player player;
 
     [Header("Card Properties")]
-    [ReadOnly]
+//    [ReadOnly]
     public int AttackNumber;
-    [ReadOnly]
+  //  [ReadOnly]
     public int DefenceNumber;
 
     Vector2 Targetpos;
