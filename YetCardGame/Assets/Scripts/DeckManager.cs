@@ -191,6 +191,7 @@ public class DeckManager : MonoBehaviour
             }
         }
     }
+    
     void ArrangeCardsInHandDeck()
     {
         foreach(var c in InHandDeck)
@@ -310,6 +311,35 @@ public class DeckManager : MonoBehaviour
                     //   InHandDeck[i].gameObject.GetComponent<RectTransform>().anchoredPosition = pos;
                     OnTableDeck[i].SetTargetPosition(pos);
                 }
+            }
+        }
+    }
+    public void ZoomCard(Card card)
+    {
+        ArrangeCardsInHandDeck();
+
+        StartCoroutine(Zoom(card));
+    }
+    IEnumerator Zoom(Card card)
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        for (int i = 0; i < InHandDeck.Count; i++)
+        {
+            if (InHandDeck[i] == card)
+            {
+                for (int j = 0; j < i; j++)
+                {
+                    InHandDeck[j].SetTargetPosition(new Vector2(InHandDeck[j].transform.localPosition.x + 125, 0));
+                    InHandDeck[j].Zoom(false);
+                }
+                for (int k = i + 1; k < InHandDeck.Count; k++)
+                {
+                    InHandDeck[k].SetTargetPosition(new Vector2(InHandDeck[k].transform.localPosition.x - 125, 0));
+                    InHandDeck[k].Zoom(false);
+                }
+
+                break;
             }
         }
     }

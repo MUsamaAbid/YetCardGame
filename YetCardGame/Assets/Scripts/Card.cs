@@ -43,6 +43,7 @@ public class Card : MonoBehaviour
     bool MoveToTargetPos = false;
     int speed = 1000;
 
+    bool zoomed = false;
     private void Start()
     {
         AssignProperties();
@@ -58,9 +59,17 @@ public class Card : MonoBehaviour
     {
         if (player == Player.Player1 && !deckManager.IfPlayed() && deckManager.MyTurn())
         {
-            if (deck == Deck.InHandDeck)
+            if (deck == Deck.InHandDeck && zoomed)
             {
+                Zoom(false);
+
                 PlayCard();
+            }
+            else
+            {
+                deckManager.ZoomCard(this);
+
+                Zoom(true);
             }
         }
     }
@@ -203,6 +212,10 @@ public class Card : MonoBehaviour
             // Update the anchored position of the RectTransform
             GetComponent<RectTransform>().anchoredPosition = newAnchoredPosition;
         }
+    }
+    public void Zoom(bool b)
+    {
+        zoomed = b;
     }
     #region Return information
     public CardName GetCardName()
