@@ -37,6 +37,7 @@ public class DeckManager : MonoBehaviour
     //[ReadOnly]
     public Role role;
 
+    bool myTurn = false;
     bool played = false;
 
     private void Start()
@@ -47,7 +48,7 @@ public class DeckManager : MonoBehaviour
     {
         if (player == Player.Player1)
         {
-
+            MyTurn(true);
             if (role == Role.Attack)
             {
                 GameplayUIManager.Instance.EnableAttackScreen(true);
@@ -59,6 +60,8 @@ public class DeckManager : MonoBehaviour
         }
         else if (player == Player.Player2)
         {
+            MyTurn(true);
+
             GameplayUIManager.Instance.EnableEndTurnButton(false);
 
             GetComponent<EnemyAI>().Play();
@@ -101,6 +104,7 @@ public class DeckManager : MonoBehaviour
     public void EndTurn()
     {
         played = true;
+        MyTurn(false);
         //if(role == Role.Attack)
         //{
         //    CalculateAttackAmount();
@@ -110,6 +114,14 @@ public class DeckManager : MonoBehaviour
         //    CalculateDefenceAmount();
         //}
         GameplayManager.Instance.EndTurn();
+    }
+    public bool MyTurn()
+    {
+        return myTurn;
+    }
+    public void MyTurn(bool b)
+    {
+        myTurn = b;
     }
     public int CalculateAttackAmount()
     {
