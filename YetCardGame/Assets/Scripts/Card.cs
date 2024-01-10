@@ -75,15 +75,36 @@ public class Card : MonoBehaviour
         }
         else if (player == Player.Player1)
         {
+            //Old way
+            //deckManager.AddCardOnTableDeck(this);
 
-            deckManager.AddCardOnTableDeck(this);
+            //if (deckManager.role == Role.Attack)
+            //{
+            //    deckManager.EndTurn();
+            //}
+            //else
+            //{
+            //    GameplayUIManager.Instance.EnableEndTurnButton(true);
+            //}
 
-            if(deckManager.role == Role.Attack)
+            //New way
+            if (deckManager.role == Role.Attack)
             {
-                deckManager.EndTurn();
+                if (deckManager.IfCardPlayable(this))
+                {
+                    deckManager.AddCardOnTableDeck(this);
+
+                    GameplayUIManager.Instance.EnableEndTurnButton(true);
+                }
+                else
+                {
+                    //Generate some wrong error or whatever message with some instrucitons
+                }
             }
             else
             {
+                deckManager.AddCardOnTableDeck(this);
+
                 GameplayUIManager.Instance.EnableEndTurnButton(true);
             }
         }
@@ -183,4 +204,14 @@ public class Card : MonoBehaviour
             GetComponent<RectTransform>().anchoredPosition = newAnchoredPosition;
         }
     }
+    #region Return information
+    public CardName GetCardName()
+    {
+        return cardName;
+    }
+    public CardElement GetCardElement()
+    {
+        return cardElement;
+    }
+    #endregion
 }

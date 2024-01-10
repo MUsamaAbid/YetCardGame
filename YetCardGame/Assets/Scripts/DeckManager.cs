@@ -74,6 +74,30 @@ public class DeckManager : MonoBehaviour
             }
         }
     }
+    public bool IfCardPlayable(Card card)
+    {
+        #region Checking for attack card restrictions
+        if (OnTableDeck.Count == 0)
+        {
+            return true;
+        }
+        else
+        {
+            for (int i = 0; i < OnTableDeck.Count; i++)
+            {
+                if (card.GetCardName() == OnTableDeck[i].GetCardName())
+                {
+                    return true;
+                }
+                if (card.GetCardElement() == OnTableDeck[i].GetCardElement())
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+        #endregion
+    }
     public void EndTurn()
     {
         played = true;
