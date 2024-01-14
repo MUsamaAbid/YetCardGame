@@ -328,6 +328,8 @@ public class DeckManager : MonoBehaviour
         {
             if (InHandDeck[i] == card)
             {
+                InHandDeck[i].SetTargetPosition(new Vector2(InHandDeck[i].transform.localPosition.x, 60));
+
                 for (int j = 0; j < i; j++)
                 {
                     InHandDeck[j].SetTargetPosition(new Vector2(InHandDeck[j].transform.localPosition.x + 125, 0));

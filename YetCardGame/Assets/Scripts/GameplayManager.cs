@@ -84,6 +84,15 @@ public class GameplayManager : MonoBehaviour
                     if(PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerOneWins, 0) == 2
                         || PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerTwoWins, 0) == 2)
                     {
+                        if(PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerOneWins, 0) == 2)
+                        {
+                            GameplayUIManager.Instance.EnableWinScreen();
+                        }
+                        else
+                        {
+                            GameplayUIManager.Instance.EnableLoseScreen();
+                        }
+
                         GameplayUIManager.Instance.ShowSummaryScreen();
                     }
                     else
@@ -100,6 +109,16 @@ public class GameplayManager : MonoBehaviour
             else if(currentRound == Round.Three)
             {
                 Debug.Log("Game finished");
+
+                if (PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerOneWins, 0) == 2)
+                {
+                    GameplayUIManager.Instance.EnableWinScreen();
+                }
+                else
+                {
+                    GameplayUIManager.Instance.EnableLoseScreen();
+                }
+
                 GameplayUIManager.Instance.ShowSummaryScreen();
             }
         }
@@ -227,5 +246,25 @@ public class GameplayManager : MonoBehaviour
     public void RestartScene()
     {
         SceneManager.LoadScene(1);
+    }
+    public void LoadScene(int sceneNumber)
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(sceneNumber);
+    }
+    public void Pause()
+    {
+        Time.timeScale = 0;
+        GameplayUIManager.Instance.EnablePauseScreen(true);
+    }
+    public void Resume()
+    {
+        Time.timeScale = 1;
+        GameplayUIManager.Instance.EnablePauseScreen(false);
+    }
+    public void ExitApplication()
+    {
+        Time.timeScale = 1;
+        Application.Quit();
     }
 }
