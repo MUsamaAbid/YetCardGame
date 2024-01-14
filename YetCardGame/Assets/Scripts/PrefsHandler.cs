@@ -15,6 +15,8 @@ public class PrefsHandler : MonoBehaviour
     public string PlayerOneWins = "PlayerOneWins";
     public string PlayerTwoWins = "PlayerTwoWins";
 
+    public string currentLevel = "CurrentLevel";
+
     private void Start()
     {
         ResetPrefs();

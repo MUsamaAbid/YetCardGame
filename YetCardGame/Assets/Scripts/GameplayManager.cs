@@ -86,6 +86,7 @@ public class GameplayManager : MonoBehaviour
                     {
                         if(PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerOneWins, 0) == 2)
                         {
+                            PlayerPrefs.SetInt(PrefsHandler.Instance.currentLevel, SceneManager.GetActiveScene().buildIndex);
                             GameplayUIManager.Instance.EnableWinScreen();
                         }
                         else
@@ -112,6 +113,7 @@ public class GameplayManager : MonoBehaviour
 
                 if (PlayerPrefs.GetInt(PrefsHandler.Instance.PlayerOneWins, 0) == 2)
                 {
+                    PlayerPrefs.SetInt(PrefsHandler.Instance.currentLevel, SceneManager.GetActiveScene().buildIndex);
                     GameplayUIManager.Instance.EnableWinScreen();
                 }
                 else

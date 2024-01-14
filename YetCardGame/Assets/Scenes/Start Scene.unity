@@ -246,7 +246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5668518402485374812, guid: acf1848c230424642a985d433ae747d7, type: 3}
+  m_Sprite: {fileID: 7861971022690904932, guid: 6f1b69792d72f4cb3909e0c79dcf8ed2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1658221345906301628, guid: c2f46d790376c46569281f7e3a1cac6f, type: 3}
+  m_Sprite: {fileID: -3396323099419536359, guid: 1ba0a6aee35334490af3385fd590b49c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1708,6 +1708,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1120721052}
   - component: {fileID: 1120721051}
+  - component: {fileID: 1120721053}
   m_Layer: 0
   m_Name: Start scene manager
   m_TagString: Untagged
@@ -1742,6 +1743,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1120721053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120721050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0168679b1db4f9fa801f1cf94fb2ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerOneWins: PlayerOneWins
+  PlayerTwoWins: PlayerTwoWins
+  currentLevel: CurrentLevel
 --- !u!1 &1137228809
 GameObject:
   m_ObjectHideFlags: 0
@@ -3779,7 +3795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7327275779648755798, guid: 5bd51a83e5c0743609dc21c6df1de6c1, type: 3}
+  m_Sprite: {fileID: -5668518402485374812, guid: a09144565c6404503a44cc573fa038e0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
