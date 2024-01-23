@@ -171,7 +171,7 @@ public class GameplayManager : MonoBehaviour
         {
             if(Player1.CalculateAttackAmount() > Player2.CalculateDefenceAmount())
             {
-                GameplayCardManager.Instance.DistributeMoreCards(Player.Player1, 2);
+                GameplayCardManager.Instance.DistributeMoreCards(Player.Player1, 2, CardType.Army);
                 GameplayUIManager.Instance.EnablePlayer1WinScreen(true);
 
                 string str = PrefsHandler.Instance.PlayerOneWins;
@@ -180,7 +180,7 @@ public class GameplayManager : MonoBehaviour
             }
             else
             {
-                GameplayCardManager.Instance.DistributeMoreCards(Player.Player2, 2);
+                GameplayCardManager.Instance.DistributeMoreCards(Player.Player2, 2, CardType.Army);
                 GameplayUIManager.Instance.EnablePlayer2WinScreen(true);
 
                 string str = PrefsHandler.Instance.PlayerTwoWins;
@@ -191,7 +191,7 @@ public class GameplayManager : MonoBehaviour
         {
             if(Player1.CalculateDefenceAmount() > Player2.CalculateAttackAmount())
             {
-                GameplayCardManager.Instance.DistributeMoreCards(Player.Player1, 2);
+                GameplayCardManager.Instance.DistributeMoreCards(Player.Player1, 2, CardType.Army);
                 GameplayUIManager.Instance.EnablePlayer1WinScreen(true);
 
                 string str = PrefsHandler.Instance.PlayerOneWins;
@@ -201,7 +201,7 @@ public class GameplayManager : MonoBehaviour
             }
             else
             {
-                GameplayCardManager.Instance.DistributeMoreCards(Player.Player2, 2);
+                GameplayCardManager.Instance.DistributeMoreCards(Player.Player2, 2, CardType.Army);
                 GameplayUIManager.Instance.EnablePlayer2WinScreen(true);
 
                 string str = PrefsHandler.Instance.PlayerTwoWins;
