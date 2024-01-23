@@ -39,6 +39,8 @@ public class Card : MonoBehaviour
   //  [ReadOnly]
     public int DefenceNumber;
 
+    public bool cardCounts;
+
     Vector2 Targetpos;
     bool MoveToTargetPos = false;
     int speed = 1000;
@@ -216,6 +218,14 @@ public class Card : MonoBehaviour
     public void Zoom(bool b)
     {
         zoomed = b;
+    }
+    public void CardCounts(bool b)
+    {
+        cardCounts = b;
+    }
+    public bool CardCounts()
+    {
+        return cardCounts;
     }
     #region Return information
     public CardName GetCardName()

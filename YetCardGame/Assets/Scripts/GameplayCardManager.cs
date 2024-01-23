@@ -18,6 +18,7 @@ public class GameplayCardManager : MonoBehaviour
     [SerializeField] GameObject MainDeckParent;
 
     [SerializeField] List<Card> MainCardDeck;
+    [SerializeField] List<Card> FateCardDeck;
     [SerializeField] List<Card> Player1Deck;
     [SerializeField] List<Card> Player2Deck;
 

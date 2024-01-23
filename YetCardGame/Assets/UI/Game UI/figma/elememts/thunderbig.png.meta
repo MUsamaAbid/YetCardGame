@@ -152,7 +152,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      thunderbig_0: 129367961446944177
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
