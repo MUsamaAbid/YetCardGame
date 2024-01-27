@@ -185,4 +185,21 @@ public class GameplayCardManager : MonoBehaviour
         }
 
     }
+    //Shuffle deck
+    List<T> ShuffleList<T>(List<T> list)
+    {
+        List<T> shuffledList = new List<T>(list);
+        int n = shuffledList.Count;
+        System.Random random = new System.Random();
+
+        for (int i = n - 1; i > 0; i--)
+        {
+            int j = random.Next(0, i + 1);
+            T temp = shuffledList[i];
+            shuffledList[i] = shuffledList[j];
+            shuffledList[j] = temp;
+        }
+
+        return shuffledList;
+    }
 }

@@ -1088,10 +1088,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -1413,10 +1413,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -2706,10 +2706,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -3582,10 +3582,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -5422,10 +5422,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -7114,10 +7114,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -7439,10 +7439,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -7764,10 +7764,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -8127,10 +8127,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -8289,10 +8289,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -8984,10 +8984,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -9672,10 +9672,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -11166,10 +11166,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -13309,10 +13309,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -14681,10 +14681,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -15006,10 +15006,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -16509,10 +16509,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -18184,10 +18184,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -19235,10 +19235,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -22353,10 +22353,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -23078,10 +23078,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -24129,10 +24129,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -24438,10 +24438,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -25522,10 +25522,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -28845,10 +28845,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -29244,10 +29244,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -30407,10 +30407,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -30569,10 +30569,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -30731,10 +30731,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 1
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
@@ -31019,10 +31019,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cardType: 1
-  cardElement: 3
-  cardName: 1
-  fateCard: 0
+  cardType: 2
+  cardElement: 0
+  cardName: 0
+  fateCard: 2
   curses: 0
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}

@@ -80,26 +80,178 @@ public class DeckManager : MonoBehaviour
     public bool IfCardPlayable(Card card)
     {
         #region Checking for attack card restrictions
-        if (OnTableDeck.Count == 0)
+        if (card.GetCardType() == CardType.Army)
         {
-            return true;
-        }
-        else
-        {
-            for (int i = 0; i < OnTableDeck.Count; i++)
+            if (OnTableDeck.Count == 0)
             {
-                if (card.GetCardName() == OnTableDeck[i].GetCardName())
+                return true;
+            }
+            else
+            {
+                for (int i = 0; i < OnTableDeck.Count; i++)
                 {
-                    return true;
+                    if (card.GetCardName() == OnTableDeck[i].GetCardName())
+                    {
+                        return true;
+                    }
+                    if (card.GetCardElement() == OnTableDeck[i].GetCardElement())
+                    {
+                        return true;
+                    }
                 }
-                if (card.GetCardElement() == OnTableDeck[i].GetCardElement())
-                {
-                    return true;
-                }
+                return false;
+            }
+        }
+        #endregion
+        else if (card.GetCardType() == CardType.Fate)
+        {
+            if(card.GetFateCard() == FateCard.Curses)
+            {
+                TakeCurseAction(card);
+            }
+            else if(card.GetFateCard() == FateCard.Spells)
+            {
+                TakeSpellAction(card);
             }
             return false;
         }
-        #endregion
+        else
+        {
+            return false;
+        }
+    }
+    void TakeCurseAction(Card card)
+    {
+        switch (card.GetCurseName())
+        {
+            case Curses.BribeDescription:
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Army);
+                break;
+
+            case Curses.LighteningDescription:
+                if (playerNumber == Player.Player1)
+                    GameplayManager.Instance.RemoveCard(Player.Player2, 2);
+                else
+                    GameplayManager.Instance.RemoveCard(Player.Player1, 2);
+                break;
+
+            case Curses.BlueDescription:
+                //Remove Half blue from enemy's hand
+                break;
+
+            case Curses.GreenDescription:
+                break;
+
+            case Curses.RedDescription:
+                break;
+
+            case Curses.BlackDescription:
+                break;
+
+            case Curses.CharonDescription:
+                break;
+
+            case Curses.FearDescription:
+                if (playerNumber == Player.Player1)
+                    GameplayManager.Instance.RemoveCard(Player.Player2, 1);
+                else
+                    GameplayManager.Instance.RemoveCard(Player.Player1, 1);
+                break;
+
+            case Curses.IIIDescription:
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 2, CardType.Army);
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
+                break;
+
+            case Curses.RocDescription:
+                if (playerNumber == Player.Player1)
+                    GameplayManager.Instance.RemoveCard(Player.Player2, 4);
+                else
+                    GameplayManager.Instance.RemoveCard(Player.Player1, 4);
+                break;
+
+            case Curses.ThunderDescription:
+                if (playerNumber == Player.Player1)
+                    GameplayManager.Instance.RemoveCard(Player.Player2, 3);
+                else
+                    GameplayManager.Instance.RemoveCard(Player.Player1, 3);
+                break;
+
+            case Curses.LyreDescription:
+                break;
+
+            case Curses.FoolDescription:
+                break;
+
+            case Curses.GoneDescription:
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 3, CardType.Army);
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
+                break;
+
+            case Curses.SkullDescription:
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Army);
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
+                break;
+        }
+    }
+    void TakeSpellAction(Card card)
+    {
+        switch (card.GetSpellsName())
+        {
+            case Spells.BannerDescription:
+                break;
+
+            case Spells.BatsDescription:
+                break;
+
+            case Spells.CaughtDescription:
+                break;
+
+            case Spells.DrinkDescription:
+                //Handx3
+                break;
+
+            case Spells.FeastDescription:
+                //Handx5
+                break;
+
+            case Spells.FrogsDescription:
+                break;
+
+            case Spells.HealthDescription:
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Army);
+                break;
+
+            case Spells.JusticeDescription:
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 3, CardType.Army);
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
+                break;
+
+            case Spells.LibertyDescription:
+                break;
+
+            case Spells.MiracleDescription:
+                break;
+
+            case Spells.MusicDescription:
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 2, CardType.Army);
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
+                break;
+
+            case Spells.SeahorseDescription:
+                break;
+
+            case Spells.TortoiseDescription:
+                break;
+
+            case Spells.UnityDescription:
+                break;
+
+            case Spells.WealthDescription:
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Army);
+                GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
+                break;
+        }
     }
     public void EndTurn()
     {
@@ -180,7 +332,7 @@ public class DeckManager : MonoBehaviour
         ArrangeCardsInHandDeck();
         ArrangeCardsOnTable();
     }
-    void RemoveFromInHandDeck(Card card)
+    public void RemoveFromInHandDeck(Card card)
     {
         for (int i = 0; i < InHandDeck.Count; i++)
         {
@@ -191,8 +343,48 @@ public class DeckManager : MonoBehaviour
             }
         }
     }
+    public void RemoveFromInHandDeck(int number)
+    {
+        if (number > InHandDeck.Count)
+        {
+            for (int i = 0; i < InHandDeck.Count; i++)
+            {
+                Destroy(OnTableDeck[i]);
+                ArrangeCardsInHandDeck();
+            }
+        }
+        else
+        {
+            int ran = Random.Range(0, InHandDeck.Count - number);
+
+            for (int i = 0; i < number; i++)
+            {
+                Destroy(OnTableDeck[ran + i]);
+                ArrangeCardsInHandDeck();
+            }
+        }
+        ArrangeCardsInHandDeck();
+    }
+    //public void DeleteFromOnTableDeck(Card card)
+    //{
+    //    for (int i = 0; i < OnTableDeck.Count; i++)
+    //    {
+    //        if (card == OnTableDeck[i])
+    //        {
+    //            Destroy(OnTableDeck[i]);
+    //        }
+    //    }
+    //    ArrangeCardsOnTable();
+    //}
     
-    void ArrangeCardsInHandDeck()
+    public void DeleteInHandCards()
+    {
+        for (int i = 0; i < InHandDeck.Count; i++)
+        {
+            Destroy(InHandDeck[i]);
+        }
+    }
+    public void ArrangeCardsInHandDeck()
     {
         foreach(var c in InHandDeck)
         {

@@ -126,8 +126,6 @@ public class GameplayManager : MonoBehaviour
         }
         else
         {
-            //Debug.Log("!Player1: " + Player1.IfPlayed());
-            //Debug.Log("!Player2: " + Player2.IfPlayed());
             //Swapping player and roles
             if (currentPlayer == Player.Player1)
             {
@@ -245,6 +243,246 @@ public class GameplayManager : MonoBehaviour
             Player2.Play(Player.Player2);
         }
     }
+    public void RemoveCard(Player player, int numberOfCards)
+    {
+        if (Player1.playerNumber == player)
+        {
+            if (numberOfCards > Player1.InHandDeck.Count)
+            {
+                Player1.DeleteInHandCards();
+            }
+            else
+            {
+                int ran = Random.Range(0, Player1.InHandDeck.Count - numberOfCards);
+                for (int i = 0; i < numberOfCards; i++)
+                {
+                    Player1.RemoveFromInHandDeck(ran + i);
+                }
+            }
+        }
+        else if (Player2.playerNumber == player)
+        {
+            if (Player2.playerNumber == player)
+            {
+                if (numberOfCards > Player2.InHandDeck.Count)
+                {
+                    Player2.DeleteInHandCards();
+                }
+                else
+                {
+                    int ran = Random.Range(0, Player2.InHandDeck.Count - numberOfCards);
+                    for (int i = 0; i < numberOfCards; i++)
+                    {
+                        Player2.RemoveFromInHandDeck(ran + i);
+                    }
+                }
+            }
+        }
+    }
+    public void RemoveHalfBlue(Player player)
+    {
+        if(Player1.playerNumber == player)
+        {
+            RemovingHalfBlue(Player1);
+        }
+        else if(Player2.playerNumber == player)
+        {
+            RemovingHalfBlue(Player2);
+        }
+    }
+    void RemovingHalfBlue(DeckManager player)
+    {
+        int count = 0;
+        for (int i = 0; i < player.InHandDeck.Count; i++)
+        {
+            if (player.InHandDeck[i].GetCardType() == CardType.Army)
+            {
+                if (player.InHandDeck[i].GetCardElement() == CardElement.Water)
+                {
+                    count++;
+
+                }
+            }
+        }
+        if (count > 1)
+            count = count / 2;
+
+        if (count != 0)
+        {
+            int k = 0;
+            for (int j = 0; j < player.InHandDeck.Count; j++)
+            {
+                if (player.InHandDeck[j].GetCardType() == CardType.Army)
+                {
+                    if (player.InHandDeck[j].GetCardElement() == CardElement.Water)
+                    {
+                        player.RemoveFromInHandDeck(player.InHandDeck[j]);
+                        player.ArrangeCardsInHandDeck();
+
+                        k++;
+                        if (k >= count)
+                        {
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    public void RemoveHalfGreen(Player player)
+    {
+        if (Player1.playerNumber == player)
+        {
+            RemovingHalfGreen(Player1);
+        }
+        else if (Player2.playerNumber == player)
+        {
+            RemovingHalfGreen(Player2);
+        }
+    }
+    void RemovingHalfGreen(DeckManager player)
+    {
+        int count = 0;
+        for (int i = 0; i < player.InHandDeck.Count; i++)
+        {
+            if (player.InHandDeck[i].GetCardType() == CardType.Army)
+            {
+                if (player.InHandDeck[i].GetCardElement() == CardElement.Earth)
+                {
+                    count++;
+
+                }
+            }
+        }
+        if (count > 1)
+            count = count / 2;
+
+        if (count != 0)
+        {
+            int k = 0;
+            for (int j = 0; j < player.InHandDeck.Count; j++)
+            {
+                if (player.InHandDeck[j].GetCardType() == CardType.Army)
+                {
+                    if (player.InHandDeck[j].GetCardElement() == CardElement.Earth)
+                    {
+                        player.RemoveFromInHandDeck(player.InHandDeck[j]);
+                        player.ArrangeCardsInHandDeck();
+
+                        k++;
+                        if (k >= count)
+                        {
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    public void RemoveHalfRed(Player player)
+    {
+        if (Player1.playerNumber == player)
+        {
+            RemovingHalfRed(Player1);
+        }
+        else if (Player2.playerNumber == player)
+        {
+            RemovingHalfRed(Player2);
+        }
+    }
+    void RemovingHalfRed(DeckManager player)
+    {
+        int count = 0;
+        for (int i = 0; i < player.InHandDeck.Count; i++)
+        {
+            if (player.InHandDeck[i].GetCardType() == CardType.Army)
+            {
+                if (player.InHandDeck[i].GetCardElement() == CardElement.Water)
+                {
+                    count++;
+
+                }
+            }
+        }
+        if (count > 1)
+            count = count / 2;
+
+        if (count != 0)
+        {
+            int k = 0;
+            for (int j = 0; j < player.InHandDeck.Count; j++)
+            {
+                if (player.InHandDeck[j].GetCardType() == CardType.Army)
+                {
+                    if (player.InHandDeck[j].GetCardElement() == CardElement.Water)
+                    {
+                        player.RemoveFromInHandDeck(player.InHandDeck[j]);
+                        player.ArrangeCardsInHandDeck();
+
+                        k++;
+                        if (k >= count)
+                        {
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    public void RemoveHalfBlack(Player player)
+    {
+        if (Player1.playerNumber == player)
+        {
+            RemovingHalfBlack(Player1);
+        }
+        else if (Player2.playerNumber == player)
+        {
+            RemovingHalfBlack(Player2);
+        }
+    }
+    void RemovingHalfBlack(DeckManager player)
+    {
+        int count = 0;
+        for (int i = 0; i < player.InHandDeck.Count; i++)
+        {
+            if (player.InHandDeck[i].GetCardType() == CardType.Army)
+            {
+                if (player.InHandDeck[i].GetCardElement() == CardElement.Air)
+                {
+                    count++;
+
+                }
+            }
+        }
+        if (count > 1)
+            count = count / 2;
+
+        if (count != 0)
+        {
+            int k = 0;
+            for (int j = 0; j < player.InHandDeck.Count; j++)
+            {
+                if (player.InHandDeck[j].GetCardType() == CardType.Army)
+                {
+                    if (player.InHandDeck[j].GetCardElement() == CardElement.Air)
+                    {
+                        player.RemoveFromInHandDeck(player.InHandDeck[j]);
+                        player.ArrangeCardsInHandDeck();
+
+                        k++;
+                        if (k >= count)
+                        {
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     public void RestartScene()
     {
         SceneManager.LoadScene(1);

@@ -228,13 +228,29 @@ public class Card : MonoBehaviour
         return cardCounts;
     }
     #region Return information
-    public CardName GetCardName()
+    public CardType GetCardType()
     {
-        return cardName;
+        return cardType;
     }
     public CardElement GetCardElement()
     {
         return cardElement;
+    }
+    public CardName GetCardName()
+    {
+        return cardName;
+    }
+    public FateCard GetFateCard()
+    {
+        return fateCard;
+    }
+    public Curses GetCurseName()
+    {
+        return curses;
+    }
+    public Spells GetSpellsName()
+    {
+        return spells;
     }
     #endregion
 }
