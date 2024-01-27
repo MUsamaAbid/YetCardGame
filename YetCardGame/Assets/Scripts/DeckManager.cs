@@ -230,11 +230,11 @@ public class DeckManager : MonoBehaviour
                 break;
 
             case Spells.DrinkDescription:
-                //Handx3
+                IncreaseHandAmount(3);
                 break;
 
             case Spells.FeastDescription:
-                //Handx5
+                IncreaseHandAmount(5);
                 break;
 
             case Spells.FrogsDescription:
@@ -255,7 +255,7 @@ public class DeckManager : MonoBehaviour
                 break;
 
             case Spells.MiracleDescription:
-                //Handx4
+                IncreaseHandAmount(4);
                 break;
 
             case Spells.MusicDescription:
@@ -589,6 +589,15 @@ public class DeckManager : MonoBehaviour
             Destroy(OnTableDeck[i].gameObject);
         }
 
+        ReAssignProperties();
+
         OnTableDeck.Clear();
+    }
+    public void ReAssignProperties()
+    {
+        foreach (var c in InHandDeck)
+        {
+            c.AssignProperties();
+        }
     }
 }
