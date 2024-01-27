@@ -126,7 +126,7 @@ public class Card : MonoBehaviour
         player = p;
         deckManager = d;
     }
-    void AssignProperties()
+    public void AssignProperties()
     {
         AttackNumber = CardEnums.instance.ReturnAttack(cardName);
         DefenceNumber = CardEnums.instance.ReturnDefence(cardName);

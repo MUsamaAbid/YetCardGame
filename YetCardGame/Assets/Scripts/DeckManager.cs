@@ -103,6 +103,7 @@ public class DeckManager : MonoBehaviour
             }
         }
         #endregion
+
         else if (card.GetCardType() == CardType.Fate)
         {
             if(card.GetFateCard() == FateCard.Curses)
@@ -136,19 +137,35 @@ public class DeckManager : MonoBehaviour
                 break;
 
             case Curses.BlueDescription:
-                //Remove Half blue from enemy's hand
+                if (playerNumber == Player.Player1)
+                    GameplayManager.Instance.RemoveHalfBlue(Player.Player2);
+                else
+                    GameplayManager.Instance.RemoveHalfBlue(Player.Player1);
                 break;
 
             case Curses.GreenDescription:
+                if (playerNumber == Player.Player1)
+                    GameplayManager.Instance.RemoveHalfGreen(Player.Player2);
+                else
+                    GameplayManager.Instance.RemoveHalfGreen(Player.Player1);
                 break;
 
             case Curses.RedDescription:
+                if (playerNumber == Player.Player1)
+                    GameplayManager.Instance.RemoveHalfRed(Player.Player2);
+                else
+                    GameplayManager.Instance.RemoveHalfRed(Player.Player1);
                 break;
 
             case Curses.BlackDescription:
+                if (playerNumber == Player.Player1)
+                    GameplayManager.Instance.RemoveHalfBlack(Player.Player2);
+                else
+                    GameplayManager.Instance.RemoveHalfBlack(Player.Player1);
                 break;
 
             case Curses.CharonDescription:
+                //End spell
                 break;
 
             case Curses.FearDescription:
@@ -178,9 +195,11 @@ public class DeckManager : MonoBehaviour
                 break;
 
             case Curses.LyreDescription:
+                //No spells
                 break;
 
             case Curses.FoolDescription:
+                //Take spell
                 break;
 
             case Curses.GoneDescription:
@@ -199,12 +218,15 @@ public class DeckManager : MonoBehaviour
         switch (card.GetSpellsName())
         {
             case Spells.BannerDescription:
+                //No curses
                 break;
 
             case Spells.BatsDescription:
+                //No curses black
                 break;
 
             case Spells.CaughtDescription:
+                //Take curse
                 break;
 
             case Spells.DrinkDescription:
@@ -216,6 +238,7 @@ public class DeckManager : MonoBehaviour
                 break;
 
             case Spells.FrogsDescription:
+                //No curses red
                 break;
 
             case Spells.HealthDescription:
@@ -228,9 +251,11 @@ public class DeckManager : MonoBehaviour
                 break;
 
             case Spells.LibertyDescription:
+                //End curse
                 break;
 
             case Spells.MiracleDescription:
+                //Handx4
                 break;
 
             case Spells.MusicDescription:
@@ -239,12 +264,15 @@ public class DeckManager : MonoBehaviour
                 break;
 
             case Spells.SeahorseDescription:
+                //No curses blue
                 break;
 
             case Spells.TortoiseDescription:
+                //No curses green
                 break;
 
             case Spells.UnityDescription:
+                //Combine any color
                 break;
 
             case Spells.WealthDescription:
@@ -540,6 +568,17 @@ public class DeckManager : MonoBehaviour
     public bool IfPlayed()
     {
         return played;
+    }
+    public void IncreaseHandAmount(int amount)
+    {
+        foreach(var c in InHandDeck)
+        {
+            if(c.GetCardType() == CardType.Army)
+            {
+                c.AttackNumber += amount;
+                c.DefenceNumber += amount;
+            }
+        }
     }
     public void ResetRound()
     {
