@@ -168,6 +168,59 @@ public class GameplayCardManager : MonoBehaviour
             }
         }
     }
+    public void DistributeMoreFateCards(Player player, int cardAmount, FateCard cardType)
+    {
+        StartCoroutine(DistributeFateCards(player, cardAmount, cardType));
+    }
+    IEnumerator DistributeFateCards(Player player, int cardAmount, FateCard cardType)
+    {
+        if (cardType == FateCard.Curses)
+        {
+            //Shuffle cards by swapping there places.
+            //Pick a random number and distribute from there
+            for (int i = 0; i < FateCardDeck.Count; i++)
+            {
+                if (FateCardDeck[i].GetFateCard() == FateCard.Curses)
+                {
+                    if (player == Player.Player1)
+                    {
+                        Player1.AddCardInHandDeck(FateCardDeck[i]);
+                        FateCardDeck.RemoveAt(i);
+                    }
+                    else if (player == Player.Player2)
+                    {
+                        Player2.AddCardInHandDeck(FateCardDeck[i]);
+                        FateCardDeck.RemoveAt(i);
+                    }
+                    break;
+                }
+            }
+            yield return new WaitForSeconds(0.5f);
+        }
+        else if (cardType == FateCard.Spells)
+        {
+            //Shuffle cards by swapping there places.
+            //Pick a random number and distribute from there
+            for (int i = 0; i < FateCardDeck.Count; i++)
+            {
+                if (FateCardDeck[i].GetFateCard() == FateCard.Spells)
+                {
+                    if (player == Player.Player1)
+                    {
+                        Player1.AddCardInHandDeck(FateCardDeck[i]);
+                        FateCardDeck.RemoveAt(i);
+                    }
+                    else if (player == Player.Player2)
+                    {
+                        Player2.AddCardInHandDeck(FateCardDeck[i]);
+                        FateCardDeck.RemoveAt(i);
+                    }
+                    break;
+                }
+            }
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
     public void AddToPlayer1Deck(Card card)
     {
         Player1Deck.Add(card);

@@ -483,6 +483,72 @@ public class GameplayManager : MonoBehaviour
         }
     }
 
+    public void NoSpell(Player playerNumber)
+    {
+        if(Player1.playerNumber == playerNumber)
+        {
+            Player1.NoSpell(true);
+        }
+        else
+        {
+            Player2.NoSpell(true);
+        }
+    }
+    public void NoCurses(Player playerNumber)
+    {
+        if (Player1.playerNumber == playerNumber)
+        {
+            Player1.NoCurse(true);
+        }
+        else
+        {
+            Player2.NoCurse(true);
+        }
+    }
+    public void NoCursesBlack(Player playerNumber)
+    {
+        if (Player1.playerNumber == playerNumber)
+        {
+            Player1.NoCurseBlack(true);
+        }
+        else
+        {
+            Player2.NoCurseBlack(true);
+        }
+    }
+    public void NoCursesRed(Player playerNumber)
+    {
+        if (Player1.playerNumber == playerNumber)
+        {
+            Player1.NoCurseRed(true);
+        }
+        else
+        {
+            Player2.NoCurseRed(true);
+        }
+    }
+    public void NoCurseBlue(Player playerNumber)
+    {
+        if (Player1.playerNumber == playerNumber)
+        {
+            Player1.NoCurseBlue(true);
+        }
+        else
+        {
+            Player2.NoCurseBlue(true);
+        }
+    }
+    public void NoCurseGreen(Player playerNumber)
+    {
+        if (Player1.playerNumber == playerNumber)
+        {
+            Player1.NoCurseGreen(true);
+        }
+        else
+        {
+            Player2.NoCurseGreen(true);
+        }
+    }
     public void RestartScene()
     {
         SceneManager.LoadScene(1);
