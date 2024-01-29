@@ -136,11 +136,13 @@ public class GameplayCardManager : MonoBehaviour
             {
                 if (player == Player.Player1)
                 {
+                    Debug.Log("Testing: Player 1 added");
                     Player1.AddCardInHandDeck(MainCardDeck[i]);
                     MainCardDeck.RemoveAt(i);
                 }
                 else if (player == Player.Player2)
                 {
+                    Debug.Log("Testing: Player 1 added");
                     Player2.AddCardInHandDeck(MainCardDeck[i]);
                     MainCardDeck.RemoveAt(i);
                 }

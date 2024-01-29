@@ -99,11 +99,24 @@ public class Card : MonoBehaviour
             //}
 
             //New way
-            if (deckManager.role == Role.Attack)
+            //if (deckManager.role == Role.Attack)
             {
                 if (deckManager.IfCardPlayable(this))
                 {
                     deckManager.AddCardOnTableDeck(this);
+
+                    //Checking if fate card -> Take action
+                    if(cardType == CardType.Fate)
+                    {
+                        if(fateCard == FateCard.Spells)
+                        {
+                            deckManager.TakeSpellAction(this);
+                        }
+                        else if(fateCard == FateCard.Curses)
+                        {
+                            deckManager.TakeCurseAction(this);
+                        }
+                    }
 
                     GameplayUIManager.Instance.EnableEndTurnButton(true);
                 }
@@ -112,12 +125,12 @@ public class Card : MonoBehaviour
                     //Generate some wrong error or whatever message with some instrucitons
                 }
             }
-            else
-            {
-                deckManager.AddCardOnTableDeck(this);
+            //else
+            //{
+            //    deckManager.AddCardOnTableDeck(this);
 
-                GameplayUIManager.Instance.EnableEndTurnButton(true);
-            }
+            //    GameplayUIManager.Instance.EnableEndTurnButton(true);
+            //}
         }
     }
 

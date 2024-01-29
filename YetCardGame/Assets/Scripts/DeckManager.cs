@@ -128,10 +128,26 @@ public class DeckManager : MonoBehaviour
         {
             if(card.GetFateCard() == FateCard.Curses)
             {
-                return TakeCurseAction(card);
+                if (noCurse)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+                //return TakeCurseAction(card);
             }
             else if(card.GetFateCard() == FateCard.Spells)
             {
+                if (noSpell)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
                 return TakeSpellAction(card);
             }
             return false;
@@ -141,9 +157,11 @@ public class DeckManager : MonoBehaviour
             return false;
         }
     }
-    bool TakeCurseAction(Card card)
+
+    public bool TakeCurseAction(Card card)//Remove boolean
     {
         if (noCurse) return false;
+        Debug.Log("Testing Checking for Curse card");
 
         switch (card.GetCurseName())
         {
@@ -259,10 +277,10 @@ public class DeckManager : MonoBehaviour
                 break;
         }
     }
-    bool TakeSpellAction(Card card)
+    public bool TakeSpellAction(Card card)//Return boolean
     {
         if (noSpell) return false;
-
+        Debug.Log("Testing Checking for spell card");
         switch (card.GetSpellsName())
         {
             case Spells.BannerDescription://Done
