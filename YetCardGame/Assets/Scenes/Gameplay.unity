@@ -776,9 +776,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 8
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -1099,10 +1099,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 14
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -1915,10 +1915,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 7
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -2639,168 +2639,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282409900}
-  m_CullTransparentMesh: 1
---- !u!1 &288924900
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 288924901}
-  - component: {fileID: 288924906}
-  - component: {fileID: 288924905}
-  - component: {fileID: 288924904}
-  - component: {fileID: 288924903}
-  - component: {fileID: 288924902}
-  m_Layer: 5
-  m_Name: Frogs
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &288924901
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288924900}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1092128220}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 659, y: 890}
-  m_Pivot: {x: 0.5, y: 1}
---- !u!114 &288924902
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288924900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 2
-  objectType: 0
---- !u!114 &288924903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288924900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardType: 2
-  cardElement: 0
-  cardName: 0
-  fateCard: 2
-  curses: 0
-  spells: 0
-  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
-  GeneratedBacksideImage: {fileID: 0}
-  deckManager: {fileID: 0}
-  deck: 0
-  AttackNumber: 0
-  DefenceNumber: 0
-  cardCounts: 0
---- !u!114 &288924904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288924900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 288924905}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &288924905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288924900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 3465286685962602723, guid: 9844e1a53f1c348aca90ca5cf02e12f6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &288924906
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 288924900}
   m_CullTransparentMesh: 1
 --- !u!1 &338295797
 GameObject:
@@ -3993,9 +3831,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 11
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -5364,10 +5202,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 11
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -5618,168 +5456,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 2
   objectType: 0
---- !u!1 &616110420
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 616110421}
-  - component: {fileID: 616110426}
-  - component: {fileID: 616110425}
-  - component: {fileID: 616110424}
-  - component: {fileID: 616110423}
-  - component: {fileID: 616110422}
-  m_Layer: 5
-  m_Name: Tortoise
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &616110421
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616110420}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1092128220}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 659, y: 890}
-  m_Pivot: {x: 0.5, y: 1}
---- !u!114 &616110422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616110420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 2
-  objectType: 0
---- !u!114 &616110423
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616110420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardType: 2
-  cardElement: 0
-  cardName: 0
-  fateCard: 2
-  curses: 0
-  spells: 0
-  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
-  GeneratedBacksideImage: {fileID: 0}
-  deckManager: {fileID: 0}
-  deck: 0
-  AttackNumber: 0
-  DefenceNumber: 0
-  cardCounts: 0
---- !u!114 &616110424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616110420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 616110425}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &616110425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616110420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 8389134475083476877, guid: e7f1ddadde9a14d5489bf6b336eed167, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &616110426
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 616110420}
-  m_CullTransparentMesh: 1
 --- !u!1 &631987905
 GameObject:
   m_ObjectHideFlags: 0
@@ -6012,10 +5688,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 4
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -6374,10 +6050,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 3
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -6537,9 +6213,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 7
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -7073,9 +6749,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 5
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -7403,18 +7079,14 @@ MonoBehaviour:
   - {fileID: 131109902}
   FateCardDeck:
   - {fileID: 2129423586}
-  - {fileID: 1240051689}
   - {fileID: 1816024449}
   - {fileID: 1757801884}
   - {fileID: 727951914}
-  - {fileID: 288924903}
   - {fileID: 707643393}
   - {fileID: 68116831}
   - {fileID: 2021667987}
   - {fileID: 2120071051}
   - {fileID: 424055259}
-  - {fileID: 1048683028}
-  - {fileID: 616110423}
   - {fileID: 956541742}
   - {fileID: 1730100241}
   - {fileID: 761633983}
@@ -7759,10 +7431,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 1
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -8855,10 +8527,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 10
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -10439,9 +10111,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 14
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -11340,168 +11012,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 2
   objectType: 0
---- !u!1 &1048683025
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1048683026}
-  - component: {fileID: 1048683031}
-  - component: {fileID: 1048683030}
-  - component: {fileID: 1048683029}
-  - component: {fileID: 1048683028}
-  - component: {fileID: 1048683027}
-  m_Layer: 5
-  m_Name: Seahorse
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1048683026
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048683025}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1092128220}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 659, y: 890}
-  m_Pivot: {x: 0.5, y: 1}
---- !u!114 &1048683027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048683025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 2
-  objectType: 0
---- !u!114 &1048683028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048683025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardType: 2
-  cardElement: 0
-  cardName: 0
-  fateCard: 2
-  curses: 0
-  spells: 0
-  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
-  GeneratedBacksideImage: {fileID: 0}
-  deckManager: {fileID: 0}
-  deck: 0
-  AttackNumber: 0
-  DefenceNumber: 0
-  cardCounts: 0
---- !u!114 &1048683029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048683025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1048683030}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1048683030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048683025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: -1540426309290004842, guid: 051d882187cc142eda08c0a49046801b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1048683031
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1048683025}
-  m_CullTransparentMesh: 1
 --- !u!1 &1054240940
 GameObject:
   m_ObjectHideFlags: 0
@@ -11734,10 +11244,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 12
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -11855,18 +11365,14 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2129423584}
-  - {fileID: 1240051687}
   - {fileID: 1816024447}
   - {fileID: 1757801882}
   - {fileID: 727951912}
-  - {fileID: 288924901}
   - {fileID: 707643391}
   - {fileID: 68116829}
   - {fileID: 2021667985}
   - {fileID: 2120071049}
   - {fileID: 424055257}
-  - {fileID: 1048683026}
-  - {fileID: 616110421}
   - {fileID: 956541740}
   - {fileID: 1730100239}
   m_Father: {fileID: 555023483}
@@ -12611,168 +12117,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationSpeed: 2
   objectType: 0
---- !u!1 &1240051686
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1240051687}
-  - component: {fileID: 1240051692}
-  - component: {fileID: 1240051691}
-  - component: {fileID: 1240051690}
-  - component: {fileID: 1240051689}
-  - component: {fileID: 1240051688}
-  m_Layer: 5
-  m_Name: Bats
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1240051687
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240051686}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1092128220}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 659, y: 890}
-  m_Pivot: {x: 0.5, y: 1}
---- !u!114 &1240051688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240051686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8626ee5603e57494f84bae49f0cccf06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationSpeed: 2
-  objectType: 0
---- !u!114 &1240051689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240051686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12ea21cbc475e4bc6abbd714259d4410, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cardType: 2
-  cardElement: 0
-  cardName: 0
-  fateCard: 2
-  curses: 0
-  spells: 0
-  ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
-  GeneratedBacksideImage: {fileID: 0}
-  deckManager: {fileID: 0}
-  deck: 0
-  AttackNumber: 0
-  DefenceNumber: 0
-  cardCounts: 0
---- !u!114 &1240051690
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240051686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1240051691}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1240051691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240051686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 6937817954938267909, guid: daadea2cdb2cc47159e115a051031cc6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1240051692
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1240051686}
-  m_CullTransparentMesh: 1
 --- !u!1 &1268222913
 GameObject:
   m_ObjectHideFlags: 0
@@ -14035,10 +13379,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 6
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -14845,10 +14189,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 15
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -17478,10 +16822,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 13
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -18043,10 +17387,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 8
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -18854,9 +18198,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 15
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -19163,9 +18507,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 4
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -20166,9 +19510,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 3
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -22686,10 +22030,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 2
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -22849,9 +22193,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 8
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -23849,10 +23193,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 9
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -24012,9 +23356,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 10
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -24173,10 +23517,10 @@ MonoBehaviour:
   cardElement: 0
   cardName: 0
   fateCard: 1
-  curses: 0
+  curses: 5
   spells: 0
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -6560568435178189039, guid: 7aae5798968b443d4ac4592f4abaa9f6, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0
@@ -24383,9 +23727,9 @@ MonoBehaviour:
   cardName: 0
   fateCard: 2
   curses: 0
-  spells: 0
+  spells: 1
   ImageGameobject: {fileID: 5606257441640256366, guid: a9a34c406f1c2415abf8e80b808e9519, type: 3}
-  BackSide: {fileID: -7947462409902495443, guid: 80e1bd9a021f7418a89532fc5a5d1a5e, type: 3}
+  BackSide: {fileID: -7092911198986408507, guid: 01445cf4e908a47329a66a4ea4ff13fd, type: 3}
   GeneratedBacksideImage: {fileID: 0}
   deckManager: {fileID: 0}
   deck: 0

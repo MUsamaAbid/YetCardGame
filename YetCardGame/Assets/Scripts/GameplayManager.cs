@@ -247,33 +247,39 @@ public class GameplayManager : MonoBehaviour
     {
         if (Player1.playerNumber == player)
         {
-            if (numberOfCards > Player1.InHandDeck.Count)
+            if (!Player1.NoCurse())
             {
-                Player1.DeleteInHandCards();
-            }
-            else
-            {
-                int ran = Random.Range(0, Player1.InHandDeck.Count - numberOfCards);
-                for (int i = 0; i < numberOfCards; i++)
+                if (numberOfCards > Player1.InHandDeck.Count)
                 {
-                    Player1.RemoveFromInHandDeck(ran + i);
+                    Player1.DeleteInHandCards();
+                }
+                else
+                {
+                    int ran = Random.Range(0, Player1.InHandDeck.Count - numberOfCards);
+                    for (int i = 0; i < numberOfCards; i++)
+                    {
+                        Player1.RemoveFromInHandDeck(ran + i);
+                    }
                 }
             }
         }
         else if (Player2.playerNumber == player)
         {
-            if (Player2.playerNumber == player)
+            if (!Player2.NoCurse())
             {
-                if (numberOfCards > Player2.InHandDeck.Count)
+                if (Player2.playerNumber == player)
                 {
-                    Player2.DeleteInHandCards();
-                }
-                else
-                {
-                    int ran = Random.Range(0, Player2.InHandDeck.Count - numberOfCards);
-                    for (int i = 0; i < numberOfCards; i++)
+                    if (numberOfCards > Player2.InHandDeck.Count)
                     {
-                        Player2.RemoveFromInHandDeck(ran + i);
+                        Player2.DeleteInHandCards();
+                    }
+                    else
+                    {
+                        int ran = Random.Range(0, Player2.InHandDeck.Count - numberOfCards);
+                        for (int i = 0; i < numberOfCards; i++)
+                        {
+                            Player2.RemoveFromInHandDeck(ran + i);
+                        }
                     }
                 }
             }
@@ -503,50 +509,6 @@ public class GameplayManager : MonoBehaviour
         else
         {
             Player2.NoCurse(true);
-        }
-    }
-    public void NoCursesBlack(Player playerNumber)
-    {
-        if (Player1.playerNumber == playerNumber)
-        {
-            Player1.NoCurseBlack(true);
-        }
-        else
-        {
-            Player2.NoCurseBlack(true);
-        }
-    }
-    public void NoCursesRed(Player playerNumber)
-    {
-        if (Player1.playerNumber == playerNumber)
-        {
-            Player1.NoCurseRed(true);
-        }
-        else
-        {
-            Player2.NoCurseRed(true);
-        }
-    }
-    public void NoCurseBlue(Player playerNumber)
-    {
-        if (Player1.playerNumber == playerNumber)
-        {
-            Player1.NoCurseBlue(true);
-        }
-        else
-        {
-            Player2.NoCurseBlue(true);
-        }
-    }
-    public void NoCurseGreen(Player playerNumber)
-    {
-        if (Player1.playerNumber == playerNumber)
-        {
-            Player1.NoCurseGreen(true);
-        }
-        else
-        {
-            Player2.NoCurseGreen(true);
         }
     }
     public void RestartScene()

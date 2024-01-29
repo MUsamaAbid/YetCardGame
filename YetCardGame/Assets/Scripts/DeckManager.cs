@@ -43,10 +43,6 @@ public class DeckManager : MonoBehaviour
     bool noSpell = false;
 
     bool noCurse = false;
-    bool noCurseBlack = false;
-    bool noCurseRed = false;
-    bool noCurseBlue = false;
-    bool noCurseGreen = false;
 
     bool combineAnyColor = false;
 
@@ -98,18 +94,32 @@ public class DeckManager : MonoBehaviour
             }
             else
             {
-                for (int i = 0; i < OnTableDeck.Count; i++)
+                //Check if its only fate cards on the table
+                bool fateCards = true;
+                foreach(var c in OnTableDeck)
                 {
-                    if (card.GetCardName() == OnTableDeck[i].GetCardName())
+                    if(c.GetCardType() == CardType.Army)
                     {
-                        return true;
-                    }
-                    if (card.GetCardElement() == OnTableDeck[i].GetCardElement())
-                    {
-                        return true;
+                        fateCards = false;
                     }
                 }
-                return false;
+                if (fateCards) return true;
+
+                else
+                {
+                    for (int i = 0; i < OnTableDeck.Count; i++)
+                    {
+                        if (card.GetCardName() == OnTableDeck[i].GetCardName())
+                        {
+                            return true;
+                        }
+                        if (card.GetCardElement() == OnTableDeck[i].GetCardElement())
+                        {
+                            return true;
+                        }
+                    }
+                    return false;
+                }
             }
         }
         #endregion
@@ -137,12 +147,12 @@ public class DeckManager : MonoBehaviour
 
         switch (card.GetCurseName())
         {
-            case Curses.BribeDescription:
+            case Curses.BribeDescription://Done
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Army);
                 return true;
                 break;
 
-            case Curses.LighteningDescription:
+            case Curses.LighteningDescription://Done
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.RemoveCard(Player.Player2, 2);
                 else
@@ -150,7 +160,7 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Curses.BlueDescription:
+            case Curses.BlueDescription://Done
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.RemoveHalfBlue(Player.Player2);
                 else
@@ -158,7 +168,7 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Curses.GreenDescription:
+            case Curses.GreenDescription://Done
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.RemoveHalfGreen(Player.Player2);
                 else
@@ -166,7 +176,7 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Curses.RedDescription:
+            case Curses.RedDescription://Done
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.RemoveHalfRed(Player.Player2);
                 else
@@ -174,7 +184,7 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Curses.BlackDescription:
+            case Curses.BlackDescription://Done
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.RemoveHalfBlack(Player.Player2);
                 else
@@ -187,7 +197,7 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Curses.FearDescription:
+            case Curses.FearDescription://Done
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.RemoveCard(Player.Player2, 1);
                 else
@@ -195,13 +205,13 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Curses.IIIDescription:
+            case Curses.IIIDescription://Done
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 2, CardType.Army);
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
                 return true;
                 break;
 
-            case Curses.RocDescription:
+            case Curses.RocDescription://Done
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.RemoveCard(Player.Player2, 4);
                 else
@@ -209,7 +219,7 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Curses.ThunderDescription:
+            case Curses.ThunderDescription://Done
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.RemoveCard(Player.Player2, 3);
                 else
@@ -217,7 +227,7 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Curses.LyreDescription:
+            case Curses.LyreDescription://Done
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.NoSpell(Player.Player2);
                 else
@@ -225,19 +235,19 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Curses.FoolDescription:
+            case Curses.FoolDescription://Done
                 //Take spell
                 GameplayCardManager.Instance.DistributeMoreFateCards(playerNumber, 1, FateCard.Spells);
                 return true;
                 break;
 
-            case Curses.GoneDescription:
+            case Curses.GoneDescription://Done
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 3, CardType.Army);
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
                 return true;
                 break;
 
-            case Curses.SkullDescription:
+            case Curses.SkullDescription://Done
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Army);
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
                 return true;
@@ -255,7 +265,7 @@ public class DeckManager : MonoBehaviour
 
         switch (card.GetSpellsName())
         {
-            case Spells.BannerDescription:
+            case Spells.BannerDescription://Done
                 //No curses
                 if (playerNumber == Player.Player1)
                     GameplayManager.Instance.NoCurses(Player.Player2);
@@ -264,92 +274,56 @@ public class DeckManager : MonoBehaviour
                 return true;
                 break;
 
-            case Spells.BatsDescription:
-                //No curses black
-                if (playerNumber == Player.Player1)
-                    GameplayManager.Instance.NoCursesBlack(Player.Player2);
-                else
-                    GameplayManager.Instance.NoCursesBlack(Player.Player1);
-                return true;
-                break;
-
-            case Spells.CaughtDescription:
+            case Spells.CaughtDescription://Done
                 //Take curse
                 GameplayCardManager.Instance.DistributeMoreFateCards(playerNumber, 1, FateCard.Curses);
                 return true;
                 break;
 
-            case Spells.DrinkDescription:
+            case Spells.DrinkDescription://Done
                 IncreaseHandAmount(3);
                 return true;
                 break;
 
-            case Spells.FeastDescription:
+            case Spells.FeastDescription://Done
                 IncreaseHandAmount(5);
                 return true;
                 break;
 
-            case Spells.FrogsDescription:
-                //No curses red
-                if (playerNumber == Player.Player1)
-                    GameplayManager.Instance.NoCursesRed(Player.Player2);
-                else
-                    GameplayManager.Instance.NoCursesRed(Player.Player1);
-                return true;
-                break;
-
-            case Spells.HealthDescription:
+            case Spells.HealthDescription://Done
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Army);
                 return true;
                 break;
 
-            case Spells.JusticeDescription:
+            case Spells.JusticeDescription://Done
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 3, CardType.Army);
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
                 return true;
                 break;
 
-            case Spells.LibertyDescription:
+            case Spells.LibertyDescription://Left
                 //End curse
                 return true;
                 break;
 
-            case Spells.MiracleDescription:
+            case Spells.MiracleDescription://Done
                 IncreaseHandAmount(4);
                 return true;
                 break;
 
-            case Spells.MusicDescription:
+            case Spells.MusicDescription://Done
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 2, CardType.Army);
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
                 return true;
                 break;
 
-            case Spells.SeahorseDescription:
-                //No curses blue
-                if (playerNumber == Player.Player1)
-                    GameplayManager.Instance.NoCurseBlue(Player.Player2);
-                else
-                    GameplayManager.Instance.NoCurseBlue(Player.Player1);
-                return true;
-                break;
-
-            case Spells.TortoiseDescription:
-                //No curses green
-                if (playerNumber == Player.Player1)
-                    GameplayManager.Instance.NoCurseGreen(Player.Player2);
-                else
-                    GameplayManager.Instance.NoCurseGreen(Player.Player1);
-                return true;
-                break;
-
-            case Spells.UnityDescription:
+            case Spells.UnityDescription://Done
                 //Combine any color
                 CombineAnyColor(true);
                 return true;
                 break;
 
-            case Spells.WealthDescription:
+            case Spells.WealthDescription://Done
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Army);
                 GameplayCardManager.Instance.DistributeMoreCards(playerNumber, 1, CardType.Fate);
                 return true;
@@ -365,14 +339,6 @@ public class DeckManager : MonoBehaviour
     {
         played = true;
         MyTurn(false);
-        //if(role == Role.Attack)
-        //{
-        //    CalculateAttackAmount();
-        //}
-        //else if(role == Role.Defence)
-        //{
-        //    CalculateDefenceAmount();
-        //}
         GameplayManager.Instance.EndTurn();
     }
     public bool MyTurn()
@@ -668,21 +634,9 @@ public class DeckManager : MonoBehaviour
     {
         noCurse = b;
     }
-    public void NoCurseBlack(bool b)
+    public bool NoCurse()
     {
-        noCurseBlack = b;
-    }
-    public void NoCurseRed(bool b)
-    {
-        noCurseRed = b;
-    }
-    public void NoCurseBlue(bool b)
-    {
-        noCurseBlue = b;
-    }
-    public void NoCurseGreen(bool b)
-    {
-        noCurseGreen = b;
+        return noCurse;
     }
     public void CombineAnyColor(bool b)
     {
@@ -700,10 +654,6 @@ public class DeckManager : MonoBehaviour
         //Resetting card actions
         NoSpell(false);
         NoCurse(false);
-        NoCurseBlack(false);
-        NoCurseBlue(false);
-        NoCurseRed(false);
-        NoCurseGreen(false);
         CombineAnyColor(false);
         ReAssignProperties();
 
