@@ -441,18 +441,25 @@ public class DeckManager : MonoBehaviour
         {
             for (int i = 0; i < InHandDeck.Count; i++)
             {
-                Destroy(OnTableDeck[i]);
+                GameObject g = InHandDeck[i].gameObject;
+                InHandDeck.RemoveAt(i);
+
+                Destroy(g);
                 ArrangeCardsInHandDeck();
             }
         }
         else
         {
-            int ran = Random.Range(0, InHandDeck.Count - number);
+            //int ran = Random.Range(0, InHandDeck.Count - number);
 
             for (int i = 0; i < number; i++)
             {
-                Destroy(OnTableDeck[ran + i]);
+                GameObject g = InHandDeck[i].gameObject;
+                InHandDeck.RemoveAt(i);
+
+                Destroy(g);
                 ArrangeCardsInHandDeck();
+                Debug.Log("Testing cards removed from: " + playerNumber);
             }
         }
         ArrangeCardsInHandDeck();

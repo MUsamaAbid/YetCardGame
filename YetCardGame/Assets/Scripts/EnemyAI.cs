@@ -59,6 +59,7 @@ public class EnemyAI : MonoBehaviour
     IEnumerator PlayCard()
     {
         yield return new WaitForSeconds(1f);
+
         if (role == Role.Attack)
         {
             Player2.PlayCard(AttackCards[0]);

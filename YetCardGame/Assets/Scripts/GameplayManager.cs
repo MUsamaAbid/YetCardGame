@@ -249,39 +249,41 @@ public class GameplayManager : MonoBehaviour
         {
             if (!Player1.NoCurse())
             {
-                if (numberOfCards > Player1.InHandDeck.Count)
-                {
-                    Player1.DeleteInHandCards();
-                }
-                else
-                {
-                    int ran = Random.Range(0, Player1.InHandDeck.Count - numberOfCards);
-                    for (int i = 0; i < numberOfCards; i++)
-                    {
-                        Player1.RemoveFromInHandDeck(ran + i);
-                    }
-                }
+                //if (numberOfCards > Player1.InHandDeck.Count)
+                //{
+                //    Player1.DeleteInHandCards();
+                //}
+                //else
+                //{
+                //    int ran = Random.Range(0, Player1.InHandDeck.Count - numberOfCards);
+                //    for (int i = 0; i < numberOfCards; i++)
+                //    {
+                //        Player1.RemoveFromInHandDeck(ran + i);
+                //    }
+                //}
+                Player1.RemoveFromInHandDeck(numberOfCards);
             }
         }
         else if (Player2.playerNumber == player)
         {
             if (!Player2.NoCurse())
             {
-                if (Player2.playerNumber == player)
-                {
-                    if (numberOfCards > Player2.InHandDeck.Count)
-                    {
-                        Player2.DeleteInHandCards();
-                    }
-                    else
-                    {
-                        int ran = Random.Range(0, Player2.InHandDeck.Count - numberOfCards);
-                        for (int i = 0; i < numberOfCards; i++)
-                        {
-                            Player2.RemoveFromInHandDeck(ran + i);
-                        }
-                    }
-                }
+                //if (Player2.playerNumber == player)
+                //{
+                //    if (numberOfCards > Player2.InHandDeck.Count)
+                //    {
+                //        Player2.DeleteInHandCards();
+                //    }
+                //    else
+                //    {
+                //        int ran = Random.Range(0, Player2.InHandDeck.Count - numberOfCards);
+                //        for (int i = 0; i < numberOfCards; i++)
+                //        {
+                //            Player2.RemoveFromInHandDeck(ran + i);
+                //        }
+                //    }
+                //}
+                Player2.RemoveFromInHandDeck(numberOfCards);
             }
         }
     }
