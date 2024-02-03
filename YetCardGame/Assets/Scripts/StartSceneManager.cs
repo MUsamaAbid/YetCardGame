@@ -21,4 +21,9 @@ public class StartSceneManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void SelectBoss(int num)
+    {
+        PlayerPrefs.SetInt(PrefsHandler.Instance.currentBoss, num);
+    }
 }

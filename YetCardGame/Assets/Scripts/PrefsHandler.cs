@@ -17,6 +17,8 @@ public class PrefsHandler : MonoBehaviour
 
     public string currentLevel = "CurrentLevel";
 
+    public string currentBoss = "CurrentBoss";
+
     private void Start()
     {
         ResetPrefs();

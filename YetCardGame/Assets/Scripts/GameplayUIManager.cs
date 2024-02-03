@@ -32,6 +32,33 @@ public class GameplayUIManager : MonoBehaviour
 
     [SerializeField] Button EndTurnButton;
 
+    [SerializeField] GameObject[] locations;
+
+    private void Start()
+    {
+        LoadBossBackground();
+    }
+
+    private void LoadBossBackground()
+    {
+        int index = PlayerPrefs.GetInt(PrefsHandler.Instance.currentBoss, 0);
+        if (index == 0 || index == 1)
+        {
+            locations[0].SetActive(true);
+        }
+        else
+        {
+            if (locations[index - 1])
+            {
+                locations[index - 1].SetActive(true);
+            }
+            else
+            {
+                locations[0].SetActive(true);
+            }
+        }
+    }
+
     public void EnableAttackScreen(bool b)
     {
         AttackScreen.SetActive(b);
